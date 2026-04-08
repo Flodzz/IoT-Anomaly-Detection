@@ -2,13 +2,13 @@
  "cells": [
   {
    "cell_type": "markdown",
-   "id": "26122c7a",
+   "id": "4ffebc18",
    "metadata": {
     "papermill": {
-     "duration": 0.003349,
-     "end_time": "2026-04-08T15:58:51.323831+00:00",
+     "duration": 0.004963,
+     "end_time": "2026-04-08T17:13:26.490053+00:00",
      "exception": false,
-     "start_time": "2026-04-08T15:58:51.320482+00:00",
+     "start_time": "2026-04-08T17:13:26.485090+00:00",
      "status": "completed"
     },
     "tags": []
@@ -21,21 +21,21 @@
   {
    "cell_type": "code",
    "execution_count": 1,
-   "id": "fced8286",
+   "id": "c8049029",
    "metadata": {
     "_cell_guid": "b1076dfc-b9ad-4769-8c92-a6c4dae69d19",
     "_uuid": "8f2839f25d086af736a60e9eeb907d3b93b6e0e5",
     "execution": {
-     "iopub.execute_input": "2026-04-08T15:58:51.331473Z",
-     "iopub.status.busy": "2026-04-08T15:58:51.330475Z",
-     "iopub.status.idle": "2026-04-08T15:59:30.309988Z",
-     "shell.execute_reply": "2026-04-08T15:59:30.308750Z"
+     "iopub.execute_input": "2026-04-08T17:13:26.500261Z",
+     "iopub.status.busy": "2026-04-08T17:13:26.499856Z",
+     "iopub.status.idle": "2026-04-08T17:14:06.140561Z",
+     "shell.execute_reply": "2026-04-08T17:14:06.139599Z"
     },
     "papermill": {
-     "duration": 38.985944,
-     "end_time": "2026-04-08T15:59:30.312630+00:00",
+     "duration": 39.648466,
+     "end_time": "2026-04-08T17:14:06.143055+00:00",
      "exception": false,
-     "start_time": "2026-04-08T15:58:51.326686+00:00",
+     "start_time": "2026-04-08T17:13:26.494589+00:00",
      "status": "completed"
     },
     "tags": []
@@ -54,19 +54,19 @@
   {
    "cell_type": "code",
    "execution_count": 2,
-   "id": "105db95f",
+   "id": "98a11b7a",
    "metadata": {
     "execution": {
-     "iopub.execute_input": "2026-04-08T15:59:30.319760Z",
-     "iopub.status.busy": "2026-04-08T15:59:30.318915Z",
-     "iopub.status.idle": "2026-04-08T15:59:30.356794Z",
-     "shell.execute_reply": "2026-04-08T15:59:30.355844Z"
+     "iopub.execute_input": "2026-04-08T17:14:06.152209Z",
+     "iopub.status.busy": "2026-04-08T17:14:06.151836Z",
+     "iopub.status.idle": "2026-04-08T17:14:06.194302Z",
+     "shell.execute_reply": "2026-04-08T17:14:06.193316Z"
     },
     "papermill": {
-     "duration": 0.04355,
-     "end_time": "2026-04-08T15:59:30.358961+00:00",
+     "duration": 0.049461,
+     "end_time": "2026-04-08T17:14:06.196279+00:00",
      "exception": false,
-     "start_time": "2026-04-08T15:59:30.315411+00:00",
+     "start_time": "2026-04-08T17:14:06.146818+00:00",
      "status": "completed"
     },
     "tags": []
@@ -285,13 +285,13 @@
   },
   {
    "cell_type": "markdown",
-   "id": "8e4975bd",
+   "id": "54a59b4f",
    "metadata": {
     "papermill": {
-     "duration": 0.00256,
-     "end_time": "2026-04-08T15:59:30.364398+00:00",
+     "duration": 0.003719,
+     "end_time": "2026-04-08T17:14:06.203910+00:00",
      "exception": false,
-     "start_time": "2026-04-08T15:59:30.361838+00:00",
+     "start_time": "2026-04-08T17:14:06.200191+00:00",
      "status": "completed"
     },
     "tags": []
@@ -303,19 +303,19 @@
   {
    "cell_type": "code",
    "execution_count": 3,
-   "id": "b85208a1",
+   "id": "28479f8a",
    "metadata": {
     "execution": {
-     "iopub.execute_input": "2026-04-08T15:59:30.371813Z",
-     "iopub.status.busy": "2026-04-08T15:59:30.370886Z",
-     "iopub.status.idle": "2026-04-08T15:59:30.998705Z",
-     "shell.execute_reply": "2026-04-08T15:59:30.997610Z"
+     "iopub.execute_input": "2026-04-08T17:14:06.213156Z",
+     "iopub.status.busy": "2026-04-08T17:14:06.212844Z",
+     "iopub.status.idle": "2026-04-08T17:14:06.859693Z",
+     "shell.execute_reply": "2026-04-08T17:14:06.858562Z"
     },
     "papermill": {
-     "duration": 0.634257,
-     "end_time": "2026-04-08T15:59:31.001217+00:00",
+     "duration": 0.654065,
+     "end_time": "2026-04-08T17:14:06.861882+00:00",
      "exception": false,
-     "start_time": "2026-04-08T15:59:30.366960+00:00",
+     "start_time": "2026-04-08T17:14:06.207817+00:00",
      "status": "completed"
     },
     "tags": []
@@ -462,13 +462,13 @@
   },
   {
    "cell_type": "markdown",
-   "id": "089ac46c",
+   "id": "52239a8b",
    "metadata": {
     "papermill": {
-     "duration": 0.003268,
-     "end_time": "2026-04-08T15:59:31.007515+00:00",
+     "duration": 0.003869,
+     "end_time": "2026-04-08T17:14:06.869918+00:00",
      "exception": false,
-     "start_time": "2026-04-08T15:59:31.004247+00:00",
+     "start_time": "2026-04-08T17:14:06.866049+00:00",
      "status": "completed"
     },
     "tags": []
@@ -480,19 +480,19 @@
   {
    "cell_type": "code",
    "execution_count": 4,
-   "id": "98c52250",
+   "id": "a19f7ab6",
    "metadata": {
     "execution": {
-     "iopub.execute_input": "2026-04-08T15:59:31.016497Z",
-     "iopub.status.busy": "2026-04-08T15:59:31.015254Z",
-     "iopub.status.idle": "2026-04-08T15:59:31.107340Z",
-     "shell.execute_reply": "2026-04-08T15:59:31.106484Z"
+     "iopub.execute_input": "2026-04-08T17:14:06.879999Z",
+     "iopub.status.busy": "2026-04-08T17:14:06.879243Z",
+     "iopub.status.idle": "2026-04-08T17:14:07.676117Z",
+     "shell.execute_reply": "2026-04-08T17:14:07.675044Z"
     },
     "papermill": {
-     "duration": 0.098519,
-     "end_time": "2026-04-08T15:59:31.109369+00:00",
+     "duration": 0.804364,
+     "end_time": "2026-04-08T17:14:07.678253+00:00",
      "exception": false,
-     "start_time": "2026-04-08T15:59:31.010850+00:00",
+     "start_time": "2026-04-08T17:14:06.873889+00:00",
      "status": "completed"
     },
     "tags": []
@@ -529,123 +529,111 @@
        "  </thead>\n",
        "  <tbody>\n",
        "    <tr>\n",
-       "      <th>0</th>\n",
-       "      <td>1.536227e+09</td>\n",
+       "      <th>24</th>\n",
+       "      <td>1.532101e+09</td>\n",
        "      <td>tcp</td>\n",
-       "      <td>80.0</td>\n",
+       "      <td>4100.0</td>\n",
        "      <td>0.0</td>\n",
-       "      <td>PartOfAHorizontalPortScan</td>\n",
+       "      <td>Benign</td>\n",
        "      <td>0.000000</td>\n",
        "    </tr>\n",
        "    <tr>\n",
-       "      <th>1</th>\n",
-       "      <td>1.536227e+09</td>\n",
-       "      <td>tcp</td>\n",
-       "      <td>80.0</td>\n",
-       "      <td>0.0</td>\n",
-       "      <td>PartOfAHorizontalPortScan</td>\n",
-       "      <td>0.000005</td>\n",
-       "    </tr>\n",
-       "    <tr>\n",
-       "      <th>2</th>\n",
-       "      <td>1.536227e+09</td>\n",
-       "      <td>tcp</td>\n",
-       "      <td>80.0</td>\n",
-       "      <td>0.0</td>\n",
-       "      <td>PartOfAHorizontalPortScan</td>\n",
-       "      <td>0.000004</td>\n",
-       "    </tr>\n",
-       "    <tr>\n",
        "      <th>3</th>\n",
-       "      <td>1.536227e+09</td>\n",
-       "      <td>tcp</td>\n",
-       "      <td>80.0</td>\n",
+       "      <td>1.532101e+09</td>\n",
+       "      <td>icmp</td>\n",
+       "      <td>48.0</td>\n",
        "      <td>0.0</td>\n",
-       "      <td>PartOfAHorizontalPortScan</td>\n",
-       "      <td>0.000012</td>\n",
+       "      <td>Benign</td>\n",
+       "      <td>95.201964</td>\n",
        "    </tr>\n",
        "    <tr>\n",
        "      <th>4</th>\n",
-       "      <td>1.536227e+09</td>\n",
-       "      <td>tcp</td>\n",
-       "      <td>80.0</td>\n",
+       "      <td>1.532101e+09</td>\n",
+       "      <td>udp</td>\n",
        "      <td>0.0</td>\n",
-       "      <td>PartOfAHorizontalPortScan</td>\n",
-       "      <td>0.000004</td>\n",
-       "    </tr>\n",
-       "    <tr>\n",
-       "      <th>5</th>\n",
-       "      <td>1.536227e+09</td>\n",
-       "      <td>tcp</td>\n",
-       "      <td>80.0</td>\n",
-       "      <td>0.0</td>\n",
-       "      <td>Okiru</td>\n",
-       "      <td>0.000004</td>\n",
-       "    </tr>\n",
-       "    <tr>\n",
-       "      <th>6</th>\n",
-       "      <td>1.536227e+09</td>\n",
-       "      <td>tcp</td>\n",
-       "      <td>80.0</td>\n",
-       "      <td>0.0</td>\n",
-       "      <td>Okiru</td>\n",
-       "      <td>0.000004</td>\n",
-       "    </tr>\n",
-       "    <tr>\n",
-       "      <th>7</th>\n",
-       "      <td>1.536227e+09</td>\n",
-       "      <td>tcp</td>\n",
-       "      <td>80.0</td>\n",
-       "      <td>0.0</td>\n",
-       "      <td>Okiru</td>\n",
-       "      <td>0.000209</td>\n",
+       "      <td>660.0</td>\n",
+       "      <td>Benign</td>\n",
+       "      <td>1.000190</td>\n",
        "    </tr>\n",
        "    <tr>\n",
        "      <th>8</th>\n",
-       "      <td>1.536227e+09</td>\n",
-       "      <td>tcp</td>\n",
-       "      <td>80.0</td>\n",
-       "      <td>0.0</td>\n",
-       "      <td>PartOfAHorizontalPortScan</td>\n",
-       "      <td>0.000007</td>\n",
+       "      <td>1.532101e+09</td>\n",
+       "      <td>udp</td>\n",
+       "      <td>760.0</td>\n",
+       "      <td>760.0</td>\n",
+       "      <td>Benign</td>\n",
+       "      <td>31.649943</td>\n",
        "    </tr>\n",
        "    <tr>\n",
-       "      <th>9</th>\n",
-       "      <td>1.536227e+09</td>\n",
-       "      <td>tcp</td>\n",
-       "      <td>80.0</td>\n",
+       "      <th>7</th>\n",
+       "      <td>1.532101e+09</td>\n",
+       "      <td>udp</td>\n",
+       "      <td>760.0</td>\n",
+       "      <td>760.0</td>\n",
+       "      <td>Benign</td>\n",
+       "      <td>0.994438</td>\n",
+       "    </tr>\n",
+       "    <tr>\n",
+       "      <th>14</th>\n",
+       "      <td>1.532101e+09</td>\n",
+       "      <td>udp</td>\n",
+       "      <td>760.0</td>\n",
+       "      <td>760.0</td>\n",
+       "      <td>Benign</td>\n",
+       "      <td>0.063458</td>\n",
+       "    </tr>\n",
+       "    <tr>\n",
+       "      <th>0</th>\n",
+       "      <td>1.532101e+09</td>\n",
+       "      <td>udp</td>\n",
+       "      <td>134.0</td>\n",
+       "      <td>253.0</td>\n",
+       "      <td>Benign</td>\n",
+       "      <td>1.013922</td>\n",
+       "    </tr>\n",
+       "    <tr>\n",
+       "      <th>10</th>\n",
+       "      <td>1.532101e+09</td>\n",
+       "      <td>udp</td>\n",
+       "      <td>760.0</td>\n",
+       "      <td>760.0</td>\n",
+       "      <td>Benign</td>\n",
+       "      <td>0.000748</td>\n",
+       "    </tr>\n",
+       "    <tr>\n",
+       "      <th>5</th>\n",
+       "      <td>1.532101e+09</td>\n",
+       "      <td>udp</td>\n",
+       "      <td>76.0</td>\n",
        "      <td>0.0</td>\n",
-       "      <td>PartOfAHorizontalPortScan</td>\n",
-       "      <td>0.000004</td>\n",
+       "      <td>Benign</td>\n",
+       "      <td>0.005747</td>\n",
+       "    </tr>\n",
+       "    <tr>\n",
+       "      <th>1</th>\n",
+       "      <td>1.532101e+09</td>\n",
+       "      <td>udp</td>\n",
+       "      <td>134.0</td>\n",
+       "      <td>253.0</td>\n",
+       "      <td>Benign</td>\n",
+       "      <td>0.049474</td>\n",
        "    </tr>\n",
        "  </tbody>\n",
        "</table>\n",
        "</div>"
       ],
       "text/plain": [
-       "      timestamp proto  src_bytes  dest_bytes                      label  \\\n",
-       "0  1.536227e+09   tcp       80.0         0.0  PartOfAHorizontalPortScan   \n",
-       "1  1.536227e+09   tcp       80.0         0.0  PartOfAHorizontalPortScan   \n",
-       "2  1.536227e+09   tcp       80.0         0.0  PartOfAHorizontalPortScan   \n",
-       "3  1.536227e+09   tcp       80.0         0.0  PartOfAHorizontalPortScan   \n",
-       "4  1.536227e+09   tcp       80.0         0.0  PartOfAHorizontalPortScan   \n",
-       "5  1.536227e+09   tcp       80.0         0.0                      Okiru   \n",
-       "6  1.536227e+09   tcp       80.0         0.0                      Okiru   \n",
-       "7  1.536227e+09   tcp       80.0         0.0                      Okiru   \n",
-       "8  1.536227e+09   tcp       80.0         0.0  PartOfAHorizontalPortScan   \n",
-       "9  1.536227e+09   tcp       80.0         0.0  PartOfAHorizontalPortScan   \n",
-       "\n",
-       "        iat  \n",
-       "0  0.000000  \n",
-       "1  0.000005  \n",
-       "2  0.000004  \n",
-       "3  0.000012  \n",
-       "4  0.000004  \n",
-       "5  0.000004  \n",
-       "6  0.000004  \n",
-       "7  0.000209  \n",
-       "8  0.000007  \n",
-       "9  0.000004  "
+       "       timestamp proto  src_bytes  dest_bytes   label        iat\n",
+       "24  1.532101e+09   tcp     4100.0         0.0  Benign   0.000000\n",
+       "3   1.532101e+09  icmp       48.0         0.0  Benign  95.201964\n",
+       "4   1.532101e+09   udp        0.0       660.0  Benign   1.000190\n",
+       "8   1.532101e+09   udp      760.0       760.0  Benign  31.649943\n",
+       "7   1.532101e+09   udp      760.0       760.0  Benign   0.994438\n",
+       "14  1.532101e+09   udp      760.0       760.0  Benign   0.063458\n",
+       "0   1.532101e+09   udp      134.0       253.0  Benign   1.013922\n",
+       "10  1.532101e+09   udp      760.0       760.0  Benign   0.000748\n",
+       "5   1.532101e+09   udp       76.0         0.0  Benign   0.005747\n",
+       "1   1.532101e+09   udp      134.0       253.0  Benign   0.049474"
       ]
      },
      "execution_count": 4,
@@ -654,19 +642,64 @@
     }
    ],
    "source": [
+    "# Sort the entire filtered dataset chronologically\n",
+    "df_filtered = df_filtered.sort_values('timestamp')\n",
+    "\n",
     "df_filtered['iat'] = df_filtered['timestamp'].diff().fillna(0)\n",
     "df_filtered.head(10)"
    ]
   },
   {
    "cell_type": "markdown",
-   "id": "0cd0895a",
+   "id": "4a3bfb2f",
    "metadata": {
     "papermill": {
-     "duration": 0.003007,
-     "end_time": "2026-04-08T15:59:31.115677+00:00",
+     "duration": 0.003949,
+     "end_time": "2026-04-08T17:14:07.686582+00:00",
      "exception": false,
-     "start_time": "2026-04-08T15:59:31.112670+00:00",
+     "start_time": "2026-04-08T17:14:07.682633+00:00",
+     "status": "completed"
+    },
+    "tags": []
+   },
+   "source": [
+    "## Drop timestamp as it is no longer required"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 5,
+   "id": "e537ed59",
+   "metadata": {
+    "execution": {
+     "iopub.execute_input": "2026-04-08T17:14:07.697442Z",
+     "iopub.status.busy": "2026-04-08T17:14:07.696509Z",
+     "iopub.status.idle": "2026-04-08T17:14:07.941292Z",
+     "shell.execute_reply": "2026-04-08T17:14:07.940408Z"
+    },
+    "papermill": {
+     "duration": 0.252761,
+     "end_time": "2026-04-08T17:14:07.943509+00:00",
+     "exception": false,
+     "start_time": "2026-04-08T17:14:07.690748+00:00",
+     "status": "completed"
+    },
+    "tags": []
+   },
+   "outputs": [],
+   "source": [
+    "df_filtered.drop(columns=['timestamp'], inplace=True)"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "1503cf39",
+   "metadata": {
+    "papermill": {
+     "duration": 0.003941,
+     "end_time": "2026-04-08T17:14:07.951650+00:00",
+     "exception": false,
+     "start_time": "2026-04-08T17:14:07.947709+00:00",
      "status": "completed"
     },
     "tags": []
@@ -677,20 +710,20 @@
   },
   {
    "cell_type": "code",
-   "execution_count": 5,
-   "id": "1d2190d0",
+   "execution_count": 6,
+   "id": "11619cdc",
    "metadata": {
     "execution": {
-     "iopub.execute_input": "2026-04-08T15:59:31.123418Z",
-     "iopub.status.busy": "2026-04-08T15:59:31.122973Z",
-     "iopub.status.idle": "2026-04-08T15:59:31.498391Z",
-     "shell.execute_reply": "2026-04-08T15:59:31.497327Z"
+     "iopub.execute_input": "2026-04-08T17:14:07.962286Z",
+     "iopub.status.busy": "2026-04-08T17:14:07.961901Z",
+     "iopub.status.idle": "2026-04-08T17:14:08.337303Z",
+     "shell.execute_reply": "2026-04-08T17:14:08.335921Z"
     },
     "papermill": {
-     "duration": 0.381783,
-     "end_time": "2026-04-08T15:59:31.500443+00:00",
+     "duration": 0.383153,
+     "end_time": "2026-04-08T17:14:08.339830+00:00",
      "exception": false,
-     "start_time": "2026-04-08T15:59:31.118660+00:00",
+     "start_time": "2026-04-08T17:14:07.956677+00:00",
      "status": "completed"
     },
     "tags": []
@@ -700,9 +733,9 @@
      "name": "stdout",
      "output_type": "stream",
      "text": [
-      "['PartOfAHorizontalPortScan' 'Okiru' 'DDoS' 'C&C-HeartBeat' 'Benign'\n",
-      " 'C&C-Torii' 'C&C' 'C&C-FileDownload' 'Okiru-Attack' 'Attack'\n",
-      " 'FileDownload' 'C&C-HeartBeat-FileDownload' 'C&C-Mirai']\n"
+      "['Benign' 'C&C-HeartBeat' 'Okiru' 'PartOfAHorizontalPortScan' 'C&C' 'DDoS'\n",
+      " 'C&C-Torii' 'Okiru-Attack' 'C&C-FileDownload' 'Attack' 'FileDownload'\n",
+      " 'C&C-HeartBeat-FileDownload' 'C&C-Mirai']\n"
      ]
     }
    ],
@@ -712,13 +745,13 @@
   },
   {
    "cell_type": "markdown",
-   "id": "2b675842",
+   "id": "63a9ae78",
    "metadata": {
     "papermill": {
-     "duration": 0.003768,
-     "end_time": "2026-04-08T15:59:31.507428+00:00",
+     "duration": 0.00449,
+     "end_time": "2026-04-08T17:14:08.348827+00:00",
      "exception": false,
-     "start_time": "2026-04-08T15:59:31.503660+00:00",
+     "start_time": "2026-04-08T17:14:08.344337+00:00",
      "status": "completed"
     },
     "tags": []
@@ -729,20 +762,20 @@
   },
   {
    "cell_type": "code",
-   "execution_count": 6,
-   "id": "db225c51",
+   "execution_count": 7,
+   "id": "5c3699b3",
    "metadata": {
     "execution": {
-     "iopub.execute_input": "2026-04-08T15:59:31.515514Z",
-     "iopub.status.busy": "2026-04-08T15:59:31.514704Z",
-     "iopub.status.idle": "2026-04-08T15:59:32.047753Z",
-     "shell.execute_reply": "2026-04-08T15:59:32.046828Z"
+     "iopub.execute_input": "2026-04-08T17:14:08.359441Z",
+     "iopub.status.busy": "2026-04-08T17:14:08.359061Z",
+     "iopub.status.idle": "2026-04-08T17:14:08.856126Z",
+     "shell.execute_reply": "2026-04-08T17:14:08.855035Z"
     },
     "papermill": {
-     "duration": 0.539368,
-     "end_time": "2026-04-08T15:59:32.049848+00:00",
+     "duration": 0.505145,
+     "end_time": "2026-04-08T17:14:08.858390+00:00",
      "exception": false,
-     "start_time": "2026-04-08T15:59:31.510480+00:00",
+     "start_time": "2026-04-08T17:14:08.353245+00:00",
      "status": "completed"
     },
     "tags": []
@@ -754,20 +787,20 @@
   },
   {
    "cell_type": "code",
-   "execution_count": 7,
-   "id": "fdaf404f",
+   "execution_count": 8,
+   "id": "0a827245",
    "metadata": {
     "execution": {
-     "iopub.execute_input": "2026-04-08T15:59:32.058417Z",
-     "iopub.status.busy": "2026-04-08T15:59:32.058085Z",
-     "iopub.status.idle": "2026-04-08T15:59:32.119228Z",
-     "shell.execute_reply": "2026-04-08T15:59:32.118374Z"
+     "iopub.execute_input": "2026-04-08T17:14:08.869248Z",
+     "iopub.status.busy": "2026-04-08T17:14:08.868361Z",
+     "iopub.status.idle": "2026-04-08T17:14:08.913447Z",
+     "shell.execute_reply": "2026-04-08T17:14:08.912521Z"
     },
     "papermill": {
-     "duration": 0.06869,
-     "end_time": "2026-04-08T15:59:32.121893+00:00",
+     "duration": 0.052624,
+     "end_time": "2026-04-08T17:14:08.915365+00:00",
      "exception": false,
-     "start_time": "2026-04-08T15:59:32.053203+00:00",
+     "start_time": "2026-04-08T17:14:08.862741+00:00",
      "status": "completed"
     },
     "tags": []
@@ -789,21 +822,38 @@
    ]
   },
   {
+   "cell_type": "markdown",
+   "id": "d426ae73",
+   "metadata": {
+    "papermill": {
+     "duration": 0.004089,
+     "end_time": "2026-04-08T17:14:08.923796+00:00",
+     "exception": false,
+     "start_time": "2026-04-08T17:14:08.919707+00:00",
+     "status": "completed"
+    },
+    "tags": []
+   },
+   "source": [
+    "## Downsample both labels so there are 25000 of each category"
+   ]
+  },
+  {
    "cell_type": "code",
-   "execution_count": 8,
-   "id": "06b1f1e6",
+   "execution_count": 9,
+   "id": "7361573f",
    "metadata": {
     "execution": {
-     "iopub.execute_input": "2026-04-08T15:59:32.131674Z",
-     "iopub.status.busy": "2026-04-08T15:59:32.131168Z",
-     "iopub.status.idle": "2026-04-08T15:59:33.289977Z",
-     "shell.execute_reply": "2026-04-08T15:59:33.288817Z"
+     "iopub.execute_input": "2026-04-08T17:14:08.934249Z",
+     "iopub.status.busy": "2026-04-08T17:14:08.933684Z",
+     "iopub.status.idle": "2026-04-08T17:14:09.536256Z",
+     "shell.execute_reply": "2026-04-08T17:14:09.535037Z"
     },
     "papermill": {
-     "duration": 1.166294,
-     "end_time": "2026-04-08T15:59:33.292772+00:00",
+     "duration": 0.610256,
+     "end_time": "2026-04-08T17:14:09.538306+00:00",
      "exception": false,
-     "start_time": "2026-04-08T15:59:32.126478+00:00",
+     "start_time": "2026-04-08T17:14:08.928050+00:00",
      "status": "completed"
     },
     "tags": []
@@ -814,28 +864,284 @@
      "output_type": "stream",
      "text": [
       "label\n",
-      "0    688812\n",
-      "1    688812\n",
+      "1    25000\n",
+      "0    25000\n",
+      "Name: count, dtype: int64\n",
+      "Total rows: 50000\n"
+     ]
+    }
+   ],
+   "source": [
+    "target_size = 25000 \n",
+    "\n",
+    "# Separate the classes\n",
+    "df_normal = df_filtered[df_filtered['label'] == 0]\n",
+    "df_attack = df_filtered[df_filtered['label'] == 1]\n",
+    "\n",
+    "# Downsample both to the target size\n",
+    "df_normal_light = df_normal.sample(n=target_size, random_state=42)\n",
+    "df_attack_light = df_attack.sample(n=target_size, random_state=42)\n",
+    "\n",
+    "# Combine and Shuffle\n",
+    "df_ultra_light = pd.concat([df_normal_light, df_attack_light])\n",
+    "df_ultra_light = df_ultra_light.sample(frac=1, random_state=42).reset_index(drop=True)\n",
+    "\n",
+    "# Verification\n",
+    "print(df_ultra_light['label'].value_counts())\n",
+    "print(f\"Total rows: {len(df_ultra_light)}\")"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "d58c21f3",
+   "metadata": {
+    "papermill": {
+     "duration": 0.004734,
+     "end_time": "2026-04-08T17:14:09.547461+00:00",
+     "exception": false,
+     "start_time": "2026-04-08T17:14:09.542727+00:00",
+     "status": "completed"
+    },
+    "tags": []
+   },
+   "source": [
+    "## Convert protocol values into integer values. 1 - TCP, 2 - UDP, 3 - ICMP"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 10,
+   "id": "cacef542",
+   "metadata": {
+    "execution": {
+     "iopub.execute_input": "2026-04-08T17:14:09.559118Z",
+     "iopub.status.busy": "2026-04-08T17:14:09.558353Z",
+     "iopub.status.idle": "2026-04-08T17:14:09.567656Z",
+     "shell.execute_reply": "2026-04-08T17:14:09.566582Z"
+    },
+    "papermill": {
+     "duration": 0.017341,
+     "end_time": "2026-04-08T17:14:09.569834+00:00",
+     "exception": false,
+     "start_time": "2026-04-08T17:14:09.552493+00:00",
+     "status": "completed"
+    },
+    "tags": []
+   },
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "array(['tcp', 'udp', 'icmp'], dtype=object)"
+      ]
+     },
+     "execution_count": 10,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "df_ultra_light['proto'].unique()"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 11,
+   "id": "0dcd0c8b",
+   "metadata": {
+    "execution": {
+     "iopub.execute_input": "2026-04-08T17:14:09.581509Z",
+     "iopub.status.busy": "2026-04-08T17:14:09.580636Z",
+     "iopub.status.idle": "2026-04-08T17:14:09.593310Z",
+     "shell.execute_reply": "2026-04-08T17:14:09.592207Z"
+    },
+    "papermill": {
+     "duration": 0.021385,
+     "end_time": "2026-04-08T17:14:09.595679+00:00",
+     "exception": false,
+     "start_time": "2026-04-08T17:14:09.574294+00:00",
+     "status": "completed"
+    },
+    "tags": []
+   },
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "proto\n",
+      "6     49322\n",
+      "17      613\n",
+      "1        65\n",
       "Name: count, dtype: int64\n"
      ]
     }
    ],
    "source": [
-    "# Separate the classes\n",
-    "df_normal = df_filtered[df_filtered['label'] == 0]\n",
-    "df_attack = df_filtered[df_filtered['label'] == 1]\n",
+    "# Define the mapping (TCP=6, UDP=17, ICMP=1, Others=0)\n",
+    "proto_mapping = {\n",
+    "    'tcp': 6,\n",
+    "    'udp': 17,\n",
+    "    'icmp': 1\n",
+    "}\n",
     "\n",
-    "# Downsample the attacks to match the number of normal rows\n",
-    "df_attack_downsampled = df_attack.sample(n=len(df_normal), random_state=42)\n",
+    "# Apply the mapping\n",
+    "# .fillna(0) handles any protocols that aren't in the dictionary\n",
+    "df_ultra_light['proto'] = df_ultra_light['proto'].map(proto_mapping).fillna(0).astype(int)\n",
     "\n",
-    "# Combine them back together\n",
-    "df_balanced = pd.concat([df_normal, df_attack_downsampled])\n",
+    "# Check the result\n",
+    "print(df_ultra_light['proto'].value_counts())"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 12,
+   "id": "311d02ab",
+   "metadata": {
+    "execution": {
+     "iopub.execute_input": "2026-04-08T17:14:09.606994Z",
+     "iopub.status.busy": "2026-04-08T17:14:09.606478Z",
+     "iopub.status.idle": "2026-04-08T17:14:09.613860Z",
+     "shell.execute_reply": "2026-04-08T17:14:09.612742Z"
+    },
+    "papermill": {
+     "duration": 0.015407,
+     "end_time": "2026-04-08T17:14:09.615802+00:00",
+     "exception": false,
+     "start_time": "2026-04-08T17:14:09.600395+00:00",
+     "status": "completed"
+    },
+    "tags": []
+   },
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "proto           int64\n",
+       "src_bytes     float64\n",
+       "dest_bytes    float64\n",
+       "label           int64\n",
+       "iat           float64\n",
+       "dtype: object"
+      ]
+     },
+     "execution_count": 12,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "df_ultra_light.dtypes"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "1cbe2e8e",
+   "metadata": {
+    "papermill": {
+     "duration": 0.004654,
+     "end_time": "2026-04-08T17:14:09.625300+00:00",
+     "exception": false,
+     "start_time": "2026-04-08T17:14:09.620646+00:00",
+     "status": "completed"
+    },
+    "tags": []
+   },
+   "source": [
+    "## Use logarithmic scaling for skewed columns"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 13,
+   "id": "6f1b26e4",
+   "metadata": {
+    "execution": {
+     "iopub.execute_input": "2026-04-08T17:14:09.635825Z",
+     "iopub.status.busy": "2026-04-08T17:14:09.635513Z",
+     "iopub.status.idle": "2026-04-08T17:14:09.669508Z",
+     "shell.execute_reply": "2026-04-08T17:14:09.668206Z"
+    },
+    "papermill": {
+     "duration": 0.041872,
+     "end_time": "2026-04-08T17:14:09.671633+00:00",
+     "exception": false,
+     "start_time": "2026-04-08T17:14:09.629761+00:00",
+     "status": "completed"
+    },
+    "tags": []
+   },
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "              proto         label       iat_log  src_bytes_log  dest_bytes_log\n",
+      "count  50000.000000  50000.000000  5.000000e+04   50000.000000    50000.000000\n",
+      "mean       6.128360      0.500000  3.233065e-02       4.067563        0.042738\n",
+      "std        1.224546      0.500005  3.035990e-01       1.118100        0.452602\n",
+      "min        1.000000      0.000000  7.152555e-07       0.000000        0.000000\n",
+      "25%        6.000000      0.000000  3.099437e-06       3.713572        0.000000\n",
+      "50%        6.000000      0.500000  5.006778e-06       4.110874        0.000000\n",
+      "75%        6.000000      1.000000  2.376751e-04       4.394449        0.000000\n",
+      "max       17.000000      1.000000  1.494617e+01      18.752700        8.776013\n"
+     ]
+    }
+   ],
+   "source": [
+    "# Apply Log Scaling to the skewed columns\n",
+    "# Use log1p to safely handle the 0.0 values\n",
+    "df_ultra_light['iat_log'] = np.log1p(df_ultra_light['iat'])\n",
+    "df_ultra_light['src_bytes_log'] = np.log1p(df_ultra_light['src_bytes'])\n",
+    "df_ultra_light['dest_bytes_log'] = np.log1p(df_ultra_light['dest_bytes'])\n",
     "\n",
-    "# Shuffle the result so the model doesn't see all 0s then all 1s\n",
-    "df_balanced = df_balanced.sample(frac=1, random_state=42).reset_index(drop=True)\n",
+    "# Drop the old unscaled columns to keep the file light\n",
+    "df_final = df_ultra_light.drop(columns=['iat', 'src_bytes', 'dest_bytes'])\n",
     "\n",
-    "# 5. Final check\n",
-    "print(df_balanced['label'].value_counts())"
+    "# Check the new distribution\n",
+    "print(df_final.describe())"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "7df5090c",
+   "metadata": {
+    "papermill": {
+     "duration": 0.004537,
+     "end_time": "2026-04-08T17:14:09.681085+00:00",
+     "exception": false,
+     "start_time": "2026-04-08T17:14:09.676548+00:00",
+     "status": "completed"
+    },
+    "tags": []
+   },
+   "source": [
+    "## Export dataframe to csv"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 14,
+   "id": "344f8c75",
+   "metadata": {
+    "execution": {
+     "iopub.execute_input": "2026-04-08T17:14:09.693091Z",
+     "iopub.status.busy": "2026-04-08T17:14:09.692269Z",
+     "iopub.status.idle": "2026-04-08T17:14:09.924048Z",
+     "shell.execute_reply": "2026-04-08T17:14:09.922989Z"
+    },
+    "papermill": {
+     "duration": 0.240376,
+     "end_time": "2026-04-08T17:14:09.926234+00:00",
+     "exception": false,
+     "start_time": "2026-04-08T17:14:09.685858+00:00",
+     "status": "completed"
+    },
+    "tags": []
+   },
+   "outputs": [],
+   "source": [
+    "df_final.to_csv('iot23_light_training.csv', index=False)"
    ]
   }
  ],
@@ -856,7 +1162,7 @@
      "sourceType": "datasetVersion"
     },
     {
-     "sourceId": 309698220,
+     "sourceId": 309964695,
      "sourceType": "kernelVersion"
     }
    ],
@@ -885,14 +1191,14 @@
   },
   "papermill": {
    "default_parameters": {},
-   "duration": 46.349835,
-   "end_time": "2026-04-08T15:59:34.419550+00:00",
+   "duration": 47.971009,
+   "end_time": "2026-04-08T17:14:11.154342+00:00",
    "environment_variables": {},
    "exception": null,
    "input_path": "__notebook__.ipynb",
    "output_path": "__notebook__.ipynb",
    "parameters": {},
-   "start_time": "2026-04-08T15:58:48.069715+00:00",
+   "start_time": "2026-04-08T17:13:23.183333+00:00",
    "version": "2.7.0"
   }
  },
