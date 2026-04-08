@@ -1,37 +1,866 @@
 {
  "cells": [
   {
+   "cell_type": "markdown",
+   "id": "26122c7a",
+   "metadata": {
+    "papermill": {
+     "duration": 0.003349,
+     "end_time": "2026-04-08T15:58:51.323831+00:00",
+     "exception": false,
+     "start_time": "2026-04-08T15:58:51.320482+00:00",
+     "status": "completed"
+    },
+    "tags": []
+   },
+   "source": [
+    "# IoT 23 Dataset Feature Engineering\n",
+    "## Load Dataset and Libraries"
+   ]
+  },
+  {
    "cell_type": "code",
    "execution_count": 1,
-   "id": "bff31a18",
+   "id": "fced8286",
    "metadata": {
     "_cell_guid": "b1076dfc-b9ad-4769-8c92-a6c4dae69d19",
     "_uuid": "8f2839f25d086af736a60e9eeb907d3b93b6e0e5",
     "execution": {
-     "iopub.execute_input": "2026-04-07T15:49:01.686962Z",
-     "iopub.status.busy": "2026-04-07T15:49:01.686636Z",
-     "iopub.status.idle": "2026-04-07T15:49:02.741768Z",
-     "shell.execute_reply": "2026-04-07T15:49:02.740681Z"
+     "iopub.execute_input": "2026-04-08T15:58:51.331473Z",
+     "iopub.status.busy": "2026-04-08T15:58:51.330475Z",
+     "iopub.status.idle": "2026-04-08T15:59:30.309988Z",
+     "shell.execute_reply": "2026-04-08T15:59:30.308750Z"
     },
     "papermill": {
-     "duration": 1.060248,
-     "end_time": "2026-04-07T15:49:02.743911+00:00",
+     "duration": 38.985944,
+     "end_time": "2026-04-08T15:59:30.312630+00:00",
      "exception": false,
-     "start_time": "2026-04-07T15:49:01.683663+00:00",
+     "start_time": "2026-04-08T15:58:51.326686+00:00",
      "status": "completed"
     },
     "tags": []
    },
    "outputs": [],
    "source": [
-    "import pandas as pd"
+    "import pandas as pd\n",
+    "import numpy as np\n",
+    "import seaborn as sns\n",
+    "import matplotlib.pyplot as plt\n",
+    "\n",
+    "iot_23 = '/kaggle/input/datasets/engraqeel/iot23preprocesseddata/iot23_combined_new.csv'\n",
+    "df_iot = pd.read_csv(iot_23, index_col=0, low_memory=False)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 2,
+   "id": "105db95f",
+   "metadata": {
+    "execution": {
+     "iopub.execute_input": "2026-04-08T15:59:30.319760Z",
+     "iopub.status.busy": "2026-04-08T15:59:30.318915Z",
+     "iopub.status.idle": "2026-04-08T15:59:30.356794Z",
+     "shell.execute_reply": "2026-04-08T15:59:30.355844Z"
+    },
+    "papermill": {
+     "duration": 0.04355,
+     "end_time": "2026-04-08T15:59:30.358961+00:00",
+     "exception": false,
+     "start_time": "2026-04-08T15:59:30.315411+00:00",
+     "status": "completed"
+    },
+    "tags": []
+   },
+   "outputs": [
+    {
+     "data": {
+      "text/html": [
+       "<div>\n",
+       "<style scoped>\n",
+       "    .dataframe tbody tr th:only-of-type {\n",
+       "        vertical-align: middle;\n",
+       "    }\n",
+       "\n",
+       "    .dataframe tbody tr th {\n",
+       "        vertical-align: top;\n",
+       "    }\n",
+       "\n",
+       "    .dataframe thead th {\n",
+       "        text-align: right;\n",
+       "    }\n",
+       "</style>\n",
+       "<table border=\"1\" class=\"dataframe\">\n",
+       "  <thead>\n",
+       "    <tr style=\"text-align: right;\">\n",
+       "      <th></th>\n",
+       "      <th>ts</th>\n",
+       "      <th>uid</th>\n",
+       "      <th>id.orig_h</th>\n",
+       "      <th>id.orig_p</th>\n",
+       "      <th>id.resp_h</th>\n",
+       "      <th>id.resp_p</th>\n",
+       "      <th>proto</th>\n",
+       "      <th>service</th>\n",
+       "      <th>duration</th>\n",
+       "      <th>orig_bytes</th>\n",
+       "      <th>...</th>\n",
+       "      <th>conn_state</th>\n",
+       "      <th>local_orig</th>\n",
+       "      <th>local_resp</th>\n",
+       "      <th>missed_bytes</th>\n",
+       "      <th>history</th>\n",
+       "      <th>orig_pkts</th>\n",
+       "      <th>orig_ip_bytes</th>\n",
+       "      <th>resp_pkts</th>\n",
+       "      <th>resp_ip_bytes</th>\n",
+       "      <th>label</th>\n",
+       "    </tr>\n",
+       "  </thead>\n",
+       "  <tbody>\n",
+       "    <tr>\n",
+       "      <th>0</th>\n",
+       "      <td>1.536227e+09</td>\n",
+       "      <td>CeqqKl3hyLQmO8LK98</td>\n",
+       "      <td>192.168.100.111</td>\n",
+       "      <td>17576.0</td>\n",
+       "      <td>78.1.220.212</td>\n",
+       "      <td>8081.0</td>\n",
+       "      <td>tcp</td>\n",
+       "      <td>-</td>\n",
+       "      <td>3e-06</td>\n",
+       "      <td>0</td>\n",
+       "      <td>...</td>\n",
+       "      <td>S0</td>\n",
+       "      <td>-</td>\n",
+       "      <td>-</td>\n",
+       "      <td>0.0</td>\n",
+       "      <td>S</td>\n",
+       "      <td>2.0</td>\n",
+       "      <td>80.0</td>\n",
+       "      <td>0.0</td>\n",
+       "      <td>0.0</td>\n",
+       "      <td>PartOfAHorizontalPortScan</td>\n",
+       "    </tr>\n",
+       "    <tr>\n",
+       "      <th>1</th>\n",
+       "      <td>1.536227e+09</td>\n",
+       "      <td>C2oHQWo1EFGH8D9x7</td>\n",
+       "      <td>192.168.100.111</td>\n",
+       "      <td>17576.0</td>\n",
+       "      <td>152.84.7.111</td>\n",
+       "      <td>8081.0</td>\n",
+       "      <td>tcp</td>\n",
+       "      <td>-</td>\n",
+       "      <td>2e-06</td>\n",
+       "      <td>0</td>\n",
+       "      <td>...</td>\n",
+       "      <td>S0</td>\n",
+       "      <td>-</td>\n",
+       "      <td>-</td>\n",
+       "      <td>0.0</td>\n",
+       "      <td>S</td>\n",
+       "      <td>2.0</td>\n",
+       "      <td>80.0</td>\n",
+       "      <td>0.0</td>\n",
+       "      <td>0.0</td>\n",
+       "      <td>PartOfAHorizontalPortScan</td>\n",
+       "    </tr>\n",
+       "    <tr>\n",
+       "      <th>2</th>\n",
+       "      <td>1.536227e+09</td>\n",
+       "      <td>CJLVjs4BByG04mczXc</td>\n",
+       "      <td>192.168.100.111</td>\n",
+       "      <td>17576.0</td>\n",
+       "      <td>173.36.41.67</td>\n",
+       "      <td>8081.0</td>\n",
+       "      <td>tcp</td>\n",
+       "      <td>-</td>\n",
+       "      <td>2e-06</td>\n",
+       "      <td>0</td>\n",
+       "      <td>...</td>\n",
+       "      <td>S0</td>\n",
+       "      <td>-</td>\n",
+       "      <td>-</td>\n",
+       "      <td>0.0</td>\n",
+       "      <td>S</td>\n",
+       "      <td>2.0</td>\n",
+       "      <td>80.0</td>\n",
+       "      <td>0.0</td>\n",
+       "      <td>0.0</td>\n",
+       "      <td>PartOfAHorizontalPortScan</td>\n",
+       "    </tr>\n",
+       "    <tr>\n",
+       "      <th>3</th>\n",
+       "      <td>1.536227e+09</td>\n",
+       "      <td>C0z4uS9AWHDH2s4S7</td>\n",
+       "      <td>192.168.100.111</td>\n",
+       "      <td>17576.0</td>\n",
+       "      <td>87.13.21.104</td>\n",
+       "      <td>8081.0</td>\n",
+       "      <td>tcp</td>\n",
+       "      <td>-</td>\n",
+       "      <td>2e-06</td>\n",
+       "      <td>0</td>\n",
+       "      <td>...</td>\n",
+       "      <td>S0</td>\n",
+       "      <td>-</td>\n",
+       "      <td>-</td>\n",
+       "      <td>0.0</td>\n",
+       "      <td>S</td>\n",
+       "      <td>2.0</td>\n",
+       "      <td>80.0</td>\n",
+       "      <td>0.0</td>\n",
+       "      <td>0.0</td>\n",
+       "      <td>PartOfAHorizontalPortScan</td>\n",
+       "    </tr>\n",
+       "    <tr>\n",
+       "      <th>4</th>\n",
+       "      <td>1.536227e+09</td>\n",
+       "      <td>CxbNVk3liFNUIlqSPi</td>\n",
+       "      <td>192.168.100.111</td>\n",
+       "      <td>17576.0</td>\n",
+       "      <td>99.110.163.140</td>\n",
+       "      <td>8081.0</td>\n",
+       "      <td>tcp</td>\n",
+       "      <td>-</td>\n",
+       "      <td>2e-06</td>\n",
+       "      <td>0</td>\n",
+       "      <td>...</td>\n",
+       "      <td>S0</td>\n",
+       "      <td>-</td>\n",
+       "      <td>-</td>\n",
+       "      <td>0.0</td>\n",
+       "      <td>S</td>\n",
+       "      <td>2.0</td>\n",
+       "      <td>80.0</td>\n",
+       "      <td>0.0</td>\n",
+       "      <td>0.0</td>\n",
+       "      <td>PartOfAHorizontalPortScan</td>\n",
+       "    </tr>\n",
+       "  </tbody>\n",
+       "</table>\n",
+       "<p>5 rows × 21 columns</p>\n",
+       "</div>"
+      ],
+      "text/plain": [
+       "             ts                 uid        id.orig_h  id.orig_p  \\\n",
+       "0  1.536227e+09  CeqqKl3hyLQmO8LK98  192.168.100.111    17576.0   \n",
+       "1  1.536227e+09   C2oHQWo1EFGH8D9x7  192.168.100.111    17576.0   \n",
+       "2  1.536227e+09  CJLVjs4BByG04mczXc  192.168.100.111    17576.0   \n",
+       "3  1.536227e+09   C0z4uS9AWHDH2s4S7  192.168.100.111    17576.0   \n",
+       "4  1.536227e+09  CxbNVk3liFNUIlqSPi  192.168.100.111    17576.0   \n",
+       "\n",
+       "        id.resp_h  id.resp_p proto service duration orig_bytes  ...  \\\n",
+       "0    78.1.220.212     8081.0   tcp       -    3e-06          0  ...   \n",
+       "1    152.84.7.111     8081.0   tcp       -    2e-06          0  ...   \n",
+       "2    173.36.41.67     8081.0   tcp       -    2e-06          0  ...   \n",
+       "3    87.13.21.104     8081.0   tcp       -    2e-06          0  ...   \n",
+       "4  99.110.163.140     8081.0   tcp       -    2e-06          0  ...   \n",
+       "\n",
+       "  conn_state local_orig local_resp missed_bytes  history orig_pkts  \\\n",
+       "0         S0          -          -          0.0        S       2.0   \n",
+       "1         S0          -          -          0.0        S       2.0   \n",
+       "2         S0          -          -          0.0        S       2.0   \n",
+       "3         S0          -          -          0.0        S       2.0   \n",
+       "4         S0          -          -          0.0        S       2.0   \n",
+       "\n",
+       "   orig_ip_bytes  resp_pkts  resp_ip_bytes                      label  \n",
+       "0           80.0        0.0            0.0  PartOfAHorizontalPortScan  \n",
+       "1           80.0        0.0            0.0  PartOfAHorizontalPortScan  \n",
+       "2           80.0        0.0            0.0  PartOfAHorizontalPortScan  \n",
+       "3           80.0        0.0            0.0  PartOfAHorizontalPortScan  \n",
+       "4           80.0        0.0            0.0  PartOfAHorizontalPortScan  \n",
+       "\n",
+       "[5 rows x 21 columns]"
+      ]
+     },
+     "execution_count": 2,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "df_iot.head(5)"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "8e4975bd",
+   "metadata": {
+    "papermill": {
+     "duration": 0.00256,
+     "end_time": "2026-04-08T15:59:30.364398+00:00",
+     "exception": false,
+     "start_time": "2026-04-08T15:59:30.361838+00:00",
+     "status": "completed"
+    },
+    "tags": []
+   },
+   "source": [
+    "## Remove uncecessary features"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 3,
+   "id": "b85208a1",
+   "metadata": {
+    "execution": {
+     "iopub.execute_input": "2026-04-08T15:59:30.371813Z",
+     "iopub.status.busy": "2026-04-08T15:59:30.370886Z",
+     "iopub.status.idle": "2026-04-08T15:59:30.998705Z",
+     "shell.execute_reply": "2026-04-08T15:59:30.997610Z"
+    },
+    "papermill": {
+     "duration": 0.634257,
+     "end_time": "2026-04-08T15:59:31.001217+00:00",
+     "exception": false,
+     "start_time": "2026-04-08T15:59:30.366960+00:00",
+     "status": "completed"
+    },
+    "tags": []
+   },
+   "outputs": [
+    {
+     "data": {
+      "text/html": [
+       "<div>\n",
+       "<style scoped>\n",
+       "    .dataframe tbody tr th:only-of-type {\n",
+       "        vertical-align: middle;\n",
+       "    }\n",
+       "\n",
+       "    .dataframe tbody tr th {\n",
+       "        vertical-align: top;\n",
+       "    }\n",
+       "\n",
+       "    .dataframe thead th {\n",
+       "        text-align: right;\n",
+       "    }\n",
+       "</style>\n",
+       "<table border=\"1\" class=\"dataframe\">\n",
+       "  <thead>\n",
+       "    <tr style=\"text-align: right;\">\n",
+       "      <th></th>\n",
+       "      <th>timestamp</th>\n",
+       "      <th>proto</th>\n",
+       "      <th>src_bytes</th>\n",
+       "      <th>dest_bytes</th>\n",
+       "      <th>label</th>\n",
+       "    </tr>\n",
+       "  </thead>\n",
+       "  <tbody>\n",
+       "    <tr>\n",
+       "      <th>0</th>\n",
+       "      <td>1.536227e+09</td>\n",
+       "      <td>tcp</td>\n",
+       "      <td>80.0</td>\n",
+       "      <td>0.0</td>\n",
+       "      <td>PartOfAHorizontalPortScan</td>\n",
+       "    </tr>\n",
+       "    <tr>\n",
+       "      <th>1</th>\n",
+       "      <td>1.536227e+09</td>\n",
+       "      <td>tcp</td>\n",
+       "      <td>80.0</td>\n",
+       "      <td>0.0</td>\n",
+       "      <td>PartOfAHorizontalPortScan</td>\n",
+       "    </tr>\n",
+       "    <tr>\n",
+       "      <th>2</th>\n",
+       "      <td>1.536227e+09</td>\n",
+       "      <td>tcp</td>\n",
+       "      <td>80.0</td>\n",
+       "      <td>0.0</td>\n",
+       "      <td>PartOfAHorizontalPortScan</td>\n",
+       "    </tr>\n",
+       "    <tr>\n",
+       "      <th>3</th>\n",
+       "      <td>1.536227e+09</td>\n",
+       "      <td>tcp</td>\n",
+       "      <td>80.0</td>\n",
+       "      <td>0.0</td>\n",
+       "      <td>PartOfAHorizontalPortScan</td>\n",
+       "    </tr>\n",
+       "    <tr>\n",
+       "      <th>4</th>\n",
+       "      <td>1.536227e+09</td>\n",
+       "      <td>tcp</td>\n",
+       "      <td>80.0</td>\n",
+       "      <td>0.0</td>\n",
+       "      <td>PartOfAHorizontalPortScan</td>\n",
+       "    </tr>\n",
+       "    <tr>\n",
+       "      <th>5</th>\n",
+       "      <td>1.536227e+09</td>\n",
+       "      <td>tcp</td>\n",
+       "      <td>80.0</td>\n",
+       "      <td>0.0</td>\n",
+       "      <td>Okiru</td>\n",
+       "    </tr>\n",
+       "    <tr>\n",
+       "      <th>6</th>\n",
+       "      <td>1.536227e+09</td>\n",
+       "      <td>tcp</td>\n",
+       "      <td>80.0</td>\n",
+       "      <td>0.0</td>\n",
+       "      <td>Okiru</td>\n",
+       "    </tr>\n",
+       "    <tr>\n",
+       "      <th>7</th>\n",
+       "      <td>1.536227e+09</td>\n",
+       "      <td>tcp</td>\n",
+       "      <td>80.0</td>\n",
+       "      <td>0.0</td>\n",
+       "      <td>Okiru</td>\n",
+       "    </tr>\n",
+       "    <tr>\n",
+       "      <th>8</th>\n",
+       "      <td>1.536227e+09</td>\n",
+       "      <td>tcp</td>\n",
+       "      <td>80.0</td>\n",
+       "      <td>0.0</td>\n",
+       "      <td>PartOfAHorizontalPortScan</td>\n",
+       "    </tr>\n",
+       "    <tr>\n",
+       "      <th>9</th>\n",
+       "      <td>1.536227e+09</td>\n",
+       "      <td>tcp</td>\n",
+       "      <td>80.0</td>\n",
+       "      <td>0.0</td>\n",
+       "      <td>PartOfAHorizontalPortScan</td>\n",
+       "    </tr>\n",
+       "  </tbody>\n",
+       "</table>\n",
+       "</div>"
+      ],
+      "text/plain": [
+       "      timestamp proto  src_bytes  dest_bytes                      label\n",
+       "0  1.536227e+09   tcp       80.0         0.0  PartOfAHorizontalPortScan\n",
+       "1  1.536227e+09   tcp       80.0         0.0  PartOfAHorizontalPortScan\n",
+       "2  1.536227e+09   tcp       80.0         0.0  PartOfAHorizontalPortScan\n",
+       "3  1.536227e+09   tcp       80.0         0.0  PartOfAHorizontalPortScan\n",
+       "4  1.536227e+09   tcp       80.0         0.0  PartOfAHorizontalPortScan\n",
+       "5  1.536227e+09   tcp       80.0         0.0                      Okiru\n",
+       "6  1.536227e+09   tcp       80.0         0.0                      Okiru\n",
+       "7  1.536227e+09   tcp       80.0         0.0                      Okiru\n",
+       "8  1.536227e+09   tcp       80.0         0.0  PartOfAHorizontalPortScan\n",
+       "9  1.536227e+09   tcp       80.0         0.0  PartOfAHorizontalPortScan"
+      ]
+     },
+     "execution_count": 3,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "features_to_keep = ['ts', 'proto', 'orig_ip_bytes', 'resp_ip_bytes', 'label']\n",
+    "df_filtered = df_iot[features_to_keep].copy()\n",
+    "df_filtered = df_filtered.rename(columns={\"ts\": \"timestamp\", \"orig_ip_bytes\": \"src_bytes\", \"resp_ip_bytes\": \"dest_bytes\"})\n",
+    "df_filtered.head(10)"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "089ac46c",
+   "metadata": {
+    "papermill": {
+     "duration": 0.003268,
+     "end_time": "2026-04-08T15:59:31.007515+00:00",
+     "exception": false,
+     "start_time": "2026-04-08T15:59:31.004247+00:00",
+     "status": "completed"
+    },
+    "tags": []
+   },
+   "source": [
+    "## Create IAT (Inter Arrival Time) Feature"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 4,
+   "id": "98c52250",
+   "metadata": {
+    "execution": {
+     "iopub.execute_input": "2026-04-08T15:59:31.016497Z",
+     "iopub.status.busy": "2026-04-08T15:59:31.015254Z",
+     "iopub.status.idle": "2026-04-08T15:59:31.107340Z",
+     "shell.execute_reply": "2026-04-08T15:59:31.106484Z"
+    },
+    "papermill": {
+     "duration": 0.098519,
+     "end_time": "2026-04-08T15:59:31.109369+00:00",
+     "exception": false,
+     "start_time": "2026-04-08T15:59:31.010850+00:00",
+     "status": "completed"
+    },
+    "tags": []
+   },
+   "outputs": [
+    {
+     "data": {
+      "text/html": [
+       "<div>\n",
+       "<style scoped>\n",
+       "    .dataframe tbody tr th:only-of-type {\n",
+       "        vertical-align: middle;\n",
+       "    }\n",
+       "\n",
+       "    .dataframe tbody tr th {\n",
+       "        vertical-align: top;\n",
+       "    }\n",
+       "\n",
+       "    .dataframe thead th {\n",
+       "        text-align: right;\n",
+       "    }\n",
+       "</style>\n",
+       "<table border=\"1\" class=\"dataframe\">\n",
+       "  <thead>\n",
+       "    <tr style=\"text-align: right;\">\n",
+       "      <th></th>\n",
+       "      <th>timestamp</th>\n",
+       "      <th>proto</th>\n",
+       "      <th>src_bytes</th>\n",
+       "      <th>dest_bytes</th>\n",
+       "      <th>label</th>\n",
+       "      <th>iat</th>\n",
+       "    </tr>\n",
+       "  </thead>\n",
+       "  <tbody>\n",
+       "    <tr>\n",
+       "      <th>0</th>\n",
+       "      <td>1.536227e+09</td>\n",
+       "      <td>tcp</td>\n",
+       "      <td>80.0</td>\n",
+       "      <td>0.0</td>\n",
+       "      <td>PartOfAHorizontalPortScan</td>\n",
+       "      <td>0.000000</td>\n",
+       "    </tr>\n",
+       "    <tr>\n",
+       "      <th>1</th>\n",
+       "      <td>1.536227e+09</td>\n",
+       "      <td>tcp</td>\n",
+       "      <td>80.0</td>\n",
+       "      <td>0.0</td>\n",
+       "      <td>PartOfAHorizontalPortScan</td>\n",
+       "      <td>0.000005</td>\n",
+       "    </tr>\n",
+       "    <tr>\n",
+       "      <th>2</th>\n",
+       "      <td>1.536227e+09</td>\n",
+       "      <td>tcp</td>\n",
+       "      <td>80.0</td>\n",
+       "      <td>0.0</td>\n",
+       "      <td>PartOfAHorizontalPortScan</td>\n",
+       "      <td>0.000004</td>\n",
+       "    </tr>\n",
+       "    <tr>\n",
+       "      <th>3</th>\n",
+       "      <td>1.536227e+09</td>\n",
+       "      <td>tcp</td>\n",
+       "      <td>80.0</td>\n",
+       "      <td>0.0</td>\n",
+       "      <td>PartOfAHorizontalPortScan</td>\n",
+       "      <td>0.000012</td>\n",
+       "    </tr>\n",
+       "    <tr>\n",
+       "      <th>4</th>\n",
+       "      <td>1.536227e+09</td>\n",
+       "      <td>tcp</td>\n",
+       "      <td>80.0</td>\n",
+       "      <td>0.0</td>\n",
+       "      <td>PartOfAHorizontalPortScan</td>\n",
+       "      <td>0.000004</td>\n",
+       "    </tr>\n",
+       "    <tr>\n",
+       "      <th>5</th>\n",
+       "      <td>1.536227e+09</td>\n",
+       "      <td>tcp</td>\n",
+       "      <td>80.0</td>\n",
+       "      <td>0.0</td>\n",
+       "      <td>Okiru</td>\n",
+       "      <td>0.000004</td>\n",
+       "    </tr>\n",
+       "    <tr>\n",
+       "      <th>6</th>\n",
+       "      <td>1.536227e+09</td>\n",
+       "      <td>tcp</td>\n",
+       "      <td>80.0</td>\n",
+       "      <td>0.0</td>\n",
+       "      <td>Okiru</td>\n",
+       "      <td>0.000004</td>\n",
+       "    </tr>\n",
+       "    <tr>\n",
+       "      <th>7</th>\n",
+       "      <td>1.536227e+09</td>\n",
+       "      <td>tcp</td>\n",
+       "      <td>80.0</td>\n",
+       "      <td>0.0</td>\n",
+       "      <td>Okiru</td>\n",
+       "      <td>0.000209</td>\n",
+       "    </tr>\n",
+       "    <tr>\n",
+       "      <th>8</th>\n",
+       "      <td>1.536227e+09</td>\n",
+       "      <td>tcp</td>\n",
+       "      <td>80.0</td>\n",
+       "      <td>0.0</td>\n",
+       "      <td>PartOfAHorizontalPortScan</td>\n",
+       "      <td>0.000007</td>\n",
+       "    </tr>\n",
+       "    <tr>\n",
+       "      <th>9</th>\n",
+       "      <td>1.536227e+09</td>\n",
+       "      <td>tcp</td>\n",
+       "      <td>80.0</td>\n",
+       "      <td>0.0</td>\n",
+       "      <td>PartOfAHorizontalPortScan</td>\n",
+       "      <td>0.000004</td>\n",
+       "    </tr>\n",
+       "  </tbody>\n",
+       "</table>\n",
+       "</div>"
+      ],
+      "text/plain": [
+       "      timestamp proto  src_bytes  dest_bytes                      label  \\\n",
+       "0  1.536227e+09   tcp       80.0         0.0  PartOfAHorizontalPortScan   \n",
+       "1  1.536227e+09   tcp       80.0         0.0  PartOfAHorizontalPortScan   \n",
+       "2  1.536227e+09   tcp       80.0         0.0  PartOfAHorizontalPortScan   \n",
+       "3  1.536227e+09   tcp       80.0         0.0  PartOfAHorizontalPortScan   \n",
+       "4  1.536227e+09   tcp       80.0         0.0  PartOfAHorizontalPortScan   \n",
+       "5  1.536227e+09   tcp       80.0         0.0                      Okiru   \n",
+       "6  1.536227e+09   tcp       80.0         0.0                      Okiru   \n",
+       "7  1.536227e+09   tcp       80.0         0.0                      Okiru   \n",
+       "8  1.536227e+09   tcp       80.0         0.0  PartOfAHorizontalPortScan   \n",
+       "9  1.536227e+09   tcp       80.0         0.0  PartOfAHorizontalPortScan   \n",
+       "\n",
+       "        iat  \n",
+       "0  0.000000  \n",
+       "1  0.000005  \n",
+       "2  0.000004  \n",
+       "3  0.000012  \n",
+       "4  0.000004  \n",
+       "5  0.000004  \n",
+       "6  0.000004  \n",
+       "7  0.000209  \n",
+       "8  0.000007  \n",
+       "9  0.000004  "
+      ]
+     },
+     "execution_count": 4,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "df_filtered['iat'] = df_filtered['timestamp'].diff().fillna(0)\n",
+    "df_filtered.head(10)"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "0cd0895a",
+   "metadata": {
+    "papermill": {
+     "duration": 0.003007,
+     "end_time": "2026-04-08T15:59:31.115677+00:00",
+     "exception": false,
+     "start_time": "2026-04-08T15:59:31.112670+00:00",
+     "status": "completed"
+    },
+    "tags": []
+   },
+   "source": [
+    "## Print all labels"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 5,
+   "id": "1d2190d0",
+   "metadata": {
+    "execution": {
+     "iopub.execute_input": "2026-04-08T15:59:31.123418Z",
+     "iopub.status.busy": "2026-04-08T15:59:31.122973Z",
+     "iopub.status.idle": "2026-04-08T15:59:31.498391Z",
+     "shell.execute_reply": "2026-04-08T15:59:31.497327Z"
+    },
+    "papermill": {
+     "duration": 0.381783,
+     "end_time": "2026-04-08T15:59:31.500443+00:00",
+     "exception": false,
+     "start_time": "2026-04-08T15:59:31.118660+00:00",
+     "status": "completed"
+    },
+    "tags": []
+   },
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "['PartOfAHorizontalPortScan' 'Okiru' 'DDoS' 'C&C-HeartBeat' 'Benign'\n",
+      " 'C&C-Torii' 'C&C' 'C&C-FileDownload' 'Okiru-Attack' 'Attack'\n",
+      " 'FileDownload' 'C&C-HeartBeat-FileDownload' 'C&C-Mirai']\n"
+     ]
+    }
+   ],
+   "source": [
+    "print(df_filtered['label'].unique())"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "2b675842",
+   "metadata": {
+    "papermill": {
+     "duration": 0.003768,
+     "end_time": "2026-04-08T15:59:31.507428+00:00",
+     "exception": false,
+     "start_time": "2026-04-08T15:59:31.503660+00:00",
+     "status": "completed"
+    },
+    "tags": []
+   },
+   "source": [
+    "## Categorise labels into binary values for normal or attack"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 6,
+   "id": "db225c51",
+   "metadata": {
+    "execution": {
+     "iopub.execute_input": "2026-04-08T15:59:31.515514Z",
+     "iopub.status.busy": "2026-04-08T15:59:31.514704Z",
+     "iopub.status.idle": "2026-04-08T15:59:32.047753Z",
+     "shell.execute_reply": "2026-04-08T15:59:32.046828Z"
+    },
+    "papermill": {
+     "duration": 0.539368,
+     "end_time": "2026-04-08T15:59:32.049848+00:00",
+     "exception": false,
+     "start_time": "2026-04-08T15:59:31.510480+00:00",
+     "status": "completed"
+    },
+    "tags": []
+   },
+   "outputs": [],
+   "source": [
+    "df_filtered['label'] = np.where(df_filtered['label'] == 'Benign', 0, 1)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 7,
+   "id": "fdaf404f",
+   "metadata": {
+    "execution": {
+     "iopub.execute_input": "2026-04-08T15:59:32.058417Z",
+     "iopub.status.busy": "2026-04-08T15:59:32.058085Z",
+     "iopub.status.idle": "2026-04-08T15:59:32.119228Z",
+     "shell.execute_reply": "2026-04-08T15:59:32.118374Z"
+    },
+    "papermill": {
+     "duration": 0.06869,
+     "end_time": "2026-04-08T15:59:32.121893+00:00",
+     "exception": false,
+     "start_time": "2026-04-08T15:59:32.053203+00:00",
+     "status": "completed"
+    },
+    "tags": []
+   },
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "label\n",
+      "1    5357811\n",
+      "0     688812\n",
+      "Name: count, dtype: int64\n"
+     ]
+    }
+   ],
+   "source": [
+    "print(df_filtered['label'].value_counts())"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 8,
+   "id": "06b1f1e6",
+   "metadata": {
+    "execution": {
+     "iopub.execute_input": "2026-04-08T15:59:32.131674Z",
+     "iopub.status.busy": "2026-04-08T15:59:32.131168Z",
+     "iopub.status.idle": "2026-04-08T15:59:33.289977Z",
+     "shell.execute_reply": "2026-04-08T15:59:33.288817Z"
+    },
+    "papermill": {
+     "duration": 1.166294,
+     "end_time": "2026-04-08T15:59:33.292772+00:00",
+     "exception": false,
+     "start_time": "2026-04-08T15:59:32.126478+00:00",
+     "status": "completed"
+    },
+    "tags": []
+   },
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "label\n",
+      "0    688812\n",
+      "1    688812\n",
+      "Name: count, dtype: int64\n"
+     ]
+    }
+   ],
+   "source": [
+    "# Separate the classes\n",
+    "df_normal = df_filtered[df_filtered['label'] == 0]\n",
+    "df_attack = df_filtered[df_filtered['label'] == 1]\n",
+    "\n",
+    "# Downsample the attacks to match the number of normal rows\n",
+    "df_attack_downsampled = df_attack.sample(n=len(df_normal), random_state=42)\n",
+    "\n",
+    "# Combine them back together\n",
+    "df_balanced = pd.concat([df_normal, df_attack_downsampled])\n",
+    "\n",
+    "# Shuffle the result so the model doesn't see all 0s then all 1s\n",
+    "df_balanced = df_balanced.sample(frac=1, random_state=42).reset_index(drop=True)\n",
+    "\n",
+    "# 5. Final check\n",
+    "print(df_balanced['label'].value_counts())"
    ]
   }
  ],
  "metadata": {
   "kaggle": {
    "accelerator": "none",
-   "dataSources": [],
+   "dataSources": [
+    {
+     "databundleVersionId": 16512161,
+     "datasetId": 9968369,
+     "sourceId": 15580412,
+     "sourceType": "datasetVersion"
+    },
+    {
+     "databundleVersionId": 5341793,
+     "datasetId": 3066921,
+     "sourceId": 5268833,
+     "sourceType": "datasetVersion"
+    },
+    {
+     "sourceId": 309698220,
+     "sourceType": "kernelVersion"
+    }
+   ],
+   "dockerImageVersionId": 31328,
    "isGpuEnabled": false,
    "isInternetEnabled": true,
    "language": "python",
@@ -56,14 +885,14 @@
   },
   "papermill": {
    "default_parameters": {},
-   "duration": 4.788359,
-   "end_time": "2026-04-07T15:49:03.264345+00:00",
+   "duration": 46.349835,
+   "end_time": "2026-04-08T15:59:34.419550+00:00",
    "environment_variables": {},
    "exception": null,
    "input_path": "__notebook__.ipynb",
    "output_path": "__notebook__.ipynb",
    "parameters": {},
-   "start_time": "2026-04-07T15:48:58.475986+00:00",
+   "start_time": "2026-04-08T15:58:48.069715+00:00",
    "version": "2.7.0"
   }
  },
