@@ -62,3 +62,7 @@ wcwidth==0.6.0
 websockets==15.0.1
 
 scikit-learn
+matplotlib
+joblib
+m2cgen
+seaborn
