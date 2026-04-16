@@ -14,110 +14,308 @@ void score(double * input, double * output) {
     double var3[2];
     double var4[2];
     double var5[2];
-    if (input[0] <= 0.006267064018175006) {
-        if (input[1] <= 0.10138888657093048) {
-            if (input[2] <= 0.600419670343399) {
-                if (input[0] <= -0.00006205013778526336) {
-                    if (input[2] <= 0.1151302307844162) {
-                        memcpy(var5, (double[]){0.0, 1.0}, 2 * sizeof(double));
+    if (input[0] <= -0.21530167758464813) {
+        if (input[1] <= 8.0) {
+            if (input[2] <= 0.012466837144529563) {
+                if (input[0] <= -0.21667294204235077) {
+                    if (input[1] <= -20.0) {
+                        memcpy(var5, (double[]){1.0, 0.0}, 2 * sizeof(double));
                     } else {
-                        if (input[3] <= 1.942159652709961) {
-                            memcpy(var5, (double[]){0.0, 1.0}, 2 * sizeof(double));
+                        if (input[3] <= 0.21126511693000793) {
+                            if (input[2] <= 0.000013520943866751622) {
+                                memcpy(var5, (double[]){0.0, 1.0}, 2 * sizeof(double));
+                            } else {
+                                memcpy(var5, (double[]){1.0, 0.0}, 2 * sizeof(double));
+                            }
                         } else {
-                            memcpy(var5, (double[]){1.0, 0.0}, 2 * sizeof(double));
+                            memcpy(var5, (double[]){0.0, 1.0}, 2 * sizeof(double));
                         }
                     }
                 } else {
-                    if (input[4] <= -0.014780835714191198) {
-                        if (input[3] <= 0.4497891068458557) {
-                            if (input[4] <= -0.016819571144878864) {
-                                if (input[4] <= -0.01783893909305334) {
-                                    memcpy(var5, (double[]){0.0, 1.0}, 2 * sizeof(double));
+                    if (input[3] <= 0.6512269377708435) {
+                        if (input[3] <= -0.8985573947429657) {
+                            if (input[0] <= -0.21606797724962234) {
+                                memcpy(var5, (double[]){0.0, 1.0}, 2 * sizeof(double));
+                            } else {
+                                memcpy(var5, (double[]){1.0, 0.0}, 2 * sizeof(double));
+                            }
+                        } else {
+                            if (input[4] <= -0.018155054189264774) {
+                                if (input[3] <= -0.8942260146141052) {
+                                    memcpy(var5, (double[]){0.8, 0.2}, 2 * sizeof(double));
                                 } else {
-                                    if (input[2] <= 0.47176480293273926) {
-                                        memcpy(var5, (double[]){0.0, 1.0}, 2 * sizeof(double));
+                                    if (input[4] <= -3.6413150019943714) {
+                                        memcpy(var5, (double[]){1.0, 0.0}, 2 * sizeof(double));
                                     } else {
-                                        memcpy(var5, (double[]){0.10526315789473684, 0.8947368421052632}, 2 * sizeof(double));
+                                        if (input[4] <= -0.020117762498557568) {
+                                            if (input[4] <= -0.021099116653203964) {
+                                                memcpy(var5, (double[]){0.0, 1.0}, 2 * sizeof(double));
+                                            } else {
+                                                if (input[3] <= 0.5741991400718689) {
+                                                    memcpy(var5, (double[]){0.0, 1.0}, 2 * sizeof(double));
+                                                } else {
+                                                    if (input[3] <= 0.5781238973140717) {
+                                                        memcpy(var5, (double[]){1.0, 0.0}, 2 * sizeof(double));
+                                                    } else {
+                                                        memcpy(var5, (double[]){0.0, 1.0}, 2 * sizeof(double));
+                                                    }
+                                                }
+                                            }
+                                        } else {
+                                            memcpy(var5, (double[]){0.0, 1.0}, 2 * sizeof(double));
+                                        }
                                     }
                                 }
                             } else {
-                                memcpy(var5, (double[]){0.0, 1.0}, 2 * sizeof(double));
+                                if (input[3] <= 0.5739869773387909) {
+                                    if (input[0] <= -0.21625618636608124) {
+                                        if (input[3] <= -0.4252528101205826) {
+                                            if (input[3] <= -0.42732125520706177) {
+                                                if (input[3] <= -0.8969662487506866) {
+                                                    memcpy(var5, (double[]){1.0, 0.0}, 2 * sizeof(double));
+                                                } else {
+                                                    memcpy(var5, (double[]){0.0, 1.0}, 2 * sizeof(double));
+                                                }
+                                            } else {
+                                                memcpy(var5, (double[]){1.0, 0.0}, 2 * sizeof(double));
+                                            }
+                                        } else {
+                                            memcpy(var5, (double[]){0.0, 1.0}, 2 * sizeof(double));
+                                        }
+                                    } else {
+                                        memcpy(var5, (double[]){1.0, 0.0}, 2 * sizeof(double));
+                                    }
+                                } else {
+                                    if (input[3] <= 0.6501485109329224) {
+                                        if (input[4] <= 0.9631991982460022) {
+                                            if (input[4] <= -0.0142296371050179) {
+                                                if (input[3] <= 0.5769217014312744) {
+                                                    memcpy(var5, (double[]){1.0, 0.0}, 2 * sizeof(double));
+                                                } else {
+                                                    memcpy(var5, (double[]){0.0, 1.0}, 2 * sizeof(double));
+                                                }
+                                            } else {
+                                                if (input[4] <= 0.9607458412647247) {
+                                                    if (input[4] <= -0.009813542477786541) {
+                                                        memcpy(var5, (double[]){1.0, 0.0}, 2 * sizeof(double));
+                                                    } else {
+                                                        if (input[3] <= 0.5781592428684235) {
+                                                            memcpy(var5, (double[]){1.0, 0.0}, 2 * sizeof(double));
+                                                        } else {
+                                                            memcpy(var5, (double[]){0.0, 1.0}, 2 * sizeof(double));
+                                                        }
+                                                    }
+                                                } else {
+                                                    if (input[3] <= 0.5799448490142822) {
+                                                        memcpy(var5, (double[]){1.0, 0.0}, 2 * sizeof(double));
+                                                    } else {
+                                                        memcpy(var5, (double[]){0.0, 1.0}, 2 * sizeof(double));
+                                                    }
+                                                }
+                                            }
+                                        } else {
+                                            if (input[3] <= 0.5781062245368958) {
+                                                memcpy(var5, (double[]){1.0, 0.0}, 2 * sizeof(double));
+                                            } else {
+                                                memcpy(var5, (double[]){0.0, 1.0}, 2 * sizeof(double));
+                                            }
+                                        }
+                                    } else {
+                                        memcpy(var5, (double[]){1.0, 0.0}, 2 * sizeof(double));
+                                    }
+                                }
                             }
-                        } else {
-                            memcpy(var5, (double[]){1.0, 0.0}, 2 * sizeof(double));
                         }
                     } else {
-                        if (input[2] <= -1.397687315940857) {
+                        if (input[0] <= -0.21625618636608124) {
                             memcpy(var5, (double[]){0.0, 1.0}, 2 * sizeof(double));
                         } else {
-                            if (input[2] <= 0.4991561323404312) {
-                                if (input[2] <= -0.789376437664032) {
-                                    if (input[2] <= -0.7919080257415771) {
-                                        memcpy(var5, (double[]){0.855146124523507, 0.144853875476493}, 2 * sizeof(double));
-                                    } else {
-                                        memcpy(var5, (double[]){1.0, 0.0}, 2 * sizeof(double));
-                                    }
-                                } else {
-                                    if (input[2] <= 0.4802490472793579) {
-                                        memcpy(var5, (double[]){0.0, 1.0}, 2 * sizeof(double));
-                                    } else {
-                                        memcpy(var5, (double[]){0.4, 0.6}, 2 * sizeof(double));
-                                    }
-                                }
-                            } else {
-                                if (input[4] <= 1.0086646676063538) {
-                                    if (input[4] <= -0.010703363921493292) {
-                                        memcpy(var5, (double[]){0.959731543624161, 0.040268456375838924}, 2 * sizeof(double));
-                                    } else {
-                                        memcpy(var5, (double[]){0.9932709186658865, 0.006729081334113517}, 2 * sizeof(double));
-                                    }
-                                } else {
-                                    if (input[2] <= 0.5980021059513092) {
-                                        memcpy(var5, (double[]){0.5416666666666666, 0.4583333333333333}, 2 * sizeof(double));
-                                    } else {
-                                        memcpy(var5, (double[]){1.0, 0.0}, 2 * sizeof(double));
-                                    }
-                                }
-                            }
+                            memcpy(var5, (double[]){1.0, 0.0}, 2 * sizeof(double));
                         }
                     }
                 }
             } else {
-                if (input[1] <= -1.0) {
-                    memcpy(var5, (double[]){1.0, 0.0}, 2 * sizeof(double));
-                } else {
-                    memcpy(var5, (double[]){0.0, 1.0}, 2 * sizeof(double));
-                }
+                memcpy(var5, (double[]){0.0, 1.0}, 2 * sizeof(double));
             }
         } else {
-            if (input[3] <= 1.7287708520889282) {
-                if (input[2] <= -0.15374264121055603) {
-                    if (input[3] <= 0.9845476746559143) {
-                        if (input[4] <= 9347.00439453125) {
-                            memcpy(var5, (double[]){1.0, 0.0}, 2 * sizeof(double));
+            if (input[4] <= -0.001962708483915776) {
+                if (input[0] <= -0.21625618636608124) {
+                    if (input[4] <= -0.009813542477786541) {
+                        if (input[4] <= -0.0142296371050179) {
+                            if (input[2] <= 0.0000064633902638888685) {
+                                memcpy(var5, (double[]){1.0, 0.0}, 2 * sizeof(double));
+                            } else {
+                                if (input[3] <= -0.6740152798593044) {
+                                    memcpy(var5, (double[]){1.0, 0.0}, 2 * sizeof(double));
+                                } else {
+                                    if (input[2] <= 0.000030285241336969193) {
+                                        if (input[3] <= 0.18739835172891617) {
+                                            memcpy(var5, (double[]){0.0, 1.0}, 2 * sizeof(double));
+                                        } else {
+                                            if (input[2] <= 0.000026744339265860617) {
+                                                if (input[4] <= -625.8115641679615) {
+                                                    if (input[3] <= 0.4585602134466171) {
+                                                        memcpy(var5, (double[]){1.0, 0.0}, 2 * sizeof(double));
+                                                    } else {
+                                                        memcpy(var5, (double[]){0.0, 1.0}, 2 * sizeof(double));
+                                                    }
+                                                } else {
+                                                    memcpy(var5, (double[]){0.0, 1.0}, 2 * sizeof(double));
+                                                }
+                                            } else {
+                                                memcpy(var5, (double[]){1.0, 0.0}, 2 * sizeof(double));
+                                            }
+                                        }
+                                    } else {
+                                        memcpy(var5, (double[]){0.0, 1.0}, 2 * sizeof(double));
+                                    }
+                                }
+                            }
                         } else {
-                            if (input[1] <= 1.175000011920929) {
-                                if (input[3] <= 0.4917292594909668) {
-                                    if (input[0] <= 0.001675353734754026) {
+                            if (input[2] <= 0.000006463251338573173) {
+                                memcpy(var5, (double[]){1.0, 0.0}, 2 * sizeof(double));
+                            } else {
+                                memcpy(var5, (double[]){0.0, 1.0}, 2 * sizeof(double));
+                            }
+                        }
+                    } else {
+                        if (input[4] <= -0.005888125626370311) {
+                            if (input[3] <= 0.8733823597431183) {
+                                if (input[2] <= 0.00000646304488327587) {
+                                    memcpy(var5, (double[]){1.0, 0.0}, 2 * sizeof(double));
+                                } else {
+                                    memcpy(var5, (double[]){0.0, 1.0}, 2 * sizeof(double));
+                                }
+                            } else {
+                                if (input[4] <= -0.008341511245816946) {
+                                    if (input[3] <= 0.8769181668758392) {
+                                        memcpy(var5, (double[]){0.0, 1.0}, 2 * sizeof(double));
+                                    } else {
+                                        memcpy(var5, (double[]){1.0, 0.0}, 2 * sizeof(double));
+                                    }
+                                } else {
+                                    if (input[3] <= 0.875397801399231) {
+                                        if (input[3] <= 0.8743016719818115) {
+                                            memcpy(var5, (double[]){0.0, 1.0}, 2 * sizeof(double));
+                                        } else {
+                                            memcpy(var5, (double[]){1.0, 0.0}, 2 * sizeof(double));
+                                        }
+                                    } else {
+                                        memcpy(var5, (double[]){0.0, 1.0}, 2 * sizeof(double));
+                                    }
+                                }
+                            }
+                        } else {
+                            if (input[3] <= -0.0842231810092926) {
+                                if (input[2] <= 0.000006448040494433371) {
+                                    memcpy(var5, (double[]){1.0, 0.0}, 2 * sizeof(double));
+                                } else {
+                                    memcpy(var5, (double[]){0.0, 1.0}, 2 * sizeof(double));
+                                }
+                            } else {
+                                if (input[3] <= 0.7356976270675659) {
+                                    if (input[2] <= 0.0000064638807089067996) {
                                         memcpy(var5, (double[]){1.0, 0.0}, 2 * sizeof(double));
                                     } else {
                                         memcpy(var5, (double[]){0.0, 1.0}, 2 * sizeof(double));
                                     }
                                 } else {
-                                    memcpy(var5, (double[]){0.0, 1.0}, 2 * sizeof(double));
+                                    if (input[3] <= 0.8027720749378204) {
+                                        if (input[3] <= 0.758645087480545) {
+                                            memcpy(var5, (double[]){1.0, 0.0}, 2 * sizeof(double));
+                                        } else {
+                                            if (input[4] <= -0.0034347398905083537) {
+                                                if (input[2] <= 0.0000065245694713667035) {
+                                                    memcpy(var5, (double[]){1.0, 0.0}, 2 * sizeof(double));
+                                                } else {
+                                                    memcpy(var5, (double[]){0.0, 1.0}, 2 * sizeof(double));
+                                                }
+                                            } else {
+                                                memcpy(var5, (double[]){1.0, 0.0}, 2 * sizeof(double));
+                                            }
+                                        }
+                                    } else {
+                                        if (input[2] <= 0.000006471470442193095) {
+                                            memcpy(var5, (double[]){1.0, 0.0}, 2 * sizeof(double));
+                                        } else {
+                                            memcpy(var5, (double[]){0.0, 1.0}, 2 * sizeof(double));
+                                        }
+                                    }
                                 }
-                            } else {
+                            }
+                        }
+                    }
+                } else {
+                    memcpy(var5, (double[]){1.0, 0.0}, 2 * sizeof(double));
+                }
+            } else {
+                if (input[4] <= 0.9396467208862305) {
+                    if (input[4] <= 0.8130520284175873) {
+                        if (input[4] <= 0.034838076680898666) {
+                            if (input[2] <= 0.000006463922318289406) {
                                 memcpy(var5, (double[]){1.0, 0.0}, 2 * sizeof(double));
+                            } else {
+                                memcpy(var5, (double[]){0.0, 1.0}, 2 * sizeof(double));
+                            }
+                        } else {
+                            if (input[2] <= 0.9000044497106501) {
+                                memcpy(var5, (double[]){1.0, 0.0}, 2 * sizeof(double));
+                            } else {
+                                memcpy(var5, (double[]){0.0, 1.0}, 2 * sizeof(double));
                             }
                         }
                     } else {
-                        if (input[4] <= 7510.499755859375) {
-                            memcpy(var5, (double[]){1.0, 0.0}, 2 * sizeof(double));
-                        } else {
-                            if (input[2] <= -0.3268941342830658) {
-                                memcpy(var5, (double[]){1.0, 0.0}, 2 * sizeof(double));
+                        if (input[3] <= 0.8572590351104736) {
+                            if (input[4] <= 0.8807654678821564) {
+                                if (input[2] <= 0.000006475213922385592) {
+                                    memcpy(var5, (double[]){1.0, 0.0}, 2 * sizeof(double));
+                                } else {
+                                    memcpy(var5, (double[]){0.0, 1.0}, 2 * sizeof(double));
+                                }
                             } else {
-                                if (input[0] <= 0.001675353734754026) {
+                                if (input[4] <= 0.9013738930225372) {
+                                    if (input[2] <= 0.000006564708201040048) {
+                                        memcpy(var5, (double[]){1.0, 0.0}, 2 * sizeof(double));
+                                    } else {
+                                        memcpy(var5, (double[]){0.0, 1.0}, 2 * sizeof(double));
+                                    }
+                                } else {
+                                    if (input[4] <= 0.9062806665897369) {
+                                        if (input[2] <= 0.000006502360747617786) {
+                                            memcpy(var5, (double[]){1.0, 0.0}, 2 * sizeof(double));
+                                        } else {
+                                            memcpy(var5, (double[]){0.0, 1.0}, 2 * sizeof(double));
+                                        }
+                                    } else {
+                                        if (input[2] <= 0.00000646690250505344) {
+                                            memcpy(var5, (double[]){1.0, 0.0}, 2 * sizeof(double));
+                                        } else {
+                                            if (input[2] <= 0.000008867078577168286) {
+                                                memcpy(var5, (double[]){0.0, 1.0}, 2 * sizeof(double));
+                                            } else {
+                                                if (input[3] <= -0.02856940869241953) {
+                                                    if (input[3] <= -0.07704547047615051) {
+                                                        memcpy(var5, (double[]){0.0, 1.0}, 2 * sizeof(double));
+                                                    } else {
+                                                        memcpy(var5, (double[]){1.0, 0.0}, 2 * sizeof(double));
+                                                    }
+                                                } else {
+                                                    memcpy(var5, (double[]){0.0, 1.0}, 2 * sizeof(double));
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        } else {
+                            if (input[4] <= 0.852796882390976) {
+                                if (input[2] <= 0.9000021535719043) {
+                                    memcpy(var5, (double[]){1.0, 0.0}, 2 * sizeof(double));
+                                } else {
+                                    memcpy(var5, (double[]){0.0, 1.0}, 2 * sizeof(double));
+                                }
+                            } else {
+                                if (input[2] <= 0.0000064848850342968944) {
                                     memcpy(var5, (double[]){1.0, 0.0}, 2 * sizeof(double));
                                 } else {
                                     memcpy(var5, (double[]){0.0, 1.0}, 2 * sizeof(double));
@@ -126,436 +324,862 @@ void score(double * input, double * output) {
                         }
                     }
                 } else {
-                    if (input[4] <= 26155.642578125) {
-                        memcpy(var5, (double[]){1.0, 0.0}, 2 * sizeof(double));
-                    } else {
-                        if (input[0] <= 0.001675353734754026) {
-                            memcpy(var5, (double[]){1.0, 0.0}, 2 * sizeof(double));
-                        } else {
-                            if (input[0] <= 0.0035368577810004354) {
-                                memcpy(var5, (double[]){0.0, 1.0}, 2 * sizeof(double));
-                            } else {
-                                memcpy(var5, (double[]){1.0, 0.0}, 2 * sizeof(double));
-                            }
-                        }
-                    }
-                }
-            } else {
-                if (input[1] <= 0.925000011920929) {
-                    memcpy(var5, (double[]){1.0, 0.0}, 2 * sizeof(double));
-                } else {
-                    if (input[0] <= 0.0018615040462464094) {
-                        if (input[4] <= -66.26605480909348) {
-                            memcpy(var5, (double[]){1.0, 0.0}, 2 * sizeof(double));
-                        } else {
-                            if (input[1] <= 1.600000023841858) {
-                                if (input[2] <= -0.33775030076503754) {
-                                    if (input[3] <= 4462.5576738119125) {
-                                        memcpy(var5, (double[]){0.017543859649122806, 0.9824561403508771}, 2 * sizeof(double));
-                                    } else {
-                                        memcpy(var5, (double[]){0.0, 1.0}, 2 * sizeof(double));
-                                    }
+                    if (input[2] <= 0.000008118865480355453) {
+                        if (input[2] <= 0.0000010039647122539463) {
+                            if (input[3] <= 0.39233435690402985) {
+                                if (input[0] <= -0.2162965163588524) {
+                                    memcpy(var5, (double[]){1.0, 0.0}, 2 * sizeof(double));
                                 } else {
-                                    if (input[4] <= 0.010703363921493292) {
-                                        memcpy(var5, (double[]){0.0, 1.0}, 2 * sizeof(double));
+                                    if (input[4] <= 25039.32421875) {
+                                        memcpy(var5, (double[]){1.0, 0.0}, 2 * sizeof(double));
                                     } else {
-                                        memcpy(var5, (double[]){0.0023923444976076554, 0.9976076555023924}, 2 * sizeof(double));
+                                        if (input[1] <= 23.5) {
+                                            memcpy(var5, (double[]){0.0, 1.0}, 2 * sizeof(double));
+                                        } else {
+                                            memcpy(var5, (double[]){1.0, 0.0}, 2 * sizeof(double));
+                                        }
                                     }
                                 }
                             } else {
                                 memcpy(var5, (double[]){1.0, 0.0}, 2 * sizeof(double));
                             }
+                        } else {
+                            if (input[0] <= -0.21636373549699783) {
+                                memcpy(var5, (double[]){1.0, 0.0}, 2 * sizeof(double));
+                            } else {
+                                if (input[2] <= 0.000004216301022097468) {
+                                    memcpy(var5, (double[]){1.0, 0.0}, 2 * sizeof(double));
+                                } else {
+                                    memcpy(var5, (double[]){0.0, 1.0}, 2 * sizeof(double));
+                                }
+                            }
                         }
                     } else {
-                        memcpy(var5, (double[]){1.0, 0.0}, 2 * sizeof(double));
+                        if (input[1] <= 21.0) {
+                            if (input[4] <= 4031.3665771484375) {
+                                if (input[1] <= 18.0) {
+                                    memcpy(var5, (double[]){1.0, 0.0}, 2 * sizeof(double));
+                                } else {
+                                    if (input[3] <= -0.06880701705813408) {
+                                        if (input[4] <= 124.91363906860352) {
+                                            memcpy(var5, (double[]){0.0, 1.0}, 2 * sizeof(double));
+                                        } else {
+                                            if (input[4] <= 268.3945007324219) {
+                                                if (input[2] <= 0.000008780710231803823) {
+                                                    memcpy(var5, (double[]){0.0, 1.0}, 2 * sizeof(double));
+                                                } else {
+                                                    memcpy(var5, (double[]){1.0, 0.0}, 2 * sizeof(double));
+                                                }
+                                            } else {
+                                                memcpy(var5, (double[]){0.0, 1.0}, 2 * sizeof(double));
+                                            }
+                                        }
+                                    } else {
+                                        if (input[4] <= 0.9612365067005157) {
+                                            if (input[3] <= 0.411569207906723) {
+                                                memcpy(var5, (double[]){0.0, 1.0}, 2 * sizeof(double));
+                                            } else {
+                                                if (input[2] <= 1.1250043781133172) {
+                                                    if (input[4] <= 0.9592738151550293) {
+                                                        memcpy(var5, (double[]){0.0, 1.0}, 2 * sizeof(double));
+                                                    } else {
+                                                        if (input[3] <= 0.4409518539905548) {
+                                                            memcpy(var5, (double[]){1.0, 0.0}, 2 * sizeof(double));
+                                                        } else {
+                                                            memcpy(var5, (double[]){0.0, 1.0}, 2 * sizeof(double));
+                                                        }
+                                                    }
+                                                } else {
+                                                    memcpy(var5, (double[]){0.0, 1.0}, 2 * sizeof(double));
+                                                }
+                                            }
+                                        } else {
+                                            memcpy(var5, (double[]){0.0, 1.0}, 2 * sizeof(double));
+                                        }
+                                    }
+                                }
+                            } else {
+                                if (input[0] <= -0.21625618636608124) {
+                                    memcpy(var5, (double[]){0.0, 1.0}, 2 * sizeof(double));
+                                } else {
+                                    memcpy(var5, (double[]){1.0, 0.0}, 2 * sizeof(double));
+                                }
+                            }
+                        } else {
+                            memcpy(var5, (double[]){1.0, 0.0}, 2 * sizeof(double));
+                        }
                     }
                 }
             }
         }
     } else {
-        if (input[2] <= -1.8835013508796692) {
-            if (input[1] <= 0.800000011920929) {
-                if (input[0] <= 6.652891635894775) {
-                    if (input[3] <= 138009.859375) {
+        if (input[0] <= -0.000013443751413433347) {
+            if (input[4] <= 107.77183532714844) {
+                if (input[1] <= 22.05555534362793) {
+                    if (input[2] <= 0.012416452951583778) {
+                        if (input[4] <= 0.973503440618515) {
+                            if (input[3] <= 0.26635316014289856) {
+                                if (input[3] <= -0.08938547223806381) {
+                                    if (input[2] <= 0.0000032877576359169325) {
+                                        memcpy(var5, (double[]){0.0, 1.0}, 2 * sizeof(double));
+                                    } else {
+                                        memcpy(var5, (double[]){1.0, 0.0}, 2 * sizeof(double));
+                                    }
+                                } else {
+                                    memcpy(var5, (double[]){0.0, 1.0}, 2 * sizeof(double));
+                                }
+                            } else {
+                                if (input[0] <= -0.2094402015209198) {
+                                    if (input[2] <= 0.0000197519166249549) {
+                                        if (input[3] <= 0.9246870577335358) {
+                                            memcpy(var5, (double[]){0.0, 1.0}, 2 * sizeof(double));
+                                        } else {
+                                            if (input[4] <= -0.010794897098094225) {
+                                                if (input[4] <= -0.0142296371050179) {
+                                                    memcpy(var5, (double[]){0.0, 1.0}, 2 * sizeof(double));
+                                                } else {
+                                                    memcpy(var5, (double[]){1.0, 0.0}, 2 * sizeof(double));
+                                                }
+                                            } else {
+                                                memcpy(var5, (double[]){0.0, 1.0}, 2 * sizeof(double));
+                                            }
+                                        }
+                                    } else {
+                                        memcpy(var5, (double[]){1.0, 0.0}, 2 * sizeof(double));
+                                    }
+                                } else {
+                                    if (input[4] <= -58565.0546875) {
+                                        memcpy(var5, (double[]){0.0, 1.0}, 2 * sizeof(double));
+                                    } else {
+                                        if (input[4] <= -1696.9480483606458) {
+                                            if (input[4] <= -5883.213134765625) {
+                                                memcpy(var5, (double[]){1.0, 0.0}, 2 * sizeof(double));
+                                            } else {
+                                                memcpy(var5, (double[]){0.0, 1.0}, 2 * sizeof(double));
+                                            }
+                                        } else {
+                                            memcpy(var5, (double[]){1.0, 0.0}, 2 * sizeof(double));
+                                        }
+                                    }
+                                }
+                            }
+                        } else {
+                            if (input[0] <= -0.2102333828806877) {
+                                memcpy(var5, (double[]){0.0, 1.0}, 2 * sizeof(double));
+                            } else {
+                                memcpy(var5, (double[]){1.0, 0.0}, 2 * sizeof(double));
+                            }
+                        }
+                    } else {
                         memcpy(var5, (double[]){0.0, 1.0}, 2 * sizeof(double));
+                    }
+                } else {
+                    if (input[4] <= -1211834.0625) {
+                        if (input[4] <= -1212927.0625) {
+                            memcpy(var5, (double[]){1.0, 0.0}, 2 * sizeof(double));
+                        } else {
+                            memcpy(var5, (double[]){0.0, 1.0}, 2 * sizeof(double));
+                        }
                     } else {
                         memcpy(var5, (double[]){1.0, 0.0}, 2 * sizeof(double));
                     }
-                } else {
-                    memcpy(var5, (double[]){0.0, 1.0}, 2 * sizeof(double));
                 }
             } else {
-                memcpy(var5, (double[]){1.0, 0.0}, 2 * sizeof(double));
-            }
-        } else {
-            if (input[0] <= 0.9999379515647888) {
-                if (input[0] <= 0.3157110959291458) {
-                    if (input[0] <= 0.009803921449929476) {
-                        if (input[4] <= 5504.459716796875) {
-                            if (input[1] <= 0.3499999940395355) {
-                                if (input[4] <= -9.090723956003785) {
-                                    memcpy(var5, (double[]){1.0, 0.0}, 2 * sizeof(double));
-                                } else {
-                                    if (input[0] <= 0.007135765859857202) {
+                if (input[3] <= 0.6196167171001434) {
+                    if (input[3] <= 0.2697298675775528) {
+                        if (input[0] <= -0.21453538537025452) {
+                            if (input[2] <= 0.0000047571024879289325) {
+                                if (input[0] <= -0.21511346101760864) {
+                                    if (input[4] <= 12832.632202148438) {
                                         memcpy(var5, (double[]){0.0, 1.0}, 2 * sizeof(double));
                                     } else {
-                                        memcpy(var5, (double[]){0.0005820721769499418, 0.9994179278230501}, 2 * sizeof(double));
+                                        memcpy(var5, (double[]){1.0, 0.0}, 2 * sizeof(double));
                                     }
+                                } else {
+                                    memcpy(var5, (double[]){0.0, 1.0}, 2 * sizeof(double));
                                 }
                             } else {
-                                if (input[3] <= 6.492336332798004) {
-                                    if (input[3] <= 0.988935649394989) {
-                                        memcpy(var5, (double[]){1.0, 0.0}, 2 * sizeof(double));
-                                    } else {
-                                        memcpy(var5, (double[]){0.0, 1.0}, 2 * sizeof(double));
-                                    }
-                                } else {
-                                    memcpy(var5, (double[]){1.0, 0.0}, 2 * sizeof(double));
-                                }
+                                memcpy(var5, (double[]){1.0, 0.0}, 2 * sizeof(double));
                             }
                         } else {
-                            if (input[2] <= -0.3670802414417267) {
-                                memcpy(var5, (double[]){0.0, 1.0}, 2 * sizeof(double));
-                            } else {
-                                if (input[2] <= 0.23016923666000366) {
+                            if (input[1] <= 26.0) {
+                                if (input[2] <= 0.000054411100222750974) {
                                     memcpy(var5, (double[]){1.0, 0.0}, 2 * sizeof(double));
                                 } else {
-                                    if (input[2] <= 0.36961181461811066) {
-                                        memcpy(var5, (double[]){0.0, 1.0}, 2 * sizeof(double));
-                                    } else {
-                                        memcpy(var5, (double[]){1.0, 0.0}, 2 * sizeof(double));
-                                    }
+                                    memcpy(var5, (double[]){0.0, 1.0}, 2 * sizeof(double));
                                 }
+                            } else {
+                                memcpy(var5, (double[]){1.0, 0.0}, 2 * sizeof(double));
                             }
                         }
                     } else {
-                        if (input[1] <= 0.07500000298023224) {
-                            if (input[0] <= 0.2083023115992546) {
-                                memcpy(var5, (double[]){1.0, 0.0}, 2 * sizeof(double));
+                        if (input[2] <= 0.0000102549292932963) {
+                            if (input[0] <= -0.06076575443148613) {
+                                if (input[4] <= 4111.677734375) {
+                                    memcpy(var5, (double[]){0.0, 1.0}, 2 * sizeof(double));
+                                } else {
+                                    if (input[1] <= 6.0) {
+                                        if (input[3] <= 0.48939256370067596) {
+                                            memcpy(var5, (double[]){0.0, 1.0}, 2 * sizeof(double));
+                                        } else {
+                                            memcpy(var5, (double[]){1.0, 0.0}, 2 * sizeof(double));
+                                        }
+                                    } else {
+                                        memcpy(var5, (double[]){1.0, 0.0}, 2 * sizeof(double));
+                                    }
+                                }
                             } else {
                                 memcpy(var5, (double[]){0.0, 1.0}, 2 * sizeof(double));
                             }
                         } else {
-                            if (input[1] <= 1.162500023841858) {
-                                if (input[3] <= 129.0316619873047) {
+                            if (input[1] <= 24.800000190734863) {
+                                if (input[1] <= 23.59523868560791) {
+                                    memcpy(var5, (double[]){1.0, 0.0}, 2 * sizeof(double));
+                                } else {
+                                    if (input[0] <= -0.06076575443148613) {
+                                        memcpy(var5, (double[]){1.0, 0.0}, 2 * sizeof(double));
+                                    } else {
+                                        memcpy(var5, (double[]){0.0, 1.0}, 2 * sizeof(double));
+                                    }
+                                }
+                            } else {
+                                if (input[3] <= 0.4925217628479004) {
                                     memcpy(var5, (double[]){0.0, 1.0}, 2 * sizeof(double));
                                 } else {
                                     memcpy(var5, (double[]){1.0, 0.0}, 2 * sizeof(double));
                                 }
-                            } else {
-                                memcpy(var5, (double[]){1.0, 0.0}, 2 * sizeof(double));
                             }
                         }
                     }
                 } else {
-                    if (input[3] <= 2959.6035919189453) {
-                        if (input[4] <= 10423.14306640625) {
-                            if (input[2] <= 0.5590704083442688) {
-                                if (input[3] <= 7.937748908996582) {
-                                    if (input[1] <= 0.5) {
-                                        memcpy(var5, (double[]){1.0, 0.0}, 2 * sizeof(double));
-                                    } else {
-                                        memcpy(var5, (double[]){0.9705882352941176, 0.029411764705882353}, 2 * sizeof(double));
-                                    }
-                                } else {
-                                    if (input[3] <= 8.126877546310425) {
-                                        memcpy(var5, (double[]){0.0, 1.0}, 2 * sizeof(double));
-                                    } else {
-                                        memcpy(var5, (double[]){0.9, 0.1}, 2 * sizeof(double));
-                                    }
-                                }
+                    if (input[0] <= -0.180092491209507) {
+                        if (input[4] <= 7437.993896484375) {
+                            if (input[3] <= 0.7677321434020996) {
+                                memcpy(var5, (double[]){1.0, 0.0}, 2 * sizeof(double));
                             } else {
-                                if (input[2] <= 0.8102677464485168) {
-                                    memcpy(var5, (double[]){0.0, 1.0}, 2 * sizeof(double));
-                                } else {
-                                    memcpy(var5, (double[]){1.0, 0.0}, 2 * sizeof(double));
-                                }
+                                memcpy(var5, (double[]){0.0, 1.0}, 2 * sizeof(double));
                             }
                         } else {
-                            if (input[2] <= 0.5592072308063507) {
-                                if (input[0] <= 0.7429883182048798) {
-                                    memcpy(var5, (double[]){1.0, 0.0}, 2 * sizeof(double));
-                                } else {
-                                    if (input[2] <= 0.22672535106539726) {
-                                        memcpy(var5, (double[]){1.0, 0.0}, 2 * sizeof(double));
-                                    } else {
-                                        memcpy(var5, (double[]){0.0, 1.0}, 2 * sizeof(double));
-                                    }
-                                }
-                            } else {
-                                if (input[0] <= 0.5852568745613098) {
-                                    memcpy(var5, (double[]){1.0, 0.0}, 2 * sizeof(double));
-                                } else {
-                                    memcpy(var5, (double[]){0.0, 1.0}, 2 * sizeof(double));
-                                }
-                            }
+                            memcpy(var5, (double[]){1.0, 0.0}, 2 * sizeof(double));
                         }
                     } else {
                         memcpy(var5, (double[]){0.0, 1.0}, 2 * sizeof(double));
                     }
                 }
+            }
+        } else {
+            if (input[3] <= -1.2783926129341125) {
+                memcpy(var5, (double[]){1.0, 0.0}, 2 * sizeof(double));
             } else {
-                if (input[0] <= 7.800322771072388) {
-                    if (input[2] <= -0.5241070985794067) {
-                        if (input[4] <= -21465.5634765625) {
-                            memcpy(var5, (double[]){1.0, 0.0}, 2 * sizeof(double));
-                        } else {
-                            if (input[2] <= -0.5251334309577942) {
-                                if (input[3] <= 2.0290613770484924) {
-                                    memcpy(var5, (double[]){0.0, 1.0}, 2 * sizeof(double));
-                                } else {
-                                    if (input[4] <= -0.5265035452321172) {
-                                        memcpy(var5, (double[]){0.8666666666666667, 0.13333333333333333}, 2 * sizeof(double));
+                if (input[4] <= -43208.4267578125) {
+                    memcpy(var5, (double[]){1.0, 0.0}, 2 * sizeof(double));
+                } else {
+                    if (input[1] <= 9.0) {
+                        if (input[4] <= 121551.4755859375) {
+                            if (input[2] <= 0.000001872528400781448) {
+                                if (input[0] <= 0.5519063323736191) {
+                                    if (input[0] <= 0.16023607552051544) {
+                                        memcpy(var5, (double[]){0.0, 1.0}, 2 * sizeof(double));
                                     } else {
-                                        memcpy(var5, (double[]){0.00043572984749455336, 0.9995642701525055}, 2 * sizeof(double));
+                                        memcpy(var5, (double[]){1.0, 0.0}, 2 * sizeof(double));
                                     }
+                                } else {
+                                    memcpy(var5, (double[]){0.0, 1.0}, 2 * sizeof(double));
                                 }
                             } else {
+                                if (input[4] <= -41.173208236694336) {
+                                    if (input[3] <= -0.8709072768688202) {
+                                        memcpy(var5, (double[]){0.0, 1.0}, 2 * sizeof(double));
+                                    } else {
+                                        memcpy(var5, (double[]){1.0, 0.0}, 2 * sizeof(double));
+                                    }
+                                } else {
+                                    memcpy(var5, (double[]){0.0, 1.0}, 2 * sizeof(double));
+                                }
+                            }
+                        } else {
+                            if (input[4] <= 224433.0859375) {
                                 memcpy(var5, (double[]){1.0, 0.0}, 2 * sizeof(double));
+                            } else {
+                                memcpy(var5, (double[]){0.0, 1.0}, 2 * sizeof(double));
                             }
                         }
                     } else {
-                        if (input[4] <= 405403.4375) {
-                            if (input[4] <= -20.854740107432008) {
-                                if (input[1] <= -1.0) {
-                                    memcpy(var5, (double[]){0.0, 1.0}, 2 * sizeof(double));
-                                } else {
-                                    memcpy(var5, (double[]){1.0, 0.0}, 2 * sizeof(double));
-                                }
-                            } else {
-                                if (input[1] <= -1.0) {
-                                    if (input[2] <= 0.9524472057819366) {
-                                        memcpy(var5, (double[]){0.0, 1.0}, 2 * sizeof(double));
-                                    } else {
-                                        memcpy(var5, (double[]){0.017241379310344827, 0.9827586206896551}, 2 * sizeof(double));
-                                    }
-                                } else {
-                                    memcpy(var5, (double[]){0.0, 1.0}, 2 * sizeof(double));
-                                }
-                            }
-                        } else {
+                        if (input[3] <= 0.20730500668287277) {
                             memcpy(var5, (double[]){1.0, 0.0}, 2 * sizeof(double));
+                        } else {
+                            memcpy(var5, (double[]){0.0, 1.0}, 2 * sizeof(double));
                         }
                     }
-                } else {
-                    memcpy(var5, (double[]){1.0, 0.0}, 2 * sizeof(double));
                 }
             }
         }
     }
     double var6[2];
-    if (input[1] <= 0.05999999865889549) {
-        if (input[0] <= 0.005398361943662167) {
-            if (input[3] <= 3512.6803588867188) {
-                if (input[0] <= -0.00006205013778526336) {
-                    if (input[3] <= 1.187353253364563) {
-                        memcpy(var6, (double[]){0.0, 1.0}, 2 * sizeof(double));
-                    } else {
-                        memcpy(var6, (double[]){1.0, 0.0}, 2 * sizeof(double));
-                    }
+    if (input[1] <= 1.2000000476837158) {
+        if (input[0] <= -0.21548988670110703) {
+            if (input[3] <= 0.6508910357952118) {
+                if (input[0] <= -0.21667294204235077) {
+                    memcpy(var6, (double[]){0.0, 1.0}, 2 * sizeof(double));
                 } else {
-                    if (input[3] <= 0.4497891068458557) {
-                        if (input[0] <= 0.0018615040462464094) {
-                            if (input[4] <= -0.014780835714191198) {
-                                if (input[2] <= -0.779957115650177) {
-                                    if (input[2] <= -0.7910869717597961) {
-                                        memcpy(var6, (double[]){0.0, 1.0}, 2 * sizeof(double));
-                                    } else {
-                                        memcpy(var6, (double[]){1.0, 0.0}, 2 * sizeof(double));
-                                    }
-                                } else {
+                    if (input[4] <= -0.018155054189264774) {
+                        if (input[2] <= 0.000001955464995262446) {
+                            if (input[4] <= -0.020117762498557568) {
+                                if (input[4] <= -0.021099116653203964) {
                                     memcpy(var6, (double[]){0.0, 1.0}, 2 * sizeof(double));
+                                } else {
+                                    if (input[3] <= 0.5741991400718689) {
+                                        if (input[3] <= -0.8942260146141052) {
+                                            if (input[3] <= -0.9023937582969666) {
+                                                memcpy(var6, (double[]){0.0, 1.0}, 2 * sizeof(double));
+                                            } else {
+                                                memcpy(var6, (double[]){0.75, 0.25}, 2 * sizeof(double));
+                                            }
+                                        } else {
+                                            memcpy(var6, (double[]){0.0, 1.0}, 2 * sizeof(double));
+                                        }
+                                    } else {
+                                        if (input[3] <= 0.5781238973140717) {
+                                            memcpy(var6, (double[]){1.0, 0.0}, 2 * sizeof(double));
+                                        } else {
+                                            memcpy(var6, (double[]){0.0, 1.0}, 2 * sizeof(double));
+                                        }
+                                    }
                                 }
                             } else {
-                                if (input[4] <= 1.0066258907318115) {
-                                    if (input[2] <= 0.6000547409057617) {
-                                        memcpy(var6, (double[]){0.8969238527483611, 0.10307614725163892}, 2 * sizeof(double));
-                                    } else {
-                                        memcpy(var6, (double[]){0.0, 1.0}, 2 * sizeof(double));
-                                    }
-                                } else {
-                                    if (input[4] <= 1.0137614607810974) {
-                                        memcpy(var6, (double[]){0.24203821656050956, 0.7579617834394905}, 2 * sizeof(double));
-                                    } else {
-                                        memcpy(var6, (double[]){0.6633165829145728, 0.33668341708542715}, 2 * sizeof(double));
-                                    }
-                                }
+                                memcpy(var6, (double[]){0.0, 1.0}, 2 * sizeof(double));
                             }
                         } else {
                             memcpy(var6, (double[]){1.0, 0.0}, 2 * sizeof(double));
                         }
                     } else {
-                        memcpy(var6, (double[]){1.0, 0.0}, 2 * sizeof(double));
+                        if (input[3] <= -0.8982568383216858) {
+                            memcpy(var6, (double[]){0.0, 1.0}, 2 * sizeof(double));
+                        } else {
+                            if (input[3] <= 0.5739869773387909) {
+                                if (input[3] <= -0.4253942370414734) {
+                                    if (input[4] <= 0.965161919593811) {
+                                        if (input[4] <= -0.015210991259664297) {
+                                            if (input[4] <= -0.01619234587997198) {
+                                                if (input[3] <= -0.4424368888139725) {
+                                                    if (input[3] <= -0.8969662487506866) {
+                                                        memcpy(var6, (double[]){1.0, 0.0}, 2 * sizeof(double));
+                                                    } else {
+                                                        memcpy(var6, (double[]){0.0, 1.0}, 2 * sizeof(double));
+                                                    }
+                                                } else {
+                                                    memcpy(var6, (double[]){1.0, 0.0}, 2 * sizeof(double));
+                                                }
+                                            } else {
+                                                if (input[3] <= -0.4301676005125046) {
+                                                    if (input[3] <= -0.8936602771282196) {
+                                                        memcpy(var6, (double[]){1.0, 0.0}, 2 * sizeof(double));
+                                                    } else {
+                                                        memcpy(var6, (double[]){0.0, 1.0}, 2 * sizeof(double));
+                                                    }
+                                                } else {
+                                                    memcpy(var6, (double[]){1.0, 0.0}, 2 * sizeof(double));
+                                                }
+                                            }
+                                        } else {
+                                            if (input[4] <= 0.9612365067005157) {
+                                                if (input[4] <= -0.009813542477786541) {
+                                                    if (input[3] <= -0.4361608028411865) {
+                                                        if (input[3] <= -0.867618978023529) {
+                                                            memcpy(var6, (double[]){1.0, 0.0}, 2 * sizeof(double));
+                                                        } else {
+                                                            memcpy(var6, (double[]){0.0, 1.0}, 2 * sizeof(double));
+                                                        }
+                                                    } else {
+                                                        memcpy(var6, (double[]){1.0, 0.0}, 2 * sizeof(double));
+                                                    }
+                                                } else {
+                                                    if (input[4] <= -0.0034347398905083537) {
+                                                        if (input[3] <= -0.4409341663122177) {
+                                                            if (input[4] <= -0.005888125626370311) {
+                                                                memcpy(var6, (double[]){0.5681818181818182, 0.4318181818181818}, 2 * sizeof(double));
+                                                            } else {
+                                                                memcpy(var6, (double[]){0.8333333333333334, 0.16666666666666666}, 2 * sizeof(double));
+                                                            }
+                                                        } else {
+                                                            memcpy(var6, (double[]){1.0, 0.0}, 2 * sizeof(double));
+                                                        }
+                                                    } else {
+                                                        if (input[3] <= -0.43941375613212585) {
+                                                            if (input[3] <= -0.816844642162323) {
+                                                                memcpy(var6, (double[]){1.0, 0.0}, 2 * sizeof(double));
+                                                            } else {
+                                                                memcpy(var6, (double[]){0.0, 1.0}, 2 * sizeof(double));
+                                                            }
+                                                        } else {
+                                                            memcpy(var6, (double[]){1.0, 0.0}, 2 * sizeof(double));
+                                                        }
+                                                    }
+                                                }
+                                            } else {
+                                                if (input[4] <= 0.9631991982460022) {
+                                                    if (input[3] <= -0.8262145519256592) {
+                                                        memcpy(var6, (double[]){1.0, 0.0}, 2 * sizeof(double));
+                                                    } else {
+                                                        if (input[3] <= -0.4460257440805435) {
+                                                            memcpy(var6, (double[]){0.0, 1.0}, 2 * sizeof(double));
+                                                        } else {
+                                                            memcpy(var6, (double[]){1.0, 0.0}, 2 * sizeof(double));
+                                                        }
+                                                    }
+                                                } else {
+                                                    if (input[3] <= -0.883547842502594) {
+                                                        memcpy(var6, (double[]){1.0, 0.0}, 2 * sizeof(double));
+                                                    } else {
+                                                        if (input[3] <= -0.4794215261936188) {
+                                                            memcpy(var6, (double[]){0.0, 1.0}, 2 * sizeof(double));
+                                                        } else {
+                                                            memcpy(var6, (double[]){1.0, 0.0}, 2 * sizeof(double));
+                                                        }
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    } else {
+                                        if (input[3] <= -0.893094539642334) {
+                                            memcpy(var6, (double[]){1.0, 0.0}, 2 * sizeof(double));
+                                        } else {
+                                            if (input[4] <= 0.9759568274021149) {
+                                                if (input[3] <= -0.4337034076452255) {
+                                                    memcpy(var6, (double[]){0.0, 1.0}, 2 * sizeof(double));
+                                                } else {
+                                                    memcpy(var6, (double[]){1.0, 0.0}, 2 * sizeof(double));
+                                                }
+                                            } else {
+                                                if (input[3] <= -0.44874832034111023) {
+                                                    memcpy(var6, (double[]){0.0, 1.0}, 2 * sizeof(double));
+                                                } else {
+                                                    memcpy(var6, (double[]){1.0, 0.0}, 2 * sizeof(double));
+                                                }
+                                            }
+                                        }
+                                    }
+                                } else {
+                                    if (input[3] <= -0.38206279277801514) {
+                                        if (input[4] <= 1138.436197847128) {
+                                            memcpy(var6, (double[]){0.0, 1.0}, 2 * sizeof(double));
+                                        } else {
+                                            memcpy(var6, (double[]){1.0, 0.0}, 2 * sizeof(double));
+                                        }
+                                    } else {
+                                        if (input[0] <= -0.21625618636608124) {
+                                            memcpy(var6, (double[]){0.0, 1.0}, 2 * sizeof(double));
+                                        } else {
+                                            memcpy(var6, (double[]){1.0, 0.0}, 2 * sizeof(double));
+                                        }
+                                    }
+                                }
+                            } else {
+                                if (input[4] <= 0.9612365067005157) {
+                                    if (input[4] <= -0.01619234587997198) {
+                                        if (input[3] <= 0.6501485109329224) {
+                                            if (input[3] <= 0.5770631432533264) {
+                                                memcpy(var6, (double[]){1.0, 0.0}, 2 * sizeof(double));
+                                            } else {
+                                                memcpy(var6, (double[]){0.0, 1.0}, 2 * sizeof(double));
+                                            }
+                                        } else {
+                                            memcpy(var6, (double[]){1.0, 0.0}, 2 * sizeof(double));
+                                        }
+                                    } else {
+                                        if (input[3] <= 0.6486104428768158) {
+                                            if (input[3] <= 0.5781592428684235) {
+                                                memcpy(var6, (double[]){1.0, 0.0}, 2 * sizeof(double));
+                                            } else {
+                                                memcpy(var6, (double[]){0.0, 1.0}, 2 * sizeof(double));
+                                            }
+                                        } else {
+                                            memcpy(var6, (double[]){1.0, 0.0}, 2 * sizeof(double));
+                                        }
+                                    }
+                                } else {
+                                    if (input[4] <= 0.9695780277252197) {
+                                        if (input[4] <= 0.9671246409416199) {
+                                            if (input[4] <= 0.965161919593811) {
+                                                if (input[3] <= 0.6465243101119995) {
+                                                    if (input[3] <= 0.5781062245368958) {
+                                                        memcpy(var6, (double[]){1.0, 0.0}, 2 * sizeof(double));
+                                                    } else {
+                                                        memcpy(var6, (double[]){0.0, 1.0}, 2 * sizeof(double));
+                                                    }
+                                                } else {
+                                                    memcpy(var6, (double[]){1.0, 0.0}, 2 * sizeof(double));
+                                                }
+                                            } else {
+                                                memcpy(var6, (double[]){1.0, 0.0}, 2 * sizeof(double));
+                                            }
+                                        } else {
+                                            if (input[3] <= 0.6450039148330688) {
+                                                memcpy(var6, (double[]){0.0, 1.0}, 2 * sizeof(double));
+                                            } else {
+                                                memcpy(var6, (double[]){1.0, 0.0}, 2 * sizeof(double));
+                                            }
+                                        }
+                                    } else {
+                                        if (input[3] <= 0.6330882012844086) {
+                                            if (input[4] <= 119488.11678314209) {
+                                                if (input[4] <= 0.9798822402954102) {
+                                                    if (input[3] <= 0.5951134860515594) {
+                                                        memcpy(var6, (double[]){1.0, 0.0}, 2 * sizeof(double));
+                                                    } else {
+                                                        memcpy(var6, (double[]){0.0, 1.0}, 2 * sizeof(double));
+                                                    }
+                                                } else {
+                                                    memcpy(var6, (double[]){1.0, 0.0}, 2 * sizeof(double));
+                                                }
+                                            } else {
+                                                memcpy(var6, (double[]){0.0, 1.0}, 2 * sizeof(double));
+                                            }
+                                        } else {
+                                            memcpy(var6, (double[]){1.0, 0.0}, 2 * sizeof(double));
+                                        }
+                                    }
+                                }
+                            }
+                        }
                     }
                 }
             } else {
-                memcpy(var6, (double[]){0.0, 1.0}, 2 * sizeof(double));
+                if (input[4] <= 820.1839952468872) {
+                    if (input[1] <= -20.0) {
+                        memcpy(var6, (double[]){1.0, 0.0}, 2 * sizeof(double));
+                    } else {
+                        memcpy(var6, (double[]){0.0, 1.0}, 2 * sizeof(double));
+                    }
+                } else {
+                    if (input[3] <= 0.87371826171875) {
+                        memcpy(var6, (double[]){0.0, 1.0}, 2 * sizeof(double));
+                    } else {
+                        memcpy(var6, (double[]){1.0, 0.0}, 2 * sizeof(double));
+                    }
+                }
             }
         } else {
-            if (input[0] <= 0.9999379515647888) {
-                if (input[0] <= 0.46537603437900543) {
-                    if (input[4] <= -9.090723956003785) {
+            if (input[0] <= -0.000013443751413433347) {
+                if (input[0] <= -0.1404872015118599) {
+                    if (input[4] <= -3.5691855140030384) {
                         memcpy(var6, (double[]){1.0, 0.0}, 2 * sizeof(double));
                     } else {
-                        if (input[4] <= 8501.185791015625) {
-                            if (input[1] <= -1.0) {
-                                if (input[0] <= 0.007135765859857202) {
-                                    memcpy(var6, (double[]){0.0, 1.0}, 2 * sizeof(double));
+                        if (input[4] <= 4819.940673828125) {
+                            if (input[1] <= -20.0) {
+                                if (input[3] <= 0.9767873585224152) {
+                                    if (input[0] <= -0.21511346101760864) {
+                                        memcpy(var6, (double[]){0.0, 1.0}, 2 * sizeof(double));
+                                    } else {
+                                        memcpy(var6, (double[]){1.0, 0.0}, 2 * sizeof(double));
+                                    }
                                 } else {
-                                    memcpy(var6, (double[]){1.0, 0.0}, 2 * sizeof(double));
+                                    memcpy(var6, (double[]){0.0, 1.0}, 2 * sizeof(double));
                                 }
                             } else {
-                                memcpy(var6, (double[]){0.0, 1.0}, 2 * sizeof(double));
-                            }
-                        } else {
-                            if (input[4] <= 146315.72265625) {
-                                memcpy(var6, (double[]){1.0, 0.0}, 2 * sizeof(double));
-                            } else {
-                                if (input[2] <= -0.10500387847423553) {
+                                if (input[2] <= 0.000004514006832323503) {
                                     memcpy(var6, (double[]){0.0, 1.0}, 2 * sizeof(double));
                                 } else {
-                                    if (input[2] <= 0.23016923666000366) {
-                                        memcpy(var6, (double[]){1.0, 0.0}, 2 * sizeof(double));
+                                    if (input[4] <= -0.007360157091170549) {
+                                        if (input[2] <= 0.012401208167830191) {
+                                            memcpy(var6, (double[]){1.0, 0.0}, 2 * sizeof(double));
+                                        } else {
+                                            memcpy(var6, (double[]){0.0, 1.0}, 2 * sizeof(double));
+                                        }
                                     } else {
                                         memcpy(var6, (double[]){0.0, 1.0}, 2 * sizeof(double));
                                     }
                                 }
                             }
+                        } else {
+                            if (input[4] <= 226419.4375) {
+                                memcpy(var6, (double[]){1.0, 0.0}, 2 * sizeof(double));
+                            } else {
+                                memcpy(var6, (double[]){0.0, 1.0}, 2 * sizeof(double));
+                            }
                         }
                     }
                 } else {
-                    if (input[3] <= 2898.791307449341) {
-                        memcpy(var6, (double[]){1.0, 0.0}, 2 * sizeof(double));
-                    } else {
+                    if (input[3] <= -0.18616080284118652) {
                         memcpy(var6, (double[]){0.0, 1.0}, 2 * sizeof(double));
+                    } else {
+                        memcpy(var6, (double[]){1.0, 0.0}, 2 * sizeof(double));
                     }
                 }
             } else {
-                if (input[2] <= -1.8868767619132996) {
-                    if (input[4] <= 8564.741088867188) {
-                        memcpy(var6, (double[]){1.0, 0.0}, 2 * sizeof(double));
-                    } else {
+                if (input[3] <= -1.2777208089828491) {
+                    if (input[3] <= -1.2789230346679688) {
                         memcpy(var6, (double[]){0.0, 1.0}, 2 * sizeof(double));
+                    } else {
+                        memcpy(var6, (double[]){1.0, 0.0}, 2 * sizeof(double));
                     }
                 } else {
-                    if (input[4] <= -0.5310907009989023) {
-                        if (input[3] <= 2.192760407924652) {
-                            memcpy(var6, (double[]){0.0, 1.0}, 2 * sizeof(double));
-                        } else {
-                            if (input[2] <= -0.9203119874000549) {
-                                if (input[2] <= -1.0704510807991028) {
-                                    if (input[4] <= -346.7145690917969) {
-                                        memcpy(var6, (double[]){1.0, 0.0}, 2 * sizeof(double));
-                                    } else {
+                    if (input[0] <= 0.39167025685310364) {
+                        if (input[2] <= 0.002584881745860912) {
+                            if (input[4] <= -21.10598685219884) {
+                                memcpy(var6, (double[]){1.0, 0.0}, 2 * sizeof(double));
+                            } else {
+                                if (input[2] <= 0.000002689656639631721) {
+                                    memcpy(var6, (double[]){0.0, 1.0}, 2 * sizeof(double));
+                                } else {
+                                    if (input[4] <= 111242.31710767746) {
                                         memcpy(var6, (double[]){0.0, 1.0}, 2 * sizeof(double));
+                                    } else {
+                                        memcpy(var6, (double[]){1.0, 0.0}, 2 * sizeof(double));
+                                    }
+                                }
+                            }
+                        } else {
+                            memcpy(var6, (double[]){0.0, 1.0}, 2 * sizeof(double));
+                        }
+                    } else {
+                        if (input[4] <= 3456675.640625) {
+                            if (input[4] <= -730.2080688476562) {
+                                if (input[0] <= 1.3315094709396362) {
+                                    if (input[3] <= -0.4037196636199951) {
+                                        memcpy(var6, (double[]){0.0, 1.0}, 2 * sizeof(double));
+                                    } else {
+                                        memcpy(var6, (double[]){1.0, 0.0}, 2 * sizeof(double));
                                     }
                                 } else {
                                     memcpy(var6, (double[]){0.0, 1.0}, 2 * sizeof(double));
                                 }
                             } else {
-                                memcpy(var6, (double[]){1.0, 0.0}, 2 * sizeof(double));
-                            }
-                        }
-                    } else {
-                        if (input[2] <= 0.9524015784263611) {
-                            memcpy(var6, (double[]){0.0, 1.0}, 2 * sizeof(double));
-                        } else {
-                            if (input[0] <= 5.106105804443359) {
-                                memcpy(var6, (double[]){1.0, 0.0}, 2 * sizeof(double));
-                            } else {
                                 memcpy(var6, (double[]){0.0, 1.0}, 2 * sizeof(double));
                             }
+                        } else {
+                            memcpy(var6, (double[]){1.0, 0.0}, 2 * sizeof(double));
                         }
                     }
                 }
             }
         }
     } else {
-        if (input[3] <= 1.7711161375045776) {
-            if (input[0] <= 0.001675353734754026) {
-                memcpy(var6, (double[]){1.0, 0.0}, 2 * sizeof(double));
-            } else {
-                if (input[1] <= 1.1638888716697693) {
-                    if (input[2] <= 0.4228664040565491) {
-                        if (input[1] <= 0.949999988079071) {
-                            memcpy(var6, (double[]){1.0, 0.0}, 2 * sizeof(double));
-                        } else {
-                            if (input[0] <= 0.005212211632169783) {
-                                memcpy(var6, (double[]){0.0, 1.0}, 2 * sizeof(double));
+        if (input[4] <= -0.001962708483915776) {
+            if (input[2] <= 0.000006411227332137059) {
+                if (input[1] <= 14.67307710647583) {
+                    memcpy(var6, (double[]){0.0, 1.0}, 2 * sizeof(double));
+                } else {
+                    if (input[4] <= -955058.71875) {
+                        memcpy(var6, (double[]){0.0, 1.0}, 2 * sizeof(double));
+                    } else {
+                        if (input[4] <= -90182.88671875) {
+                            if (input[3] <= 0.38464392721652985) {
+                                memcpy(var6, (double[]){1.0, 0.0}, 2 * sizeof(double));
                             } else {
-                                if (input[0] <= 0.007135765859857202) {
+                                if (input[4] <= -274565.359375) {
                                     memcpy(var6, (double[]){1.0, 0.0}, 2 * sizeof(double));
                                 } else {
                                     memcpy(var6, (double[]){0.0, 1.0}, 2 * sizeof(double));
                                 }
                             }
-                        }
-                    } else {
-                        if (input[0] <= 0.719533383846283) {
-                            memcpy(var6, (double[]){1.0, 0.0}, 2 * sizeof(double));
                         } else {
-                            memcpy(var6, (double[]){0.0, 1.0}, 2 * sizeof(double));
+                            memcpy(var6, (double[]){1.0, 0.0}, 2 * sizeof(double));
                         }
                     }
+                }
+            } else {
+                if (input[0] <= -0.21625618636608124) {
+                    if (input[1] <= 24.0) {
+                        if (input[1] <= 18.0) {
+                            memcpy(var6, (double[]){1.0, 0.0}, 2 * sizeof(double));
+                        } else {
+                            if (input[2] <= 0.00003149114581901813) {
+                                if (input[2] <= 0.000009989817954192404) {
+                                    memcpy(var6, (double[]){0.0, 1.0}, 2 * sizeof(double));
+                                } else {
+                                    if (input[4] <= -2344.9146118164062) {
+                                        memcpy(var6, (double[]){0.0, 1.0}, 2 * sizeof(double));
+                                    } else {
+                                        if (input[4] <= -1320.6089477539062) {
+                                            memcpy(var6, (double[]){1.0, 0.0}, 2 * sizeof(double));
+                                        } else {
+                                            if (input[3] <= 0.4585602134466171) {
+                                                memcpy(var6, (double[]){1.0, 0.0}, 2 * sizeof(double));
+                                            } else {
+                                                memcpy(var6, (double[]){0.0, 1.0}, 2 * sizeof(double));
+                                            }
+                                        }
+                                    }
+                                }
+                            } else {
+                                memcpy(var6, (double[]){0.0, 1.0}, 2 * sizeof(double));
+                            }
+                        }
+                    } else {
+                        memcpy(var6, (double[]){1.0, 0.0}, 2 * sizeof(double));
+                    }
                 } else {
-                    memcpy(var6, (double[]){1.0, 0.0}, 2 * sizeof(double));
+                    if (input[2] <= 0.000010852170817088336) {
+                        if (input[4] <= -18936.6259765625) {
+                            if (input[3] <= 0.7576903998851776) {
+                                memcpy(var6, (double[]){0.0, 1.0}, 2 * sizeof(double));
+                            } else {
+                                memcpy(var6, (double[]){1.0, 0.0}, 2 * sizeof(double));
+                            }
+                        } else {
+                            memcpy(var6, (double[]){1.0, 0.0}, 2 * sizeof(double));
+                        }
+                    } else {
+                        if (input[0] <= -0.05568401888012886) {
+                            if (input[1] <= 16.75) {
+                                memcpy(var6, (double[]){0.0, 1.0}, 2 * sizeof(double));
+                            } else {
+                                memcpy(var6, (double[]){1.0, 0.0}, 2 * sizeof(double));
+                            }
+                        } else {
+                            if (input[3] <= 0.16476910561323166) {
+                                memcpy(var6, (double[]){1.0, 0.0}, 2 * sizeof(double));
+                            } else {
+                                memcpy(var6, (double[]){0.0, 1.0}, 2 * sizeof(double));
+                            }
+                        }
+                    }
                 }
             }
         } else {
-            if (input[0] <= 0.0018615040462464094) {
-                if (input[2] <= -1.1417233049869537) {
+            if (input[2] <= 0.000008117546258290531) {
+                if (input[0] <= -0.2162965163588524) {
                     memcpy(var6, (double[]){1.0, 0.0}, 2 * sizeof(double));
                 } else {
-                    if (input[2] <= -0.33775030076503754) {
-                        if (input[3] <= 4462.5576738119125) {
-                            if (input[4] <= 0.9597349464893341) {
+                    if (input[1] <= 22.5) {
+                        if (input[3] <= 0.5263418555259705) {
+                            if (input[1] <= 19.0) {
+                                memcpy(var6, (double[]){1.0, 0.0}, 2 * sizeof(double));
+                            } else {
+                                if (input[0] <= -0.21553021669387817) {
+                                    memcpy(var6, (double[]){0.0, 1.0}, 2 * sizeof(double));
+                                } else {
+                                    if (input[0] <= -0.12657291442155838) {
+                                        memcpy(var6, (double[]){1.0, 0.0}, 2 * sizeof(double));
+                                    } else {
+                                        memcpy(var6, (double[]){0.0, 1.0}, 2 * sizeof(double));
+                                    }
+                                }
+                            }
+                        } else {
+                            if (input[3] <= 0.6129693686962128) {
+                                if (input[4] <= 1243833.25) {
+                                    if (input[4] <= 11690.783203125) {
+                                        if (input[3] <= 0.5872286260128021) {
+                                            if (input[4] <= 11683.09423828125) {
+                                                if (input[3] <= 0.5550880432128906) {
+                                                    if (input[3] <= 0.5416165888309479) {
+                                                        memcpy(var6, (double[]){1.0, 0.0}, 2 * sizeof(double));
+                                                    } else {
+                                                        memcpy(var6, (double[]){0.0, 1.0}, 2 * sizeof(double));
+                                                    }
+                                                } else {
+                                                    memcpy(var6, (double[]){1.0, 0.0}, 2 * sizeof(double));
+                                                }
+                                            } else {
+                                                memcpy(var6, (double[]){0.0, 1.0}, 2 * sizeof(double));
+                                            }
+                                        } else {
+                                            if (input[3] <= 0.6038823127746582) {
+                                                memcpy(var6, (double[]){0.0, 1.0}, 2 * sizeof(double));
+                                            } else {
+                                                memcpy(var6, (double[]){1.0, 0.0}, 2 * sizeof(double));
+                                            }
+                                        }
+                                    } else {
+                                        if (input[3] <= 0.5446220338344574) {
+                                            memcpy(var6, (double[]){0.0, 1.0}, 2 * sizeof(double));
+                                        } else {
+                                            if (input[2] <= 0.0000021366108740039635) {
+                                                if (input[0] <= -0.06076575443148613) {
+                                                    memcpy(var6, (double[]){1.0, 0.0}, 2 * sizeof(double));
+                                                } else {
+                                                    memcpy(var6, (double[]){0.0, 1.0}, 2 * sizeof(double));
+                                                }
+                                            } else {
+                                                if (input[4] <= 1218233.0) {
+                                                    if (input[3] <= 0.5956792235374451) {
+                                                        memcpy(var6, (double[]){1.0, 0.0}, 2 * sizeof(double));
+                                                    } else {
+                                                        if (input[3] <= 0.6114489734172821) {
+                                                            memcpy(var6, (double[]){0.0, 1.0}, 2 * sizeof(double));
+                                                        } else {
+                                                            memcpy(var6, (double[]){1.0, 0.0}, 2 * sizeof(double));
+                                                        }
+                                                    }
+                                                } else {
+                                                    if (input[4] <= 1230189.5625) {
+                                                        memcpy(var6, (double[]){0.0, 1.0}, 2 * sizeof(double));
+                                                    } else {
+                                                        memcpy(var6, (double[]){1.0, 0.0}, 2 * sizeof(double));
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    }
+                                } else {
+                                    memcpy(var6, (double[]){0.0, 1.0}, 2 * sizeof(double));
+                                }
+                            } else {
+                                if (input[3] <= 0.7521391808986664) {
+                                    memcpy(var6, (double[]){0.0, 1.0}, 2 * sizeof(double));
+                                } else {
+                                    memcpy(var6, (double[]){1.0, 0.0}, 2 * sizeof(double));
+                                }
+                            }
+                        }
+                    } else {
+                        memcpy(var6, (double[]){1.0, 0.0}, 2 * sizeof(double));
+                    }
+                }
+            } else {
+                if (input[1] <= 21.0) {
+                    if (input[0] <= -0.21625618636608124) {
+                        if (input[3] <= -0.10278622433543205) {
+                            if (input[3] <= -0.1038469672203064) {
                                 memcpy(var6, (double[]){0.0, 1.0}, 2 * sizeof(double));
                             } else {
-                                if (input[2] <= -0.33811521530151367) {
+                                memcpy(var6, (double[]){1.0, 0.0}, 2 * sizeof(double));
+                            }
+                        } else {
+                            if (input[2] <= 0.000008822026757115964) {
+                                memcpy(var6, (double[]){0.0010460251046025104, 0.9989539748953975}, 2 * sizeof(double));
+                            } else {
+                                if (input[3] <= 0.12053602933883667) {
+                                    if (input[3] <= 0.11229757592082024) {
+                                        memcpy(var6, (double[]){0.0, 1.0}, 2 * sizeof(double));
+                                    } else {
+                                        memcpy(var6, (double[]){1.0, 0.0}, 2 * sizeof(double));
+                                    }
+                                } else {
+                                    memcpy(var6, (double[]){0.0, 1.0}, 2 * sizeof(double));
+                                }
+                            }
+                        }
+                    } else {
+                        if (input[1] <= 19.95161247253418) {
+                            memcpy(var6, (double[]){1.0, 0.0}, 2 * sizeof(double));
+                        } else {
+                            memcpy(var6, (double[]){0.0, 1.0}, 2 * sizeof(double));
+                        }
+                    }
+                } else {
+                    if (input[2] <= 0.000014207367712515406) {
+                        memcpy(var6, (double[]){0.0, 1.0}, 2 * sizeof(double));
+                    } else {
+                        if (input[3] <= 0.8134855926036835) {
+                            if (input[0] <= -0.05568401888012886) {
+                                memcpy(var6, (double[]){1.0, 0.0}, 2 * sizeof(double));
+                            } else {
+                                if (input[0] <= 0.00680253840982914) {
                                     memcpy(var6, (double[]){0.0, 1.0}, 2 * sizeof(double));
                                 } else {
                                     memcpy(var6, (double[]){1.0, 0.0}, 2 * sizeof(double));
                                 }
                             }
                         } else {
-                            memcpy(var6, (double[]){0.0, 1.0}, 2 * sizeof(double));
-                        }
-                    } else {
-                        if (input[4] <= -647.40878653666) {
-                            memcpy(var6, (double[]){1.0, 0.0}, 2 * sizeof(double));
-                        } else {
-                            if (input[2] <= 0.403936505317688) {
+                            if (input[1] <= 29.210227012634277) {
                                 memcpy(var6, (double[]){0.0, 1.0}, 2 * sizeof(double));
                             } else {
-                                if (input[3] <= 2.0353052616119385) {
-                                    memcpy(var6, (double[]){0.0, 1.0}, 2 * sizeof(double));
-                                } else {
-                                    if (input[4] <= 0.010703363921493292) {
-                                        memcpy(var6, (double[]){0.0, 1.0}, 2 * sizeof(double));
-                                    } else {
-                                        memcpy(var6, (double[]){0.017391304347826087, 0.9826086956521739}, 2 * sizeof(double));
-                                    }
-                                }
+                                memcpy(var6, (double[]){1.0, 0.0}, 2 * sizeof(double));
                             }
                         }
-                    }
-                }
-            } else {
-                if (input[0] <= 0.7429883182048798) {
-                    if (input[1] <= 0.820000022649765) {
-                        if (input[4] <= 327.1941909790039) {
-                            memcpy(var6, (double[]){0.0, 1.0}, 2 * sizeof(double));
-                        } else {
-                            memcpy(var6, (double[]){1.0, 0.0}, 2 * sizeof(double));
-                        }
-                    } else {
-                        memcpy(var6, (double[]){1.0, 0.0}, 2 * sizeof(double));
-                    }
-                } else {
-                    if (input[0] <= 1.0480267703533173) {
-                        memcpy(var6, (double[]){0.0, 1.0}, 2 * sizeof(double));
-                    } else {
-                        memcpy(var6, (double[]){1.0, 0.0}, 2 * sizeof(double));
                     }
                 }
             }
@@ -563,290 +1187,586 @@ void score(double * input, double * output) {
     }
     add_vectors(var5, var6, 2, var4);
     double var7[2];
-    if (input[0] <= 0.006267064018175006) {
-        if (input[1] <= 0.4000000059604645) {
-            if (input[2] <= 0.6000547409057617) {
-                if (input[0] <= -0.00006205013778526336) {
-                    if (input[4] <= -620.6890964331105) {
-                        memcpy(var7, (double[]){1.0, 0.0}, 2 * sizeof(double));
-                    } else {
-                        if (input[3] <= 637.4747924804688) {
-                            memcpy(var7, (double[]){0.0, 1.0}, 2 * sizeof(double));
-                        } else {
-                            memcpy(var7, (double[]){1.0, 0.0}, 2 * sizeof(double));
-                        }
-                    }
+    if (input[0] <= -0.21530167758464813) {
+        if (input[1] <= 8.0) {
+            if (input[0] <= -0.21667294204235077) {
+                if (input[0] <= -0.21669982373714447) {
+                    memcpy(var7, (double[]){1.0, 0.0}, 2 * sizeof(double));
                 } else {
-                    if (input[2] <= -1.3975048661231995) {
-                        if (input[4] <= -4.814984763041139) {
-                            memcpy(var7, (double[]){1.0, 0.0}, 2 * sizeof(double));
-                        } else {
-                            memcpy(var7, (double[]){0.0, 1.0}, 2 * sizeof(double));
-                        }
+                    if (input[4] <= 9881.282514572144) {
+                        memcpy(var7, (double[]){0.0, 1.0}, 2 * sizeof(double));
                     } else {
-                        if (input[2] <= 0.4993385821580887) {
-                            if (input[2] <= -0.7878711819648743) {
-                                if (input[4] <= -0.014780835714191198) {
-                                    if (input[4] <= -2137.1075629834086) {
-                                        memcpy(var7, (double[]){1.0, 0.0}, 2 * sizeof(double));
-                                    } else {
-                                        memcpy(var7, (double[]){0.017543859649122806, 0.9824561403508771}, 2 * sizeof(double));
-                                    }
-                                } else {
-                                    if (input[2] <= -0.7919080257415771) {
-                                        memcpy(var7, (double[]){0.8644840447575632, 0.13551595524243681}, 2 * sizeof(double));
-                                    } else {
-                                        memcpy(var7, (double[]){1.0, 0.0}, 2 * sizeof(double));
-                                    }
-                                }
-                            } else {
-                                if (input[0] <= 0.0018615040462464094) {
-                                    if (input[4] <= 119665.64404296875) {
-                                        memcpy(var7, (double[]){0.0, 1.0}, 2 * sizeof(double));
-                                    } else {
-                                        memcpy(var7, (double[]){1.0, 0.0}, 2 * sizeof(double));
-                                    }
-                                } else {
-                                    memcpy(var7, (double[]){1.0, 0.0}, 2 * sizeof(double));
-                                }
-                            }
-                        } else {
-                            if (input[2] <= 0.5996898412704468) {
-                                if (input[4] <= -0.014780835714191198) {
-                                    if (input[2] <= 0.5121333599090576) {
-                                        memcpy(var7, (double[]){1.0, 0.0}, 2 * sizeof(double));
+                        memcpy(var7, (double[]){1.0, 0.0}, 2 * sizeof(double));
+                    }
+                }
+            } else {
+                if (input[1] <= -20.0) {
+                    memcpy(var7, (double[]){1.0, 0.0}, 2 * sizeof(double));
+                } else {
+                    if (input[3] <= 0.6532246768474579) {
+                        if (input[4] <= -0.018155054189264774) {
+                            if (input[2] <= 0.000001955464995262446) {
+                                if (input[3] <= 0.5750477313995361) {
+                                    if (input[3] <= -0.8942260146141052) {
+                                        if (input[4] <= -0.020117762498557568) {
+                                            if (input[3] <= -0.8988755941390991) {
+                                                memcpy(var7, (double[]){0.0, 1.0}, 2 * sizeof(double));
+                                            } else {
+                                                memcpy(var7, (double[]){0.8, 0.2}, 2 * sizeof(double));
+                                            }
+                                        } else {
+                                            memcpy(var7, (double[]){0.0, 1.0}, 2 * sizeof(double));
+                                        }
                                     } else {
                                         memcpy(var7, (double[]){0.0, 1.0}, 2 * sizeof(double));
                                     }
                                 } else {
-                                    if (input[4] <= 1.0086646676063538) {
-                                        memcpy(var7, (double[]){0.9835984095427436, 0.016401590457256462}, 2 * sizeof(double));
+                                    if (input[4] <= -0.020117762498557568) {
+                                        if (input[3] <= 0.5781238973140717) {
+                                            memcpy(var7, (double[]){1.0, 0.0}, 2 * sizeof(double));
+                                        } else {
+                                            memcpy(var7, (double[]){0.0, 1.0}, 2 * sizeof(double));
+                                        }
                                     } else {
-                                        memcpy(var7, (double[]){0.5, 0.5}, 2 * sizeof(double));
+                                        memcpy(var7, (double[]){0.0, 1.0}, 2 * sizeof(double));
                                     }
                                 }
                             } else {
                                 memcpy(var7, (double[]){1.0, 0.0}, 2 * sizeof(double));
                             }
+                        } else {
+                            if (input[3] <= -0.8982568383216858) {
+                                memcpy(var7, (double[]){0.0, 1.0}, 2 * sizeof(double));
+                            } else {
+                                if (input[3] <= 0.5726080238819122) {
+                                    if (input[3] <= -0.4251644164323807) {
+                                        if (input[4] <= 0.9656526148319244) {
+                                            if (input[4] <= -0.015210991259664297) {
+                                                if (input[4] <= -0.01619234587997198) {
+                                                    if (input[3] <= -0.42732125520706177) {
+                                                        if (input[3] <= -0.8969662487506866) {
+                                                            memcpy(var7, (double[]){1.0, 0.0}, 2 * sizeof(double));
+                                                        } else {
+                                                            memcpy(var7, (double[]){0.0, 1.0}, 2 * sizeof(double));
+                                                        }
+                                                    } else {
+                                                        memcpy(var7, (double[]){1.0, 0.0}, 2 * sizeof(double));
+                                                    }
+                                                } else {
+                                                    if (input[3] <= -0.4301676005125046) {
+                                                        if (input[3] <= -0.8936602771282196) {
+                                                            memcpy(var7, (double[]){1.0, 0.0}, 2 * sizeof(double));
+                                                        } else {
+                                                            memcpy(var7, (double[]){0.0, 1.0}, 2 * sizeof(double));
+                                                        }
+                                                    } else {
+                                                        memcpy(var7, (double[]){1.0, 0.0}, 2 * sizeof(double));
+                                                    }
+                                                }
+                                            } else {
+                                                if (input[4] <= 0.9543670415878296) {
+                                                    if (input[3] <= -0.43941375613212585) {
+                                                        if (input[4] <= -0.009813542477786541) {
+                                                            if (input[3] <= -0.867618978023529) {
+                                                                memcpy(var7, (double[]){1.0, 0.0}, 2 * sizeof(double));
+                                                            } else {
+                                                                memcpy(var7, (double[]){0.0, 1.0}, 2 * sizeof(double));
+                                                            }
+                                                        } else {
+                                                            if (input[4] <= -0.005888125626370311) {
+                                                                memcpy(var7, (double[]){0.5608108108108109, 0.4391891891891892}, 2 * sizeof(double));
+                                                            } else {
+                                                                memcpy(var7, (double[]){0.9745417515274949, 0.025458248472505093}, 2 * sizeof(double));
+                                                            }
+                                                        }
+                                                    } else {
+                                                        memcpy(var7, (double[]){1.0, 0.0}, 2 * sizeof(double));
+                                                    }
+                                                } else {
+                                                    if (input[3] <= -0.883547842502594) {
+                                                        memcpy(var7, (double[]){1.0, 0.0}, 2 * sizeof(double));
+                                                    } else {
+                                                        if (input[3] <= -0.43200622498989105) {
+                                                            memcpy(var7, (double[]){0.0, 1.0}, 2 * sizeof(double));
+                                                        } else {
+                                                            memcpy(var7, (double[]){1.0, 0.0}, 2 * sizeof(double));
+                                                        }
+                                                    }
+                                                }
+                                            }
+                                        } else {
+                                            if (input[4] <= 0.973503440618515) {
+                                                if (input[3] <= -0.893094539642334) {
+                                                    memcpy(var7, (double[]){1.0, 0.0}, 2 * sizeof(double));
+                                                } else {
+                                                    if (input[4] <= 0.9695780277252197) {
+                                                        if (input[3] <= -0.4337034076452255) {
+                                                            memcpy(var7, (double[]){0.0, 1.0}, 2 * sizeof(double));
+                                                        } else {
+                                                            memcpy(var7, (double[]){1.0, 0.0}, 2 * sizeof(double));
+                                                        }
+                                                    } else {
+                                                        memcpy(var7, (double[]){0.0, 1.0}, 2 * sizeof(double));
+                                                    }
+                                                }
+                                            } else {
+                                                if (input[4] <= 0.9862610399723053) {
+                                                    if (input[4] <= 0.9838076531887054) {
+                                                        if (input[4] <= 0.9818449318408966) {
+                                                            if (input[3] <= -0.8969309031963348) {
+                                                                memcpy(var7, (double[]){1.0, 0.0}, 2 * sizeof(double));
+                                                            } else {
+                                                                memcpy(var7, (double[]){0.4, 0.6}, 2 * sizeof(double));
+                                                            }
+                                                        } else {
+                                                            memcpy(var7, (double[]){1.0, 0.0}, 2 * sizeof(double));
+                                                        }
+                                                    } else {
+                                                        if (input[3] <= -0.7007637321949005) {
+                                                            memcpy(var7, (double[]){1.0, 0.0}, 2 * sizeof(double));
+                                                        } else {
+                                                            memcpy(var7, (double[]){0.0, 1.0}, 2 * sizeof(double));
+                                                        }
+                                                    }
+                                                } else {
+                                                    if (input[3] <= -0.6838978826999664) {
+                                                        memcpy(var7, (double[]){1.0, 0.0}, 2 * sizeof(double));
+                                                    } else {
+                                                        if (input[4] <= 3031.2860717773438) {
+                                                            memcpy(var7, (double[]){1.0, 0.0}, 2 * sizeof(double));
+                                                        } else {
+                                                            memcpy(var7, (double[]){0.0, 1.0}, 2 * sizeof(double));
+                                                        }
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    } else {
+                                        memcpy(var7, (double[]){0.0, 1.0}, 2 * sizeof(double));
+                                    }
+                                } else {
+                                    if (input[4] <= 0.9631991982460022) {
+                                        if (input[3] <= 0.6501485109329224) {
+                                            if (input[3] <= 0.5769217014312744) {
+                                                memcpy(var7, (double[]){1.0, 0.0}, 2 * sizeof(double));
+                                            } else {
+                                                memcpy(var7, (double[]){0.0, 1.0}, 2 * sizeof(double));
+                                            }
+                                        } else {
+                                            memcpy(var7, (double[]){1.0, 0.0}, 2 * sizeof(double));
+                                        }
+                                    } else {
+                                        if (input[4] <= 0.9695780277252197) {
+                                            if (input[3] <= 0.6451453268527985) {
+                                                if (input[3] <= 0.5781062245368958) {
+                                                    memcpy(var7, (double[]){1.0, 0.0}, 2 * sizeof(double));
+                                                } else {
+                                                    memcpy(var7, (double[]){0.0, 1.0}, 2 * sizeof(double));
+                                                }
+                                            } else {
+                                                memcpy(var7, (double[]){1.0, 0.0}, 2 * sizeof(double));
+                                            }
+                                        } else {
+                                            if (input[3] <= 0.6326285302639008) {
+                                                if (input[4] <= 0.9818449318408966) {
+                                                    if (input[3] <= 0.5930980741977692) {
+                                                        memcpy(var7, (double[]){1.0, 0.0}, 2 * sizeof(double));
+                                                    } else {
+                                                        memcpy(var7, (double[]){0.0, 1.0}, 2 * sizeof(double));
+                                                    }
+                                                } else {
+                                                    memcpy(var7, (double[]){1.0, 0.0}, 2 * sizeof(double));
+                                                }
+                                            } else {
+                                                memcpy(var7, (double[]){1.0, 0.0}, 2 * sizeof(double));
+                                            }
+                                        }
+                                    }
+                                }
+                            }
                         }
-                    }
-                }
-            } else {
-                if (input[2] <= 0.9558682441711426) {
-                    if (input[1] <= -1.0) {
-                        memcpy(var7, (double[]){1.0, 0.0}, 2 * sizeof(double));
                     } else {
                         memcpy(var7, (double[]){0.0, 1.0}, 2 * sizeof(double));
                     }
-                } else {
-                    memcpy(var7, (double[]){0.0, 1.0}, 2 * sizeof(double));
                 }
             }
         } else {
-            if (input[0] <= 0.0035368577810004354) {
-                if (input[3] <= 1.7279894351959229) {
-                    if (input[4] <= 9610.708984375) {
+            if (input[4] <= -0.001962708483915776) {
+                if (input[1] <= 21.0) {
+                    if (input[1] <= 18.5) {
                         memcpy(var7, (double[]){1.0, 0.0}, 2 * sizeof(double));
                     } else {
-                        if (input[0] <= 0.001675353734754026) {
-                            memcpy(var7, (double[]){1.0, 0.0}, 2 * sizeof(double));
-                        } else {
-                            memcpy(var7, (double[]){0.0, 1.0}, 2 * sizeof(double));
-                        }
-                    }
-                } else {
-                    if (input[4] <= -43.81804150342941) {
-                        memcpy(var7, (double[]){1.0, 0.0}, 2 * sizeof(double));
-                    } else {
-                        if (input[1] <= 1.600000023841858) {
-                            if (input[4] <= 673.9577026367188) {
-                                memcpy(var7, (double[]){0.0, 1.0}, 2 * sizeof(double));
-                            } else {
-                                if (input[0] <= -0.0006205013487488031) {
+                        if (input[3] <= 0.876423180103302) {
+                            if (input[3] <= 0.876211017370224) {
+                                if (input[2] <= 0.000006118028522905661) {
                                     memcpy(var7, (double[]){1.0, 0.0}, 2 * sizeof(double));
+                                } else {
+                                    if (input[3] <= 0.32331517338752747) {
+                                        memcpy(var7, (double[]){0.0, 1.0}, 2 * sizeof(double));
+                                    } else {
+                                        if (input[2] <= 0.00002432365317872609) {
+                                            if (input[2] <= 0.000009989817954192404) {
+                                                memcpy(var7, (double[]){0.0, 1.0}, 2 * sizeof(double));
+                                            } else {
+                                                memcpy(var7, (double[]){1.0, 0.0}, 2 * sizeof(double));
+                                            }
+                                        } else {
+                                            memcpy(var7, (double[]){0.0, 1.0}, 2 * sizeof(double));
+                                        }
+                                    }
+                                }
+                            } else {
+                                if (input[4] <= -0.009813542477786541) {
+                                    if (input[4] <= -0.01226692833006382) {
+                                        memcpy(var7, (double[]){0.0, 1.0}, 2 * sizeof(double));
+                                    } else {
+                                        memcpy(var7, (double[]){1.0, 0.0}, 2 * sizeof(double));
+                                    }
                                 } else {
                                     memcpy(var7, (double[]){0.0, 1.0}, 2 * sizeof(double));
                                 }
                             }
                         } else {
+                            if (input[2] <= 2.2500021913670025) {
+                                memcpy(var7, (double[]){1.0, 0.0}, 2 * sizeof(double));
+                            } else {
+                                memcpy(var7, (double[]){0.0, 1.0}, 2 * sizeof(double));
+                            }
+                        }
+                    }
+                } else {
+                    memcpy(var7, (double[]){1.0, 0.0}, 2 * sizeof(double));
+                }
+            } else {
+                if (input[0] <= -0.21636373549699783) {
+                    if (input[2] <= 0.000006462582405220019) {
+                        if (input[2] <= 0.000003976443395004026) {
+                            if (input[2] <= 0.0000018406951767246937) {
+                                memcpy(var7, (double[]){1.0, 0.0}, 2 * sizeof(double));
+                            } else {
+                                memcpy(var7, (double[]){0.0, 1.0}, 2 * sizeof(double));
+                            }
+                        } else {
+                            memcpy(var7, (double[]){1.0, 0.0}, 2 * sizeof(double));
+                        }
+                    } else {
+                        if (input[0] <= -0.2169552594423294) {
+                            memcpy(var7, (double[]){1.0, 0.0}, 2 * sizeof(double));
+                        } else {
+                            if (input[4] <= 0.38910697400569916) {
+                                if (input[3] <= -0.10105367377400398) {
+                                    if (input[3] <= -0.10469556599855423) {
+                                        memcpy(var7, (double[]){0.0, 1.0}, 2 * sizeof(double));
+                                    } else {
+                                        memcpy(var7, (double[]){1.0, 0.0}, 2 * sizeof(double));
+                                    }
+                                } else {
+                                    if (input[3] <= 0.1187327615916729) {
+                                        if (input[3] <= 0.11544445157051086) {
+                                            memcpy(var7, (double[]){0.0, 1.0}, 2 * sizeof(double));
+                                        } else {
+                                            memcpy(var7, (double[]){1.0, 0.0}, 2 * sizeof(double));
+                                        }
+                                    } else {
+                                        memcpy(var7, (double[]){0.0, 1.0}, 2 * sizeof(double));
+                                    }
+                                }
+                            } else {
+                                if (input[4] <= 207.7154083251953) {
+                                    memcpy(var7, (double[]){0.0, 1.0}, 2 * sizeof(double));
+                                } else {
+                                    if (input[3] <= -0.06272540800273418) {
+                                        if (input[3] <= -0.07545435428619385) {
+                                            memcpy(var7, (double[]){0.0, 1.0}, 2 * sizeof(double));
+                                        } else {
+                                            memcpy(var7, (double[]){1.0, 0.0}, 2 * sizeof(double));
+                                        }
+                                    } else {
+                                        memcpy(var7, (double[]){0.0, 1.0}, 2 * sizeof(double));
+                                    }
+                                }
+                            }
+                        }
+                    }
+                } else {
+                    if (input[3] <= 0.39213988184928894) {
+                        if (input[1] <= 22.0) {
+                            if (input[4] <= 9517.65380859375) {
+                                memcpy(var7, (double[]){1.0, 0.0}, 2 * sizeof(double));
+                            } else {
+                                if (input[2] <= 0.0006137783236681571) {
+                                    memcpy(var7, (double[]){0.0, 1.0}, 2 * sizeof(double));
+                                } else {
+                                    memcpy(var7, (double[]){1.0, 0.0}, 2 * sizeof(double));
+                                }
+                            }
+                        } else {
+                            memcpy(var7, (double[]){1.0, 0.0}, 2 * sizeof(double));
+                        }
+                    } else {
+                        if (input[0] <= -0.21596042066812515) {
+                            memcpy(var7, (double[]){0.0, 1.0}, 2 * sizeof(double));
+                        } else {
                             memcpy(var7, (double[]){1.0, 0.0}, 2 * sizeof(double));
                         }
                     }
                 }
-            } else {
-                memcpy(var7, (double[]){1.0, 0.0}, 2 * sizeof(double));
             }
         }
     } else {
-        if (input[1] <= 0.05999999865889549) {
-            if (input[2] <= 0.09734069183468819) {
-                if (input[3] <= 2.025564968585968) {
-                    if (input[4] <= 38079.5986328125) {
-                        memcpy(var7, (double[]){0.0, 1.0}, 2 * sizeof(double));
-                    } else {
-                        if (input[0] <= 0.007135765859857202) {
-                            memcpy(var7, (double[]){1.0, 0.0}, 2 * sizeof(double));
-                        } else {
-                            memcpy(var7, (double[]){0.0, 1.0}, 2 * sizeof(double));
-                        }
-                    }
-                } else {
-                    if (input[3] <= 346.3811721801758) {
-                        if (input[0] <= 0.9999379515647888) {
-                            memcpy(var7, (double[]){1.0, 0.0}, 2 * sizeof(double));
-                        } else {
-                            if (input[4] <= -0.0005096793174743652) {
-                                if (input[2] <= -0.9565980732440948) {
-                                    memcpy(var7, (double[]){0.0, 1.0}, 2 * sizeof(double));
-                                } else {
-                                    memcpy(var7, (double[]){1.0, 0.0}, 2 * sizeof(double));
-                                }
+        if (input[1] <= 1.2000000476837158) {
+            if (input[2] <= 0.012147609842941165) {
+                if (input[3] <= 0.26660066843032837) {
+                    if (input[0] <= -0.21511346101760864) {
+                        if (input[2] <= 0.0000339247562806122) {
+                            if (input[3] <= -0.3337812162935734) {
+                                memcpy(var7, (double[]){0.0, 1.0}, 2 * sizeof(double));
                             } else {
-                                if (input[4] <= 117446.22997105122) {
+                                if (input[4] <= 12832.632202148438) {
                                     memcpy(var7, (double[]){0.0, 1.0}, 2 * sizeof(double));
                                 } else {
                                     memcpy(var7, (double[]){1.0, 0.0}, 2 * sizeof(double));
                                 }
                             }
-                        }
-                    } else {
-                        if (input[2] <= -1.435843586921692) {
-                            if (input[3] <= 86575.4094543457) {
-                                memcpy(var7, (double[]){0.0, 1.0}, 2 * sizeof(double));
-                            } else {
-                                memcpy(var7, (double[]){1.0, 0.0}, 2 * sizeof(double));
-                            }
                         } else {
-                            memcpy(var7, (double[]){0.0, 1.0}, 2 * sizeof(double));
-                        }
-                    }
-                }
-            } else {
-                if (input[1] <= -1.0) {
-                    if (input[4] <= -21377.484375) {
-                        if (input[0] <= 4.189190894365311) {
                             memcpy(var7, (double[]){1.0, 0.0}, 2 * sizeof(double));
-                        } else {
-                            memcpy(var7, (double[]){0.0, 1.0}, 2 * sizeof(double));
                         }
                     } else {
-                        if (input[2] <= 0.9524472057819366) {
+                        if (input[2] <= 0.000001872528400781448) {
                             memcpy(var7, (double[]){0.0, 1.0}, 2 * sizeof(double));
                         } else {
-                            if (input[2] <= 0.9545682668685913) {
-                                memcpy(var7, (double[]){1.0, 0.0}, 2 * sizeof(double));
+                            if (input[2] <= 0.0000305651819871855) {
+                                if (input[4] <= 0.49803730426356196) {
+                                    if (input[0] <= 0.39167025685310364) {
+                                        memcpy(var7, (double[]){1.0, 0.0}, 2 * sizeof(double));
+                                    } else {
+                                        memcpy(var7, (double[]){0.0, 1.0}, 2 * sizeof(double));
+                                    }
+                                } else {
+                                    if (input[3] <= -0.541492834687233) {
+                                        if (input[0] <= 0.39167025685310364) {
+                                            memcpy(var7, (double[]){1.0, 0.0}, 2 * sizeof(double));
+                                        } else {
+                                            memcpy(var7, (double[]){0.0, 1.0}, 2 * sizeof(double));
+                                        }
+                                    } else {
+                                        memcpy(var7, (double[]){0.0, 1.0}, 2 * sizeof(double));
+                                    }
+                                }
                             } else {
-                                memcpy(var7, (double[]){0.0, 1.0}, 2 * sizeof(double));
+                                if (input[3] <= -0.3123895078897476) {
+                                    if (input[2] <= 0.001358056282697362) {
+                                        memcpy(var7, (double[]){1.0, 0.0}, 2 * sizeof(double));
+                                    } else {
+                                        memcpy(var7, (double[]){0.0, 1.0}, 2 * sizeof(double));
+                                    }
+                                } else {
+                                    if (input[2] <= 0.0019408662774367258) {
+                                        memcpy(var7, (double[]){1.0, 0.0}, 2 * sizeof(double));
+                                    } else {
+                                        if (input[4] <= 3342658.528949976) {
+                                            memcpy(var7, (double[]){0.0, 1.0}, 2 * sizeof(double));
+                                        } else {
+                                            memcpy(var7, (double[]){1.0, 0.0}, 2 * sizeof(double));
+                                        }
+                                    }
+                                }
                             }
                         }
                     }
                 } else {
-                    if (input[4] <= 1.0198776721954346) {
-                        if (input[3] <= 2906.412720680237) {
-                            if (input[3] <= 1.7479870319366455) {
-                                if (input[0] <= 2.8077065348625183) {
-                                    if (input[0] <= 0.5035368595272303) {
+                    if (input[3] <= 0.2676790952682495) {
+                        if (input[3] <= 0.2667597681283951) {
+                            memcpy(var7, (double[]){1.0, 0.0}, 2 * sizeof(double));
+                        } else {
+                            if (input[4] <= 3.0539745092391968) {
+                                if (input[4] <= -0.018155054189264774) {
+                                    if (input[0] <= -0.10756345383651933) {
+                                        memcpy(var7, (double[]){0.0, 1.0}, 2 * sizeof(double));
+                                    } else {
+                                        if (input[4] <= -8220.313529271632) {
+                                            memcpy(var7, (double[]){0.0, 1.0}, 2 * sizeof(double));
+                                        } else {
+                                            memcpy(var7, (double[]){1.0, 0.0}, 2 * sizeof(double));
+                                        }
+                                    }
+                                } else {
+                                    if (input[0] <= -0.10757689468391618) {
                                         memcpy(var7, (double[]){0.0, 1.0}, 2 * sizeof(double));
                                     } else {
                                         memcpy(var7, (double[]){1.0, 0.0}, 2 * sizeof(double));
                                     }
-                                } else {
-                                    memcpy(var7, (double[]){0.0, 1.0}, 2 * sizeof(double));
                                 }
                             } else {
                                 memcpy(var7, (double[]){1.0, 0.0}, 2 * sizeof(double));
                             }
-                        } else {
-                            memcpy(var7, (double[]){0.0, 1.0}, 2 * sizeof(double));
                         }
                     } else {
-                        if (input[2] <= 0.11159512773156166) {
-                            if (input[4] <= 44.84199857711792) {
-                                if (input[4] <= 1.0239551663398743) {
-                                    if (input[4] <= 1.0219164490699768) {
-                                        memcpy(var7, (double[]){0.3972602739726027, 0.6027397260273972}, 2 * sizeof(double));
-                                    } else {
-                                        memcpy(var7, (double[]){0.46511627906976744, 0.5348837209302325}, 2 * sizeof(double));
-                                    }
-                                } else {
-                                    if (input[4] <= 2.6289501190185547) {
-                                        memcpy(var7, (double[]){0.5329341317365269, 0.46706586826347307}, 2 * sizeof(double));
+                        if (input[4] <= 21443.3935546875) {
+                            if (input[0] <= 0.37268768064677715) {
+                                if (input[0] <= -0.21426650881767273) {
+                                    if (input[3] <= 0.6649812459945679) {
+                                        if (input[0] <= -0.21511346101760864) {
+                                            memcpy(var7, (double[]){1.0, 0.0}, 2 * sizeof(double));
+                                        } else {
+                                            if (input[3] <= 0.6634255051612854) {
+                                                memcpy(var7, (double[]){0.0, 1.0}, 2 * sizeof(double));
+                                            } else {
+                                                memcpy(var7, (double[]){1.0, 0.0}, 2 * sizeof(double));
+                                            }
+                                        }
                                     } else {
                                         memcpy(var7, (double[]){0.0, 1.0}, 2 * sizeof(double));
                                     }
-                                }
-                            } else {
-                                memcpy(var7, (double[]){1.0, 0.0}, 2 * sizeof(double));
-                            }
-                        } else {
-                            if (input[0] <= 0.1463142279535532) {
-                                if (input[3] <= 1.2542474269866943) {
-                                    memcpy(var7, (double[]){0.0, 1.0}, 2 * sizeof(double));
                                 } else {
                                     memcpy(var7, (double[]){1.0, 0.0}, 2 * sizeof(double));
                                 }
                             } else {
+                                if (input[4] <= -689.5903015136719) {
+                                    if (input[0] <= 1.3315094709396362) {
+                                        memcpy(var7, (double[]){1.0, 0.0}, 2 * sizeof(double));
+                                    } else {
+                                        memcpy(var7, (double[]){0.0, 1.0}, 2 * sizeof(double));
+                                    }
+                                } else {
+                                    memcpy(var7, (double[]){0.0, 1.0}, 2 * sizeof(double));
+                                }
+                            }
+                        } else {
+                            if (input[3] <= 0.3937486857175827) {
+                                memcpy(var7, (double[]){0.0, 1.0}, 2 * sizeof(double));
+                            } else {
+                                if (input[4] <= 228321.609375) {
+                                    memcpy(var7, (double[]){1.0, 0.0}, 2 * sizeof(double));
+                                } else {
+                                    if (input[4] <= 234550.9921875) {
+                                        memcpy(var7, (double[]){0.0, 1.0}, 2 * sizeof(double));
+                                    } else {
+                                        memcpy(var7, (double[]){1.0, 0.0}, 2 * sizeof(double));
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            } else {
+                if (input[4] <= 19.977428436279297) {
+                    memcpy(var7, (double[]){0.0, 1.0}, 2 * sizeof(double));
+                } else {
+                    if (input[4] <= 20.49018669128418) {
+                        memcpy(var7, (double[]){1.0, 0.0}, 2 * sizeof(double));
+                    } else {
+                        if (input[2] <= 0.5227272808551788) {
+                            if (input[3] <= -0.9681953489780426) {
+                                memcpy(var7, (double[]){1.0, 0.0}, 2 * sizeof(double));
+                            } else {
                                 memcpy(var7, (double[]){0.0, 1.0}, 2 * sizeof(double));
                             }
+                        } else {
+                            memcpy(var7, (double[]){0.0, 1.0}, 2 * sizeof(double));
                         }
                     }
                 }
             }
         } else {
-            if (input[1] <= 1.123660683631897) {
-                if (input[2] <= 0.5604160130023956) {
-                    if (input[0] <= 0.719533383846283) {
-                        if (input[3] <= 33.96904468536377) {
-                            if (input[3] <= 0.012189086526632309) {
-                                if (input[0] <= 0.3333333432674408) {
-                                    if (input[0] <= 0.02959791594184935) {
-                                        memcpy(var7, (double[]){1.0, 0.0}, 2 * sizeof(double));
-                                    } else {
-                                        memcpy(var7, (double[]){0.0, 1.0}, 2 * sizeof(double));
-                                    }
-                                } else {
+            if (input[1] <= 22.05555534362793) {
+                if (input[3] <= 0.6196167171001434) {
+                    if (input[4] <= 173937.4453125) {
+                        if (input[3] <= 0.5443037748336792) {
+                            if (input[1] <= 18.590909004211426) {
+                                if (input[3] <= 0.5014850348234177) {
                                     memcpy(var7, (double[]){1.0, 0.0}, 2 * sizeof(double));
+                                } else {
+                                    memcpy(var7, (double[]){0.0, 1.0}, 2 * sizeof(double));
                                 }
                             } else {
-                                memcpy(var7, (double[]){1.0, 0.0}, 2 * sizeof(double));
+                                if (input[0] <= -0.06076575443148613) {
+                                    if (input[0] <= -0.1414417065680027) {
+                                        if (input[3] <= 0.18630223721265793) {
+                                            memcpy(var7, (double[]){1.0, 0.0}, 2 * sizeof(double));
+                                        } else {
+                                            memcpy(var7, (double[]){0.0, 1.0}, 2 * sizeof(double));
+                                        }
+                                    } else {
+                                        memcpy(var7, (double[]){1.0, 0.0}, 2 * sizeof(double));
+                                    }
+                                } else {
+                                    memcpy(var7, (double[]){0.0, 1.0}, 2 * sizeof(double));
+                                }
                             }
                         } else {
-                            if (input[0] <= 0.307210236787796) {
+                            if (input[0] <= -0.06076575443148613) {
                                 memcpy(var7, (double[]){1.0, 0.0}, 2 * sizeof(double));
                             } else {
                                 memcpy(var7, (double[]){0.0, 1.0}, 2 * sizeof(double));
                             }
                         }
                     } else {
-                        if (input[0] <= 1.7825143039226532) {
-                            memcpy(var7, (double[]){0.0, 1.0}, 2 * sizeof(double));
+                        if (input[4] <= 344733.625) {
+                            if (input[0] <= -0.06076575443148613) {
+                                memcpy(var7, (double[]){1.0, 0.0}, 2 * sizeof(double));
+                            } else {
+                                memcpy(var7, (double[]){0.0, 1.0}, 2 * sizeof(double));
+                            }
                         } else {
-                            memcpy(var7, (double[]){1.0, 0.0}, 2 * sizeof(double));
+                            if (input[4] <= 1230448.6875) {
+                                if (input[0] <= -0.06076575443148613) {
+                                    memcpy(var7, (double[]){1.0, 0.0}, 2 * sizeof(double));
+                                } else {
+                                    memcpy(var7, (double[]){0.0, 1.0}, 2 * sizeof(double));
+                                }
+                            } else {
+                                if (input[2] <= 0.0000021562182155321352) {
+                                    memcpy(var7, (double[]){0.0, 1.0}, 2 * sizeof(double));
+                                } else {
+                                    if (input[4] <= 1239208.9375) {
+                                        memcpy(var7, (double[]){0.0, 1.0}, 2 * sizeof(double));
+                                    } else {
+                                        memcpy(var7, (double[]){1.0, 0.0}, 2 * sizeof(double));
+                                    }
+                                }
+                            }
                         }
                     }
                 } else {
-                    if (input[0] <= 0.43832215666770935) {
+                    if (input[0] <= -0.12169283628463745) {
                         memcpy(var7, (double[]){1.0, 0.0}, 2 * sizeof(double));
                     } else {
                         memcpy(var7, (double[]){0.0, 1.0}, 2 * sizeof(double));
                     }
                 }
             } else {
-                if (input[2] <= 0.5130000412464142) {
-                    if (input[2] <= 0.3315695822238922) {
-                        memcpy(var7, (double[]){1.0, 0.0}, 2 * sizeof(double));
-                    } else {
-                        if (input[2] <= 0.38728731870651245) {
-                            memcpy(var7, (double[]){0.0, 1.0}, 2 * sizeof(double));
+                if (input[3] <= -0.0035004597157239914) {
+                    memcpy(var7, (double[]){1.0, 0.0}, 2 * sizeof(double));
+                } else {
+                    if (input[2] <= 0.00001383061908200034) {
+                        if (input[1] <= 27.5) {
+                            if (input[2] <= 0.000010000017027778085) {
+                                memcpy(var7, (double[]){1.0, 0.0}, 2 * sizeof(double));
+                            } else {
+                                if (input[3] <= 0.5719185173511505) {
+                                    memcpy(var7, (double[]){0.0, 1.0}, 2 * sizeof(double));
+                                } else {
+                                    memcpy(var7, (double[]){1.0, 0.0}, 2 * sizeof(double));
+                                }
+                            }
                         } else {
                             memcpy(var7, (double[]){1.0, 0.0}, 2 * sizeof(double));
                         }
-                    }
-                } else {
-                    if (input[0] <= 0.719533383846283) {
-                        memcpy(var7, (double[]){1.0, 0.0}, 2 * sizeof(double));
                     } else {
-                        memcpy(var7, (double[]){0.0, 1.0}, 2 * sizeof(double));
+                        if (input[0] <= -0.06076575443148613) {
+                            if (input[3] <= 0.792624294757843) {
+                                memcpy(var7, (double[]){1.0, 0.0}, 2 * sizeof(double));
+                            } else {
+                                if (input[1] <= 35.365196228027344) {
+                                    memcpy(var7, (double[]){0.0, 1.0}, 2 * sizeof(double));
+                                } else {
+                                    memcpy(var7, (double[]){1.0, 0.0}, 2 * sizeof(double));
+                                }
+                            }
+                        } else {
+                            memcpy(var7, (double[]){0.0, 1.0}, 2 * sizeof(double));
+                        }
                     }
                 }
             }
@@ -854,368 +1774,876 @@ void score(double * input, double * output) {
     }
     add_vectors(var4, var7, 2, var3);
     double var8[2];
-    if (input[1] <= 0.05999999865889549) {
-        if (input[0] <= 0.005398361943662167) {
-            if (input[0] <= -0.00006205013778526336) {
-                if (input[2] <= 0.11601970717310905) {
-                    if (input[4] <= -379.78592870850116) {
+    if (input[1] <= 1.2000000476837158) {
+        if (input[0] <= -0.21530167758464813) {
+            if (input[3] <= 0.6506789028644562) {
+                if (input[2] <= 0.000001955464995262446) {
+                    if (input[3] <= 0.5753836333751678) {
+                        if (input[4] <= 0.9656526148319244) {
+                            if (input[0] <= -0.21667294204235077) {
+                                memcpy(var8, (double[]){0.0, 1.0}, 2 * sizeof(double));
+                            } else {
+                                if (input[4] <= -0.015210991259664297) {
+                                    if (input[3] <= -0.42645499110221863) {
+                                        if (input[3] <= -0.42730358242988586) {
+                                            if (input[3] <= -0.8969662487506866) {
+                                                if (input[4] <= -0.018155054189264774) {
+                                                    if (input[3] <= -0.8988755941390991) {
+                                                        memcpy(var8, (double[]){0.0, 1.0}, 2 * sizeof(double));
+                                                    } else {
+                                                        memcpy(var8, (double[]){0.5714285714285714, 0.42857142857142855}, 2 * sizeof(double));
+                                                    }
+                                                } else {
+                                                    if (input[3] <= -0.8985573947429657) {
+                                                        memcpy(var8, (double[]){0.0, 1.0}, 2 * sizeof(double));
+                                                    } else {
+                                                        memcpy(var8, (double[]){1.0, 0.0}, 2 * sizeof(double));
+                                                    }
+                                                }
+                                            } else {
+                                                memcpy(var8, (double[]){0.0, 1.0}, 2 * sizeof(double));
+                                            }
+                                        } else {
+                                            memcpy(var8, (double[]){1.0, 0.0}, 2 * sizeof(double));
+                                        }
+                                    } else {
+                                        memcpy(var8, (double[]){0.0, 1.0}, 2 * sizeof(double));
+                                    }
+                                } else {
+                                    if (input[3] <= -0.4253942370414734) {
+                                        if (input[3] <= -0.9041262865066528) {
+                                            memcpy(var8, (double[]){0.0, 1.0}, 2 * sizeof(double));
+                                        } else {
+                                            if (input[3] <= -0.4361608028411865) {
+                                                if (input[3] <= -0.8772894442081451) {
+                                                    memcpy(var8, (double[]){1.0, 0.0}, 2 * sizeof(double));
+                                                } else {
+                                                    memcpy(var8, (double[]){0.0, 1.0}, 2 * sizeof(double));
+                                                }
+                                            } else {
+                                                memcpy(var8, (double[]){1.0, 0.0}, 2 * sizeof(double));
+                                            }
+                                        }
+                                    } else {
+                                        memcpy(var8, (double[]){0.0, 1.0}, 2 * sizeof(double));
+                                    }
+                                }
+                            }
+                        } else {
+                            if (input[1] <= -20.0) {
+                                memcpy(var8, (double[]){1.0, 0.0}, 2 * sizeof(double));
+                            } else {
+                                if (input[3] <= -0.4213634133338928) {
+                                    if (input[4] <= 0.973994106054306) {
+                                        if (input[4] <= 0.9695780277252197) {
+                                            if (input[4] <= 0.9671246409416199) {
+                                                if (input[3] <= -0.4305388629436493) {
+                                                    if (input[3] <= -0.8821688592433929) {
+                                                        if (input[3] <= -0.9218584299087524) {
+                                                            memcpy(var8, (double[]){0.0, 1.0}, 2 * sizeof(double));
+                                                        } else {
+                                                            memcpy(var8, (double[]){1.0, 0.0}, 2 * sizeof(double));
+                                                        }
+                                                    } else {
+                                                        memcpy(var8, (double[]){0.0, 1.0}, 2 * sizeof(double));
+                                                    }
+                                                } else {
+                                                    memcpy(var8, (double[]){1.0, 0.0}, 2 * sizeof(double));
+                                                }
+                                            } else {
+                                                if (input[3] <= -0.4337034076452255) {
+                                                    if (input[3] <= -0.8918216526508331) {
+                                                        if (input[3] <= -0.9281345009803772) {
+                                                            memcpy(var8, (double[]){0.0, 1.0}, 2 * sizeof(double));
+                                                        } else {
+                                                            memcpy(var8, (double[]){1.0, 0.0}, 2 * sizeof(double));
+                                                        }
+                                                    } else {
+                                                        memcpy(var8, (double[]){0.0, 1.0}, 2 * sizeof(double));
+                                                    }
+                                                } else {
+                                                    memcpy(var8, (double[]){1.0, 0.0}, 2 * sizeof(double));
+                                                }
+                                            }
+                                        } else {
+                                            if (input[4] <= 0.9720314145088196) {
+                                                if (input[3] <= -0.9300791919231415) {
+                                                    memcpy(var8, (double[]){0.0, 1.0}, 2 * sizeof(double));
+                                                } else {
+                                                    if (input[3] <= -0.893094539642334) {
+                                                        memcpy(var8, (double[]){1.0, 0.0}, 2 * sizeof(double));
+                                                    } else {
+                                                        if (input[3] <= -0.4276748448610306) {
+                                                            memcpy(var8, (double[]){0.0, 1.0}, 2 * sizeof(double));
+                                                        } else {
+                                                            memcpy(var8, (double[]){1.0, 0.0}, 2 * sizeof(double));
+                                                        }
+                                                    }
+                                                }
+                                            } else {
+                                                memcpy(var8, (double[]){0.0, 1.0}, 2 * sizeof(double));
+                                            }
+                                        }
+                                    } else {
+                                        if (input[3] <= -0.9318117499351501) {
+                                            memcpy(var8, (double[]){0.0, 1.0}, 2 * sizeof(double));
+                                        } else {
+                                            if (input[3] <= -0.8969309031963348) {
+                                                memcpy(var8, (double[]){1.0, 0.0}, 2 * sizeof(double));
+                                            } else {
+                                                if (input[4] <= 0.9818449318408966) {
+                                                    if (input[3] <= -0.45725196599960327) {
+                                                        memcpy(var8, (double[]){0.0, 1.0}, 2 * sizeof(double));
+                                                    } else {
+                                                        memcpy(var8, (double[]){1.0, 0.0}, 2 * sizeof(double));
+                                                    }
+                                                } else {
+                                                    memcpy(var8, (double[]){1.0, 0.0}, 2 * sizeof(double));
+                                                }
+                                            }
+                                        }
+                                    }
+                                } else {
+                                    if (input[4] <= 1148.7433614730835) {
+                                        if (input[4] <= 1.0112856030464172) {
+                                            memcpy(var8, (double[]){0.0, 1.0}, 2 * sizeof(double));
+                                        } else {
+                                            if (input[0] <= -0.2162696272134781) {
+                                                memcpy(var8, (double[]){0.0, 1.0}, 2 * sizeof(double));
+                                            } else {
+                                                memcpy(var8, (double[]){1.0, 0.0}, 2 * sizeof(double));
+                                            }
+                                        }
+                                    } else {
+                                        if (input[3] <= -0.3023477867245674) {
+                                            memcpy(var8, (double[]){1.0, 0.0}, 2 * sizeof(double));
+                                        } else {
+                                            memcpy(var8, (double[]){0.0, 1.0}, 2 * sizeof(double));
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    } else {
+                        if (input[3] <= 0.6503960192203522) {
+                            if (input[0] <= -0.21667294204235077) {
+                                memcpy(var8, (double[]){0.0, 1.0}, 2 * sizeof(double));
+                            } else {
+                                if (input[3] <= 0.5769217014312744) {
+                                    memcpy(var8, (double[]){1.0, 0.0}, 2 * sizeof(double));
+                                } else {
+                                    memcpy(var8, (double[]){0.0, 1.0}, 2 * sizeof(double));
+                                }
+                            }
+                        } else {
+                            memcpy(var8, (double[]){1.0, 0.0}, 2 * sizeof(double));
+                        }
+                    }
+                } else {
+                    memcpy(var8, (double[]){1.0, 0.0}, 2 * sizeof(double));
+                }
+            } else {
+                if (input[4] <= 9420.47900390625) {
+                    if (input[1] <= -20.0) {
                         memcpy(var8, (double[]){1.0, 0.0}, 2 * sizeof(double));
                     } else {
                         memcpy(var8, (double[]){0.0, 1.0}, 2 * sizeof(double));
-                    }
-                } else {
-                    memcpy(var8, (double[]){0.0, 1.0}, 2 * sizeof(double));
-                }
-            } else {
-                if (input[0] <= 0.0018615040462464094) {
-                    if (input[4] <= -0.006116207921877503) {
-                        if (input[4] <= -0.014780835714191198) {
-                            if (input[4] <= -4.814984763041139) {
-                                memcpy(var8, (double[]){1.0, 0.0}, 2 * sizeof(double));
-                            } else {
-                                if (input[2] <= 0.48681749403476715) {
-                                    if (input[2] <= -0.7754641175270081) {
-                                        memcpy(var8, (double[]){0.01020408163265306, 0.9897959183673469}, 2 * sizeof(double));
-                                    } else {
-                                        memcpy(var8, (double[]){0.0, 1.0}, 2 * sizeof(double));
-                                    }
-                                } else {
-                                    if (input[4] <= -0.016819571144878864) {
-                                        memcpy(var8, (double[]){0.021052631578947368, 0.9789473684210527}, 2 * sizeof(double));
-                                    } else {
-                                        memcpy(var8, (double[]){0.0, 1.0}, 2 * sizeof(double));
-                                    }
-                                }
-                            }
-                        } else {
-                            if (input[2] <= 0.6010582447052002) {
-                                if (input[2] <= -1.3975048661231995) {
-                                    memcpy(var8, (double[]){0.0, 1.0}, 2 * sizeof(double));
-                                } else {
-                                    if (input[2] <= 0.4977876991033554) {
-                                        memcpy(var8, (double[]){0.8447043534762833, 0.1552956465237167}, 2 * sizeof(double));
-                                    } else {
-                                        memcpy(var8, (double[]){0.9876227059325651, 0.012377294067434912}, 2 * sizeof(double));
-                                    }
-                                }
-                            } else {
-                                memcpy(var8, (double[]){0.0, 1.0}, 2 * sizeof(double));
-                            }
-                        }
-                    } else {
-                        if (input[2] <= 0.6015371978282928) {
-                            if (input[2] <= -1.397687315940857) {
-                                memcpy(var8, (double[]){0.0, 1.0}, 2 * sizeof(double));
-                            } else {
-                                if (input[2] <= 0.5015280693769455) {
-                                    if (input[2] <= -0.7895132899284363) {
-                                        memcpy(var8, (double[]){0.9316487158243579, 0.06835128417564208}, 2 * sizeof(double));
-                                    } else {
-                                        memcpy(var8, (double[]){0.0, 1.0}, 2 * sizeof(double));
-                                    }
-                                } else {
-                                    if (input[2] <= 0.5980021059513092) {
-                                        memcpy(var8, (double[]){0.9780600461893765, 0.021939953810623556}, 2 * sizeof(double));
-                                    } else {
-                                        memcpy(var8, (double[]){1.0, 0.0}, 2 * sizeof(double));
-                                    }
-                                }
-                            }
-                        } else {
-                            memcpy(var8, (double[]){0.0, 1.0}, 2 * sizeof(double));
-                        }
                     }
                 } else {
                     memcpy(var8, (double[]){1.0, 0.0}, 2 * sizeof(double));
                 }
             }
         } else {
-            if (input[3] <= 247.88092803955078) {
-                if (input[0] <= 0.9999379515647888) {
-                    if (input[2] <= 0.09800209850072861) {
-                        if (input[4] <= -9.090723956003785) {
+            if (input[2] <= 0.007190649630501866) {
+                if (input[3] <= 0.26654762029647827) {
+                    if (input[0] <= -0.21511346101760864) {
+                        if (input[4] <= -3.0564278960227966) {
                             memcpy(var8, (double[]){1.0, 0.0}, 2 * sizeof(double));
                         } else {
-                            if (input[3] <= 1.6718498468399048) {
-                                if (input[0] <= 0.007135765859857202) {
+                            memcpy(var8, (double[]){0.0, 1.0}, 2 * sizeof(double));
+                        }
+                    } else {
+                        if (input[0] <= 0.39167025685310364) {
+                            if (input[2] <= 0.0000018390004470347776) {
+                                memcpy(var8, (double[]){0.0, 1.0}, 2 * sizeof(double));
+                            } else {
+                                if (input[2] <= 0.000011745423762477003) {
+                                    memcpy(var8, (double[]){1.0, 0.0}, 2 * sizeof(double));
+                                } else {
+                                    if (input[4] <= -12.8709517121315) {
+                                        memcpy(var8, (double[]){1.0, 0.0}, 2 * sizeof(double));
+                                    } else {
+                                        if (input[0] <= -0.1075500100851059) {
+                                            memcpy(var8, (double[]){1.0, 0.0}, 2 * sizeof(double));
+                                        } else {
+                                            memcpy(var8, (double[]){0.0, 1.0}, 2 * sizeof(double));
+                                        }
+                                    }
+                                }
+                            }
+                        } else {
+                            if (input[4] <= 3456675.640625) {
+                                memcpy(var8, (double[]){0.0, 1.0}, 2 * sizeof(double));
+                            } else {
+                                memcpy(var8, (double[]){1.0, 0.0}, 2 * sizeof(double));
+                            }
+                        }
+                    }
+                } else {
+                    if (input[3] <= 0.26803267002105713) {
+                        if (input[0] <= -0.10756345383651933) {
+                            if (input[0] <= -0.21511346101760864) {
+                                memcpy(var8, (double[]){0.0, 1.0}, 2 * sizeof(double));
+                            } else {
+                                if (input[3] <= 0.26688352227211) {
                                     memcpy(var8, (double[]){1.0, 0.0}, 2 * sizeof(double));
                                 } else {
                                     memcpy(var8, (double[]){0.0, 1.0}, 2 * sizeof(double));
                                 }
+                            }
+                        } else {
+                            if (input[3] <= 0.2671310305595398) {
+                                memcpy(var8, (double[]){0.0, 1.0}, 2 * sizeof(double));
                             } else {
                                 memcpy(var8, (double[]){1.0, 0.0}, 2 * sizeof(double));
                             }
                         }
                     } else {
-                        if (input[0] <= 0.03847108595073223) {
-                            if (input[3] <= 1.2542474269866943) {
-                                if (input[2] <= 0.5188158750534058) {
-                                    memcpy(var8, (double[]){0.0, 1.0}, 2 * sizeof(double));
+                        if (input[4] <= 56474.8984375) {
+                            if (input[4] <= 0.9965652525424957) {
+                                if (input[2] <= 0.000000901412533949042) {
+                                    if (input[0] <= 0.5519063323736191) {
+                                        if (input[4] <= -10290.155326146632) {
+                                            memcpy(var8, (double[]){1.0, 0.0}, 2 * sizeof(double));
+                                        } else {
+                                            if (input[1] <= -20.0) {
+                                                if (input[3] <= 0.9767873585224152) {
+                                                    memcpy(var8, (double[]){1.0, 0.0}, 2 * sizeof(double));
+                                                } else {
+                                                    memcpy(var8, (double[]){0.0, 1.0}, 2 * sizeof(double));
+                                                }
+                                            } else {
+                                                memcpy(var8, (double[]){0.0, 1.0}, 2 * sizeof(double));
+                                            }
+                                        }
+                                    } else {
+                                        memcpy(var8, (double[]){0.0, 1.0}, 2 * sizeof(double));
+                                    }
                                 } else {
-                                    if (input[2] <= 0.5243123769760132) {
+                                    memcpy(var8, (double[]){1.0, 0.0}, 2 * sizeof(double));
+                                }
+                            } else {
+                                if (input[4] <= 0.9980373084545135) {
+                                    if (input[3] <= 0.6561770588159561) {
+                                        memcpy(var8, (double[]){0.0, 1.0}, 2 * sizeof(double));
+                                    } else {
                                         memcpy(var8, (double[]){1.0, 0.0}, 2 * sizeof(double));
+                                    }
+                                } else {
+                                    if (input[0] <= 0.37268768064677715) {
+                                        if (input[3] <= 0.9427197277545929) {
+                                            if (input[3] <= 0.8878085017204285) {
+                                                if (input[0] <= -0.21511346101760864) {
+                                                    memcpy(var8, (double[]){1.0, 0.0}, 2 * sizeof(double));
+                                                } else {
+                                                    memcpy(var8, (double[]){0.0, 1.0}, 2 * sizeof(double));
+                                                }
+                                            } else {
+                                                memcpy(var8, (double[]){1.0, 0.0}, 2 * sizeof(double));
+                                            }
+                                        } else {
+                                            memcpy(var8, (double[]){0.0, 1.0}, 2 * sizeof(double));
+                                        }
                                     } else {
                                         memcpy(var8, (double[]){0.0, 1.0}, 2 * sizeof(double));
                                     }
                                 }
-                            } else {
-                                memcpy(var8, (double[]){1.0, 0.0}, 2 * sizeof(double));
                             }
                         } else {
-                            memcpy(var8, (double[]){1.0, 0.0}, 2 * sizeof(double));
-                        }
-                    }
-                } else {
-                    if (input[3] <= 2.757676124572754) {
-                        if (input[2] <= 0.953610360622406) {
-                            memcpy(var8, (double[]){0.0, 1.0}, 2 * sizeof(double));
-                        } else {
-                            if (input[2] <= 0.9545682668685913) {
+                            if (input[3] <= 0.8453609943389893) {
                                 memcpy(var8, (double[]){1.0, 0.0}, 2 * sizeof(double));
                             } else {
                                 memcpy(var8, (double[]){0.0, 1.0}, 2 * sizeof(double));
                             }
                         }
-                    } else {
-                        if (input[4] <= 0.004077494144439697) {
-                            if (input[4] <= -182.11671447753906) {
-                                memcpy(var8, (double[]){1.0, 0.0}, 2 * sizeof(double));
-                            } else {
-                                if (input[2] <= -0.9203119874000549) {
-                                    memcpy(var8, (double[]){0.0, 1.0}, 2 * sizeof(double));
-                                } else {
-                                    memcpy(var8, (double[]){1.0, 0.0}, 2 * sizeof(double));
-                                }
-                            }
-                        } else {
-                            memcpy(var8, (double[]){0.0, 1.0}, 2 * sizeof(double));
-                        }
                     }
                 }
             } else {
-                if (input[0] <= 6.622300863265991) {
-                    memcpy(var8, (double[]){0.0, 1.0}, 2 * sizeof(double));
-                } else {
-                    if (input[4] <= 1421.8068047761917) {
-                        memcpy(var8, (double[]){0.0, 1.0}, 2 * sizeof(double));
-                    } else {
-                        memcpy(var8, (double[]){1.0, 0.0}, 2 * sizeof(double));
-                    }
-                }
+                memcpy(var8, (double[]){0.0, 1.0}, 2 * sizeof(double));
             }
         }
     } else {
-        if (input[2] <= -0.39408382773399353) {
-            memcpy(var8, (double[]){1.0, 0.0}, 2 * sizeof(double));
-        } else {
-            if (input[3] <= 1.4858773350715637) {
-                if (input[0] <= 0.001675353734754026) {
-                    memcpy(var8, (double[]){1.0, 0.0}, 2 * sizeof(double));
-                } else {
-                    if (input[1] <= 1.149999976158142) {
-                        if (input[3] <= 0.9948326051235199) {
-                            if (input[4] <= 780744.03125) {
-                                if (input[2] <= 0.409182146191597) {
-                                    if (input[0] <= 0.0035368577810004354) {
-                                        memcpy(var8, (double[]){0.0, 1.0}, 2 * sizeof(double));
-                                    } else {
-                                        memcpy(var8, (double[]){0.3076923076923077, 0.6923076923076923}, 2 * sizeof(double));
-                                    }
-                                } else {
-                                    if (input[2] <= 0.5584318041801453) {
-                                        memcpy(var8, (double[]){0.6875, 0.3125}, 2 * sizeof(double));
-                                    } else {
-                                        memcpy(var8, (double[]){0.05263157894736842, 0.9473684210526315}, 2 * sizeof(double));
-                                    }
-                                }
+        if (input[0] <= -0.05568401888012886) {
+            if (input[0] <= -0.2158932015299797) {
+                if (input[4] <= 9067.20654296875) {
+                    if (input[3] <= -0.11742451041936874) {
+                        if (input[3] <= -0.12067746371030807) {
+                            memcpy(var8, (double[]){1.0, 0.0}, 2 * sizeof(double));
+                        } else {
+                            if (input[2] <= 0.00000646411422167148) {
+                                memcpy(var8, (double[]){1.0, 0.0}, 2 * sizeof(double));
                             } else {
-                                if (input[4] <= 1277698.1875) {
+                                memcpy(var8, (double[]){0.0, 1.0}, 2 * sizeof(double));
+                            }
+                        }
+                    } else {
+                        if (input[2] <= 0.000006463272029577638) {
+                            if (input[2] <= 0.0000008950783012551256) {
+                                if (input[4] <= 2781.947509765625) {
                                     memcpy(var8, (double[]){1.0, 0.0}, 2 * sizeof(double));
                                 } else {
-                                    memcpy(var8, (double[]){0.0, 1.0}, 2 * sizeof(double));
-                                }
-                            }
-                        } else {
-                            if (input[4] <= 39863.7705078125) {
-                                if (input[0] <= 0.30894763895776123) {
-                                    memcpy(var8, (double[]){0.0, 1.0}, 2 * sizeof(double));
-                                } else {
-                                    if (input[0] <= 0.719533383846283) {
-                                        memcpy(var8, (double[]){1.0, 0.0}, 2 * sizeof(double));
-                                    } else {
+                                    if (input[4] <= 2830.7728271484375) {
                                         memcpy(var8, (double[]){0.0, 1.0}, 2 * sizeof(double));
+                                    } else {
+                                        memcpy(var8, (double[]){1.0, 0.0}, 2 * sizeof(double));
                                     }
                                 }
                             } else {
-                                if (input[4] <= 197962.4609375) {
+                                memcpy(var8, (double[]){1.0, 0.0}, 2 * sizeof(double));
+                            }
+                        } else {
+                            if (input[4] <= -51.45142241381109) {
+                                if (input[3] <= 0.11042359471321106) {
                                     memcpy(var8, (double[]){0.0, 1.0}, 2 * sizeof(double));
                                 } else {
-                                    if (input[2] <= 0.6228846311569214) {
-                                        memcpy(var8, (double[]){0.6666666666666666, 0.3333333333333333}, 2 * sizeof(double));
+                                    memcpy(var8, (double[]){1.0, 0.0}, 2 * sizeof(double));
+                                }
+                            } else {
+                                if (input[4] <= 0.03876349329948425) {
+                                    memcpy(var8, (double[]){0.0, 1.0}, 2 * sizeof(double));
+                                } else {
+                                    if (input[3] <= -0.06986775994300842) {
+                                        if (input[2] <= 0.000008830857950670179) {
+                                            memcpy(var8, (double[]){0.0, 1.0}, 2 * sizeof(double));
+                                        } else {
+                                            if (input[2] <= 0.4090953921258915) {
+                                                memcpy(var8, (double[]){1.0, 0.0}, 2 * sizeof(double));
+                                            } else {
+                                                memcpy(var8, (double[]){0.0, 1.0}, 2 * sizeof(double));
+                                            }
+                                        }
                                     } else {
-                                        memcpy(var8, (double[]){0.0, 1.0}, 2 * sizeof(double));
+                                        if (input[4] <= 0.9592738151550293) {
+                                            memcpy(var8, (double[]){0.0, 1.0}, 2 * sizeof(double));
+                                        } else {
+                                            if (input[2] <= 0.02045892730802734) {
+                                                if (input[4] <= 0.9612365067005157) {
+                                                    if (input[3] <= 0.30549466609954834) {
+                                                        memcpy(var8, (double[]){0.0, 1.0}, 2 * sizeof(double));
+                                                    } else {
+                                                        if (input[3] <= 0.4685665965080261) {
+                                                            memcpy(var8, (double[]){1.0, 0.0}, 2 * sizeof(double));
+                                                        } else {
+                                                            memcpy(var8, (double[]){0.0, 1.0}, 2 * sizeof(double));
+                                                        }
+                                                    }
+                                                } else {
+                                                    memcpy(var8, (double[]){0.0, 1.0}, 2 * sizeof(double));
+                                                }
+                                            } else {
+                                                memcpy(var8, (double[]){0.0, 1.0}, 2 * sizeof(double));
+                                            }
+                                        }
                                     }
                                 }
+                            }
+                        }
+                    }
+                } else {
+                    if (input[0] <= -0.2162965163588524) {
+                        if (input[4] <= 130549.921875) {
+                            memcpy(var8, (double[]){1.0, 0.0}, 2 * sizeof(double));
+                        } else {
+                            if (input[2] <= 0.000006532701490868931) {
+                                memcpy(var8, (double[]){1.0, 0.0}, 2 * sizeof(double));
+                            } else {
+                                memcpy(var8, (double[]){0.0, 1.0}, 2 * sizeof(double));
+                            }
+                        }
+                    } else {
+                        memcpy(var8, (double[]){0.0, 1.0}, 2 * sizeof(double));
+                    }
+                }
+            } else {
+                if (input[2] <= 0.00000007896224474279734) {
+                    if (input[3] <= 0.02697828970849514) {
+                        memcpy(var8, (double[]){1.0, 0.0}, 2 * sizeof(double));
+                    } else {
+                        if (input[3] <= 0.03518138639628887) {
+                            memcpy(var8, (double[]){0.0, 1.0}, 2 * sizeof(double));
+                        } else {
+                            if (input[1] <= 22.5) {
+                                if (input[1] <= 19.0) {
+                                    memcpy(var8, (double[]){1.0, 0.0}, 2 * sizeof(double));
+                                } else {
+                                    if (input[0] <= -0.1414417065680027) {
+                                        if (input[4] <= 11534.986053466797) {
+                                            memcpy(var8, (double[]){0.0, 1.0}, 2 * sizeof(double));
+                                        } else {
+                                            memcpy(var8, (double[]){1.0, 0.0}, 2 * sizeof(double));
+                                        }
+                                    } else {
+                                        memcpy(var8, (double[]){1.0, 0.0}, 2 * sizeof(double));
+                                    }
+                                }
+                            } else {
+                                memcpy(var8, (double[]){1.0, 0.0}, 2 * sizeof(double));
+                            }
+                        }
+                    }
+                } else {
+                    if (input[1] <= 20.777777671813965) {
+                        if (input[1] <= 19.682291984558105) {
+                            memcpy(var8, (double[]){1.0, 0.0}, 2 * sizeof(double));
+                        } else {
+                            if (input[4] <= 6702.826965332031) {
+                                memcpy(var8, (double[]){0.0, 1.0}, 2 * sizeof(double));
+                            } else {
+                                memcpy(var8, (double[]){1.0, 0.0}, 2 * sizeof(double));
                             }
                         }
                     } else {
                         memcpy(var8, (double[]){1.0, 0.0}, 2 * sizeof(double));
                     }
                 }
+            }
+        } else {
+            if (input[3] <= 0.11735378950834274) {
+                memcpy(var8, (double[]){1.0, 0.0}, 2 * sizeof(double));
             } else {
-                if (input[3] <= 5485.498046875) {
-                    if (input[1] <= 1.034375011920929) {
-                        if (input[0] <= 0.0018615040462464094) {
-                            if (input[2] <= -0.19994983077049255) {
-                                if (input[3] <= 2.039726972579956) {
-                                    memcpy(var8, (double[]){0.0, 1.0}, 2 * sizeof(double));
-                                } else {
-                                    memcpy(var8, (double[]){1.0, 0.0}, 2 * sizeof(double));
-                                }
-                            } else {
-                                if (input[4] <= -647.9536387324333) {
-                                    memcpy(var8, (double[]){1.0, 0.0}, 2 * sizeof(double));
-                                } else {
-                                    if (input[3] <= 2.0353952646255493) {
-                                        memcpy(var8, (double[]){0.0, 1.0}, 2 * sizeof(double));
-                                    } else {
-                                        memcpy(var8, (double[]){0.16666666666666666, 0.8333333333333334}, 2 * sizeof(double));
-                                    }
-                                }
-                            }
-                        } else {
-                            memcpy(var8, (double[]){1.0, 0.0}, 2 * sizeof(double));
-                        }
-                    } else {
-                        if (input[4] <= -1260471.6875) {
-                            if (input[1] <= 1.139285683631897) {
-                                memcpy(var8, (double[]){1.0, 0.0}, 2 * sizeof(double));
-                            } else {
-                                memcpy(var8, (double[]){0.0, 1.0}, 2 * sizeof(double));
-                            }
-                        } else {
-                            if (input[1] <= 1.1583333015441895) {
-                                if (input[1] <= 1.1468749642372131) {
-                                    if (input[0] <= 0.719533383846283) {
-                                        memcpy(var8, (double[]){1.0, 0.0}, 2 * sizeof(double));
-                                    } else {
-                                        memcpy(var8, (double[]){0.0, 1.0}, 2 * sizeof(double));
-                                    }
-                                } else {
-                                    memcpy(var8, (double[]){0.0, 1.0}, 2 * sizeof(double));
-                                }
-                            } else {
-                                memcpy(var8, (double[]){1.0, 0.0}, 2 * sizeof(double));
-                            }
-                        }
-                    }
-                } else {
-                    memcpy(var8, (double[]){0.0, 1.0}, 2 * sizeof(double));
-                }
+                memcpy(var8, (double[]){0.0, 1.0}, 2 * sizeof(double));
             }
         }
     }
     add_vectors(var3, var8, 2, var2);
     double var9[2];
-    if (input[3] <= 1.5593761801719666) {
-        if (input[0] <= 0.006267064018175006) {
-            if (input[0] <= -0.00006205013778526336) {
-                if (input[4] <= -10688.756540280767) {
+    if (input[2] <= 0.000007763876510580303) {
+        if (input[0] <= -0.21530167758464813) {
+            if (input[0] <= -0.21667294204235077) {
+                if (input[4] <= -2.6835133167915046) {
                     memcpy(var9, (double[]){1.0, 0.0}, 2 * sizeof(double));
                 } else {
-                    if (input[1] <= 1.149999976158142) {
-                        memcpy(var9, (double[]){0.0, 1.0}, 2 * sizeof(double));
-                    } else {
+                    if (input[0] <= -0.21669982373714447) {
                         memcpy(var9, (double[]){1.0, 0.0}, 2 * sizeof(double));
-                    }
-                }
-            } else {
-                if (input[4] <= -0.014780835714191198) {
-                    if (input[3] <= 0.22331425547599792) {
-                        if (input[4] <= -0.016819571144878864) {
-                            if (input[4] <= -0.01783893909305334) {
-                                memcpy(var9, (double[]){0.0, 1.0}, 2 * sizeof(double));
-                            } else {
-                                if (input[2] <= -0.7607307434082031) {
-                                    if (input[2] <= -0.791246622800827) {
-                                        memcpy(var9, (double[]){0.006535947712418301, 0.9934640522875817}, 2 * sizeof(double));
-                                    } else {
-                                        memcpy(var9, (double[]){1.0, 0.0}, 2 * sizeof(double));
-                                    }
-                                } else {
-                                    if (input[2] <= 0.4993385821580887) {
-                                        memcpy(var9, (double[]){0.0, 1.0}, 2 * sizeof(double));
-                                    } else {
-                                        memcpy(var9, (double[]){0.009708737864077669, 0.9902912621359223}, 2 * sizeof(double));
-                                    }
-                                }
-                            }
-                        } else {
-                            memcpy(var9, (double[]){0.0, 1.0}, 2 * sizeof(double));
-                        }
                     } else {
-                        memcpy(var9, (double[]){1.0, 0.0}, 2 * sizeof(double));
-                    }
-                } else {
-                    if (input[2] <= -1.3975048661231995) {
-                        if (input[4] <= 5894.84619140625) {
+                        if (input[4] <= 9883.3306016922) {
                             memcpy(var9, (double[]){0.0, 1.0}, 2 * sizeof(double));
                         } else {
                             memcpy(var9, (double[]){1.0, 0.0}, 2 * sizeof(double));
                         }
+                    }
+                }
+            } else {
+                if (input[4] <= -0.018155054189264774) {
+                    if (input[1] <= 13.5) {
+                        if (input[3] <= -0.8827169239521027) {
+                            if (input[3] <= -0.8988755941390991) {
+                                memcpy(var9, (double[]){0.0, 1.0}, 2 * sizeof(double));
+                            } else {
+                                memcpy(var9, (double[]){0.8333333333333334, 0.16666666666666666}, 2 * sizeof(double));
+                            }
+                        } else {
+                            if (input[4] <= -0.020117762498557568) {
+                                if (input[3] <= 0.5737925171852112) {
+                                    memcpy(var9, (double[]){0.0, 1.0}, 2 * sizeof(double));
+                                } else {
+                                    if (input[4] <= -0.021099116653203964) {
+                                        memcpy(var9, (double[]){0.0, 1.0}, 2 * sizeof(double));
+                                    } else {
+                                        if (input[3] <= 0.5781238973140717) {
+                                            memcpy(var9, (double[]){1.0, 0.0}, 2 * sizeof(double));
+                                        } else {
+                                            memcpy(var9, (double[]){0.0, 1.0}, 2 * sizeof(double));
+                                        }
+                                    }
+                                }
+                            } else {
+                                memcpy(var9, (double[]){0.0, 1.0}, 2 * sizeof(double));
+                            }
+                        }
                     } else {
-                        if (input[4] <= -0.011722732335329056) {
-                            if (input[3] <= 0.4913369417190552) {
-                                if (input[1] <= 0.5) {
-                                    if (input[2] <= 0.6000547409057617) {
-                                        memcpy(var9, (double[]){0.714108141702921, 0.2858918582970789}, 2 * sizeof(double));
+                        memcpy(var9, (double[]){1.0, 0.0}, 2 * sizeof(double));
+                    }
+                } else {
+                    if (input[1] <= 9.0) {
+                        if (input[4] <= 0.9612365067005157) {
+                            if (input[3] <= -0.8985573947429657) {
+                                memcpy(var9, (double[]){0.0, 1.0}, 2 * sizeof(double));
+                            } else {
+                                if (input[4] <= -0.013738960027694702) {
+                                    if (input[4] <= -0.015210991259664297) {
+                                        if (input[3] <= 0.6632487177848816) {
+                                            if (input[3] <= 0.5683827102184296) {
+                                                if (input[3] <= -0.42413902282714844) {
+                                                    if (input[3] <= -0.4301676005125046) {
+                                                        if (input[4] <= -0.01619234587997198) {
+                                                            if (input[3] <= -0.8969662487506866) {
+                                                                memcpy(var9, (double[]){1.0, 0.0}, 2 * sizeof(double));
+                                                            } else {
+                                                                memcpy(var9, (double[]){0.0, 1.0}, 2 * sizeof(double));
+                                                            }
+                                                        } else {
+                                                            if (input[3] <= -0.8936602771282196) {
+                                                                memcpy(var9, (double[]){1.0, 0.0}, 2 * sizeof(double));
+                                                            } else {
+                                                                memcpy(var9, (double[]){0.0, 1.0}, 2 * sizeof(double));
+                                                            }
+                                                        }
+                                                    } else {
+                                                        memcpy(var9, (double[]){1.0, 0.0}, 2 * sizeof(double));
+                                                    }
+                                                } else {
+                                                    memcpy(var9, (double[]){0.0, 1.0}, 2 * sizeof(double));
+                                                }
+                                            } else {
+                                                if (input[3] <= 0.5805636048316956) {
+                                                    memcpy(var9, (double[]){1.0, 0.0}, 2 * sizeof(double));
+                                                } else {
+                                                    if (input[4] <= -0.01619234587997198) {
+                                                        if (input[3] <= 0.6501308381557465) {
+                                                            memcpy(var9, (double[]){0.0, 1.0}, 2 * sizeof(double));
+                                                        } else {
+                                                            memcpy(var9, (double[]){1.0, 0.0}, 2 * sizeof(double));
+                                                        }
+                                                    } else {
+                                                        if (input[3] <= 0.630241870880127) {
+                                                            memcpy(var9, (double[]){0.0, 1.0}, 2 * sizeof(double));
+                                                        } else {
+                                                            memcpy(var9, (double[]){1.0, 0.0}, 2 * sizeof(double));
+                                                        }
+                                                    }
+                                                }
+                                            }
+                                        } else {
+                                            memcpy(var9, (double[]){0.0, 1.0}, 2 * sizeof(double));
+                                        }
                                     } else {
                                         memcpy(var9, (double[]){0.0, 1.0}, 2 * sizeof(double));
+                                    }
+                                } else {
+                                    if (input[3] <= 0.6512269377708435) {
+                                        if (input[3] <= 0.5739869773387909) {
+                                            if (input[3] <= -0.4253942370414734) {
+                                                if (input[3] <= -0.4330846518278122) {
+                                                    if (input[3] <= -0.8840428590774536) {
+                                                        memcpy(var9, (double[]){1.0, 0.0}, 2 * sizeof(double));
+                                                    } else {
+                                                        memcpy(var9, (double[]){0.0, 1.0}, 2 * sizeof(double));
+                                                    }
+                                                } else {
+                                                    memcpy(var9, (double[]){1.0, 0.0}, 2 * sizeof(double));
+                                                }
+                                            } else {
+                                                memcpy(var9, (double[]){0.0, 1.0}, 2 * sizeof(double));
+                                            }
+                                        } else {
+                                            if (input[3] <= 0.6486104428768158) {
+                                                if (input[3] <= 0.5804752111434937) {
+                                                    memcpy(var9, (double[]){1.0, 0.0}, 2 * sizeof(double));
+                                                } else {
+                                                    memcpy(var9, (double[]){0.0, 1.0}, 2 * sizeof(double));
+                                                }
+                                            } else {
+                                                memcpy(var9, (double[]){1.0, 0.0}, 2 * sizeof(double));
+                                            }
+                                        }
+                                    } else {
+                                        memcpy(var9, (double[]){0.0, 1.0}, 2 * sizeof(double));
+                                    }
+                                }
+                            }
+                        } else {
+                            if (input[4] <= 0.9759568274021149) {
+                                if (input[4] <= 0.9656526148319244) {
+                                    if (input[4] <= 0.9631991982460022) {
+                                        if (input[3] <= -0.8833533525466919) {
+                                            if (input[3] <= -0.9101371765136719) {
+                                                memcpy(var9, (double[]){0.0, 1.0}, 2 * sizeof(double));
+                                            } else {
+                                                memcpy(var9, (double[]){1.0, 0.0}, 2 * sizeof(double));
+                                            }
+                                        } else {
+                                            if (input[3] <= 0.5568912923336029) {
+                                                memcpy(var9, (double[]){0.0, 1.0}, 2 * sizeof(double));
+                                            } else {
+                                                if (input[3] <= 0.6747754812240601) {
+                                                    if (input[3] <= 0.6174598932266235) {
+                                                        if (input[3] <= 0.5799448490142822) {
+                                                            memcpy(var9, (double[]){1.0, 0.0}, 2 * sizeof(double));
+                                                        } else {
+                                                            memcpy(var9, (double[]){0.0, 1.0}, 2 * sizeof(double));
+                                                        }
+                                                    } else {
+                                                        memcpy(var9, (double[]){1.0, 0.0}, 2 * sizeof(double));
+                                                    }
+                                                } else {
+                                                    memcpy(var9, (double[]){0.0, 1.0}, 2 * sizeof(double));
+                                                }
+                                            }
+                                        }
+                                    } else {
+                                        if (input[3] <= -0.9154409170150757) {
+                                            memcpy(var9, (double[]){0.0, 1.0}, 2 * sizeof(double));
+                                        } else {
+                                            if (input[4] <= 0.9641805589199066) {
+                                                if (input[3] <= -0.41432712972164154) {
+                                                    if (input[3] <= -0.883547842502594) {
+                                                        memcpy(var9, (double[]){1.0, 0.0}, 2 * sizeof(double));
+                                                    } else {
+                                                        if (input[3] <= -0.4794215261936188) {
+                                                            memcpy(var9, (double[]){0.0, 1.0}, 2 * sizeof(double));
+                                                        } else {
+                                                            memcpy(var9, (double[]){1.0, 0.0}, 2 * sizeof(double));
+                                                        }
+                                                    }
+                                                } else {
+                                                    if (input[3] <= 0.6365179419517517) {
+                                                        if (input[3] <= 0.555565357208252) {
+                                                            memcpy(var9, (double[]){0.0, 1.0}, 2 * sizeof(double));
+                                                        } else {
+                                                            if (input[3] <= 0.5781062245368958) {
+                                                                memcpy(var9, (double[]){1.0, 0.0}, 2 * sizeof(double));
+                                                            } else {
+                                                                memcpy(var9, (double[]){0.0, 1.0}, 2 * sizeof(double));
+                                                            }
+                                                        }
+                                                    } else {
+                                                        if (input[3] <= 0.6689944267272949) {
+                                                            memcpy(var9, (double[]){1.0, 0.0}, 2 * sizeof(double));
+                                                        } else {
+                                                            memcpy(var9, (double[]){0.0, 1.0}, 2 * sizeof(double));
+                                                        }
+                                                    }
+                                                }
+                                            } else {
+                                                memcpy(var9, (double[]){1.0, 0.0}, 2 * sizeof(double));
+                                            }
+                                        }
+                                    }
+                                } else {
+                                    if (input[3] <= 0.6493706405162811) {
+                                        if (input[3] <= -0.8821688592433929) {
+                                            if (input[3] <= -0.8998479545116425) {
+                                                memcpy(var9, (double[]){0.0, 1.0}, 2 * sizeof(double));
+                                            } else {
+                                                memcpy(var9, (double[]){1.0, 0.0}, 2 * sizeof(double));
+                                            }
+                                        } else {
+                                            if (input[3] <= -0.4213634133338928) {
+                                                if (input[4] <= 0.9700686931610107) {
+                                                    if (input[4] <= 0.9681059718132019) {
+                                                        if (input[3] <= -0.4305388629436493) {
+                                                            memcpy(var9, (double[]){0.0, 1.0}, 2 * sizeof(double));
+                                                        } else {
+                                                            memcpy(var9, (double[]){1.0, 0.0}, 2 * sizeof(double));
+                                                        }
+                                                    } else {
+                                                        memcpy(var9, (double[]){1.0, 0.0}, 2 * sizeof(double));
+                                                    }
+                                                } else {
+                                                    if (input[3] <= -0.4276748448610306) {
+                                                        memcpy(var9, (double[]){0.0, 1.0}, 2 * sizeof(double));
+                                                    } else {
+                                                        memcpy(var9, (double[]){1.0, 0.0}, 2 * sizeof(double));
+                                                    }
+                                                }
+                                            } else {
+                                                if (input[4] <= 0.9671246409416199) {
+                                                    if (input[3] <= 0.5481224656105042) {
+                                                        memcpy(var9, (double[]){0.0, 1.0}, 2 * sizeof(double));
+                                                    } else {
+                                                        if (input[3] <= 0.5940527617931366) {
+                                                            memcpy(var9, (double[]){1.0, 0.0}, 2 * sizeof(double));
+                                                        } else {
+                                                            memcpy(var9, (double[]){0.0, 1.0}, 2 * sizeof(double));
+                                                        }
+                                                    }
+                                                } else {
+                                                    memcpy(var9, (double[]){0.0, 1.0}, 2 * sizeof(double));
+                                                }
+                                            }
+                                        }
+                                    } else {
+                                        if (input[4] <= 0.9720314145088196) {
+                                            if (input[3] <= 0.6553284823894501) {
+                                                memcpy(var9, (double[]){1.0, 0.0}, 2 * sizeof(double));
+                                            } else {
+                                                memcpy(var9, (double[]){0.0, 1.0}, 2 * sizeof(double));
+                                            }
+                                        } else {
+                                            if (input[3] <= 0.6868679821491241) {
+                                                memcpy(var9, (double[]){1.0, 0.0}, 2 * sizeof(double));
+                                            } else {
+                                                memcpy(var9, (double[]){0.0, 1.0}, 2 * sizeof(double));
+                                            }
+                                        }
+                                    }
+                                }
+                            } else {
+                                if (input[4] <= 3031.3026733398438) {
+                                    if (input[4] <= 0.9779195487499237) {
+                                        if (input[3] <= 0.6740683317184448) {
+                                            if (input[3] <= -0.7347429394721985) {
+                                                memcpy(var9, (double[]){1.0, 0.0}, 2 * sizeof(double));
+                                            } else {
+                                                if (input[3] <= -0.49584540724754333) {
+                                                    memcpy(var9, (double[]){0.0, 1.0}, 2 * sizeof(double));
+                                                } else {
+                                                    if (input[3] <= -0.36811399459838867) {
+                                                        memcpy(var9, (double[]){1.0, 0.0}, 2 * sizeof(double));
+                                                    } else {
+                                                        if (input[3] <= 0.3236687760800123) {
+                                                            memcpy(var9, (double[]){0.0, 1.0}, 2 * sizeof(double));
+                                                        } else {
+                                                            memcpy(var9, (double[]){1.0, 0.0}, 2 * sizeof(double));
+                                                        }
+                                                    }
+                                                }
+                                            }
+                                        } else {
+                                            memcpy(var9, (double[]){0.0, 1.0}, 2 * sizeof(double));
+                                        }
+                                    } else {
+                                        if (input[3] <= 0.6687469184398651) {
+                                            if (input[3] <= -0.9318117499351501) {
+                                                memcpy(var9, (double[]){0.0, 1.0}, 2 * sizeof(double));
+                                            } else {
+                                                if (input[3] <= 0.4481295496225357) {
+                                                    if (input[4] <= 1.012757569551468) {
+                                                        if (input[3] <= -0.198765997774899) {
+                                                            if (input[4] <= 0.9838076531887054) {
+                                                                memcpy(var9, (double[]){0.9583333333333334, 0.041666666666666664}, 2 * sizeof(double));
+                                                            } else {
+                                                                memcpy(var9, (double[]){0.75, 0.25}, 2 * sizeof(double));
+                                                            }
+                                                        } else {
+                                                            memcpy(var9, (double[]){0.0, 1.0}, 2 * sizeof(double));
+                                                        }
+                                                    } else {
+                                                        memcpy(var9, (double[]){1.0, 0.0}, 2 * sizeof(double));
+                                                    }
+                                                } else {
+                                                    memcpy(var9, (double[]){1.0, 0.0}, 2 * sizeof(double));
+                                                }
+                                            }
+                                        } else {
+                                            memcpy(var9, (double[]){0.0, 1.0}, 2 * sizeof(double));
+                                        }
+                                    }
+                                } else {
+                                    if (input[4] <= 16948.130859375) {
+                                        memcpy(var9, (double[]){0.0, 1.0}, 2 * sizeof(double));
+                                    } else {
+                                        if (input[4] <= 232905.265625) {
+                                            memcpy(var9, (double[]){1.0, 0.0}, 2 * sizeof(double));
+                                        } else {
+                                            memcpy(var9, (double[]){0.0, 1.0}, 2 * sizeof(double));
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    } else {
+                        if (input[3] <= 0.3906017988920212) {
+                            if (input[0] <= -0.2162965163588524) {
+                                if (input[2] <= 0.0000021345931600080803) {
+                                    if (input[4] <= 2781.947509765625) {
+                                        memcpy(var9, (double[]){1.0, 0.0}, 2 * sizeof(double));
+                                    } else {
+                                        if (input[3] <= 0.356728658080101) {
+                                            memcpy(var9, (double[]){1.0, 0.0}, 2 * sizeof(double));
+                                        } else {
+                                            if (input[3] <= 0.37051835656166077) {
+                                                memcpy(var9, (double[]){0.0, 1.0}, 2 * sizeof(double));
+                                            } else {
+                                                memcpy(var9, (double[]){1.0, 0.0}, 2 * sizeof(double));
+                                            }
+                                        }
                                     }
                                 } else {
                                     memcpy(var9, (double[]){1.0, 0.0}, 2 * sizeof(double));
                                 }
                             } else {
-                                memcpy(var9, (double[]){1.0, 0.0}, 2 * sizeof(double));
+                                if (input[0] <= -0.2158932015299797) {
+                                    memcpy(var9, (double[]){0.0, 1.0}, 2 * sizeof(double));
+                                } else {
+                                    memcpy(var9, (double[]){1.0, 0.0}, 2 * sizeof(double));
+                                }
                             }
                         } else {
-                            if (input[2] <= 0.8974820971488953) {
-                                if (input[1] <= 0.5) {
-                                    if (input[4] <= 1.0035677552223206) {
-                                        memcpy(var9, (double[]){0.9528218135700698, 0.04717818642993025}, 2 * sizeof(double));
-                                    } else {
-                                        memcpy(var9, (double[]){0.5299145299145299, 0.4700854700854701}, 2 * sizeof(double));
-                                    }
+                            if (input[4] <= 227936.2265625) {
+                                memcpy(var9, (double[]){1.0, 0.0}, 2 * sizeof(double));
+                            } else {
+                                if (input[3] <= 0.450215682387352) {
+                                    memcpy(var9, (double[]){1.0, 0.0}, 2 * sizeof(double));
                                 } else {
-                                    if (input[4] <= 9891.69775390625) {
-                                        memcpy(var9, (double[]){1.0, 0.0}, 2 * sizeof(double));
+                                    if (input[4] <= 229252.328125) {
+                                        memcpy(var9, (double[]){0.0, 1.0}, 2 * sizeof(double));
                                     } else {
-                                        memcpy(var9, (double[]){0.6013986013986014, 0.3986013986013986}, 2 * sizeof(double));
+                                        memcpy(var9, (double[]){1.0, 0.0}, 2 * sizeof(double));
                                     }
                                 }
-                            } else {
-                                memcpy(var9, (double[]){0.0, 1.0}, 2 * sizeof(double));
                             }
                         }
                     }
                 }
             }
         } else {
-            if (input[1] <= 0.20000000298023224) {
-                if (input[2] <= 0.1050494909286499) {
-                    if (input[0] <= 0.007135765859857202) {
-                        memcpy(var9, (double[]){1.0, 0.0}, 2 * sizeof(double));
-                    } else {
-                        memcpy(var9, (double[]){0.0, 1.0}, 2 * sizeof(double));
-                    }
-                } else {
-                    if (input[0] <= 3.547344207763672) {
-                        if (input[0] <= 0.03847108595073223) {
-                            if (input[1] <= -1.0) {
-                                if (input[4] <= 1.096839964389801) {
+            if (input[1] <= 9.0) {
+                if (input[0] <= -0.000013443751413433347) {
+                    if (input[0] <= -0.2102333828806877) {
+                        if (input[2] <= 0.000000901412533949042) {
+                            if (input[0] <= -0.21511346101760864) {
+                                if (input[4] <= 8397.013061523438) {
                                     memcpy(var9, (double[]){0.0, 1.0}, 2 * sizeof(double));
                                 } else {
-                                    if (input[4] <= 1.5820591449737549) {
+                                    memcpy(var9, (double[]){1.0, 0.0}, 2 * sizeof(double));
+                                }
+                            } else {
+                                memcpy(var9, (double[]){0.0, 1.0}, 2 * sizeof(double));
+                            }
+                        } else {
+                            memcpy(var9, (double[]){1.0, 0.0}, 2 * sizeof(double));
+                        }
+                    } else {
+                        memcpy(var9, (double[]){1.0, 0.0}, 2 * sizeof(double));
+                    }
+                } else {
+                    if (input[2] <= 0.000001872528400781448) {
+                        if (input[4] <= -0.011285573709756136) {
+                            if (input[3] <= 0.9225302338600159) {
+                                memcpy(var9, (double[]){0.0, 1.0}, 2 * sizeof(double));
+                            } else {
+                                if (input[3] <= 0.9265433847904205) {
+                                    memcpy(var9, (double[]){1.0, 0.0}, 2 * sizeof(double));
+                                } else {
+                                    memcpy(var9, (double[]){0.0, 1.0}, 2 * sizeof(double));
+                                }
+                            }
+                        } else {
+                            memcpy(var9, (double[]){0.0, 1.0}, 2 * sizeof(double));
+                        }
+                    } else {
+                        if (input[3] <= -0.8709072768688202) {
+                            memcpy(var9, (double[]){0.0, 1.0}, 2 * sizeof(double));
+                        } else {
+                            memcpy(var9, (double[]){1.0, 0.0}, 2 * sizeof(double));
+                        }
+                    }
+                }
+            } else {
+                if (input[3] <= 0.6169295012950897) {
+                    if (input[1] <= 22.0) {
+                        if (input[4] <= 11692.78759765625) {
+                            if (input[4] <= 11683.09423828125) {
+                                if (input[0] <= -0.06076575443148613) {
+                                    if (input[2] <= 0.000002147993882317678) {
+                                        memcpy(var9, (double[]){0.0, 1.0}, 2 * sizeof(double));
+                                    } else {
+                                        memcpy(var9, (double[]){1.0, 0.0}, 2 * sizeof(double));
+                                    }
+                                } else {
+                                    if (input[1] <= 18.590909004211426) {
                                         memcpy(var9, (double[]){1.0, 0.0}, 2 * sizeof(double));
                                     } else {
                                         memcpy(var9, (double[]){0.0, 1.0}, 2 * sizeof(double));
@@ -1225,145 +2653,125 @@ void score(double * input, double * output) {
                                 memcpy(var9, (double[]){0.0, 1.0}, 2 * sizeof(double));
                             }
                         } else {
-                            memcpy(var9, (double[]){1.0, 0.0}, 2 * sizeof(double));
-                        }
-                    } else {
-                        memcpy(var9, (double[]){0.0, 1.0}, 2 * sizeof(double));
-                    }
-                }
-            } else {
-                if (input[1] <= 1.3388888835906982) {
-                    if (input[3] <= 0.9948326051235199) {
-                        if (input[2] <= 0.5504493117332458) {
-                            if (input[2] <= 0.4593121409416199) {
-                                if (input[1] <= 0.949999988079071) {
-                                    memcpy(var9, (double[]){1.0, 0.0}, 2 * sizeof(double));
-                                } else {
-                                    if (input[0] <= 0.719533383846283) {
-                                        memcpy(var9, (double[]){0.7692307692307693, 0.23076923076923078}, 2 * sizeof(double));
-                                    } else {
-                                        memcpy(var9, (double[]){0.0, 1.0}, 2 * sizeof(double));
-                                    }
-                                }
+                            if (input[0] <= -0.06076575443148613) {
+                                memcpy(var9, (double[]){1.0, 0.0}, 2 * sizeof(double));
                             } else {
-                                if (input[0] <= 0.719533383846283) {
+                                if (input[3] <= 0.12053602188825607) {
                                     memcpy(var9, (double[]){1.0, 0.0}, 2 * sizeof(double));
                                 } else {
                                     memcpy(var9, (double[]){0.0, 1.0}, 2 * sizeof(double));
                                 }
                             }
-                        } else {
-                            if (input[2] <= 0.7428499758243561) {
-                                memcpy(var9, (double[]){0.0, 1.0}, 2 * sizeof(double));
-                            } else {
-                                memcpy(var9, (double[]){1.0, 0.0}, 2 * sizeof(double));
-                            }
                         }
                     } else {
-                        if (input[4] <= 759498.625) {
-                            if (input[4] <= 12112.6796875) {
-                                if (input[4] <= 12071.525390625) {
-                                    memcpy(var9, (double[]){1.0, 0.0}, 2 * sizeof(double));
-                                } else {
-                                    memcpy(var9, (double[]){0.0, 1.0}, 2 * sizeof(double));
-                                }
-                            } else {
-                                memcpy(var9, (double[]){1.0, 0.0}, 2 * sizeof(double));
-                            }
-                        } else {
-                            if (input[2] <= 0.42026638984680176) {
-                                memcpy(var9, (double[]){0.0, 1.0}, 2 * sizeof(double));
-                            } else {
-                                memcpy(var9, (double[]){1.0, 0.0}, 2 * sizeof(double));
-                            }
-                        }
+                        memcpy(var9, (double[]){1.0, 0.0}, 2 * sizeof(double));
                     }
                 } else {
-                    memcpy(var9, (double[]){1.0, 0.0}, 2 * sizeof(double));
+                    if (input[0] <= -0.12599483877420425) {
+                        memcpy(var9, (double[]){1.0, 0.0}, 2 * sizeof(double));
+                    } else {
+                        if (input[1] <= 26.777777671813965) {
+                            memcpy(var9, (double[]){0.0, 1.0}, 2 * sizeof(double));
+                        } else {
+                            memcpy(var9, (double[]){1.0, 0.0}, 2 * sizeof(double));
+                        }
+                    }
                 }
             }
         }
     } else {
-        if (input[4] <= -0.5285422815941274) {
-            if (input[0] <= 0.719533383846283) {
-                if (input[1] <= 0.7950000166893005) {
-                    if (input[1] <= 0.39500001072883606) {
-                        memcpy(var9, (double[]){1.0, 0.0}, 2 * sizeof(double));
-                    } else {
-                        memcpy(var9, (double[]){0.0, 1.0}, 2 * sizeof(double));
-                    }
+        if (input[3] <= -0.7196626961231232) {
+            if (input[0] <= 0.3549957014620304) {
+                memcpy(var9, (double[]){1.0, 0.0}, 2 * sizeof(double));
+            } else {
+                if (input[0] <= 0.8752285540103912) {
+                    memcpy(var9, (double[]){0.0, 1.0}, 2 * sizeof(double));
                 } else {
                     memcpy(var9, (double[]){1.0, 0.0}, 2 * sizeof(double));
                 }
-            } else {
-                if (input[0] <= 0.9121990501880646) {
-                    memcpy(var9, (double[]){0.0, 1.0}, 2 * sizeof(double));
-                } else {
-                    if (input[3] <= 2.498285472393036) {
-                        memcpy(var9, (double[]){0.0, 1.0}, 2 * sizeof(double));
-                    } else {
-                        if (input[2] <= -1.5055877566337585) {
-                            memcpy(var9, (double[]){0.0, 1.0}, 2 * sizeof(double));
-                        } else {
-                            if (input[0] <= 6.39681077003479) {
-                                memcpy(var9, (double[]){1.0, 0.0}, 2 * sizeof(double));
-                            } else {
-                                if (input[2] <= -1.2132463455200195) {
-                                    memcpy(var9, (double[]){1.0, 0.0}, 2 * sizeof(double));
-                                } else {
-                                    memcpy(var9, (double[]){0.0, 1.0}, 2 * sizeof(double));
-                                }
-                            }
-                        }
-                    }
-                }
             }
         } else {
-            if (input[2] <= -1.0917301177978516) {
-                if (input[1] <= 0.7749999761581421) {
-                    if (input[2] <= -1.889157474040985) {
-                        if (input[3] <= 956.7201843261719) {
+            if (input[0] <= -0.21625618636608124) {
+                if (input[4] <= -51.45142241381109) {
+                    if (input[2] <= 0.000012892960057797609) {
+                        if (input[4] <= -7612.052551269531) {
                             memcpy(var9, (double[]){0.0, 1.0}, 2 * sizeof(double));
                         } else {
                             memcpy(var9, (double[]){1.0, 0.0}, 2 * sizeof(double));
                         }
                     } else {
-                        memcpy(var9, (double[]){1.0, 0.0}, 2 * sizeof(double));
-                    }
-                } else {
-                    memcpy(var9, (double[]){1.0, 0.0}, 2 * sizeof(double));
-                }
-            } else {
-                if (input[3] <= 3112.9862060546875) {
-                    if (input[4] <= 2815.3975830078125) {
-                        if (input[2] <= -0.5106509178876877) {
-                            if (input[1] <= 0.6000000238418579) {
+                        if (input[4] <= -381.0946922302246) {
+                            if (input[3] <= 0.22339296713471413) {
                                 memcpy(var9, (double[]){0.0, 1.0}, 2 * sizeof(double));
                             } else {
-                                memcpy(var9, (double[]){1.0, 0.0}, 2 * sizeof(double));
+                                if (input[2] <= 0.00002432365317872609) {
+                                    memcpy(var9, (double[]){1.0, 0.0}, 2 * sizeof(double));
+                                } else {
+                                    memcpy(var9, (double[]){0.0, 1.0}, 2 * sizeof(double));
+                                }
                             }
                         } else {
-                            if (input[1] <= 1.100000023841858) {
-                                if (input[3] <= 2.035475730895996) {
-                                    memcpy(var9, (double[]){0.0, 1.0}, 2 * sizeof(double));
+                            memcpy(var9, (double[]){1.0, 0.0}, 2 * sizeof(double));
+                        }
+                    }
+                } else {
+                    if (input[1] <= 10.0) {
+                        memcpy(var9, (double[]){0.0, 1.0}, 2 * sizeof(double));
+                    } else {
+                        if (input[4] <= 0.004416094161570072) {
+                            memcpy(var9, (double[]){0.0, 1.0}, 2 * sizeof(double));
+                        } else {
+                            if (input[2] <= 0.000008822026757115964) {
+                                memcpy(var9, (double[]){0.001277139208173691, 0.9987228607918263}, 2 * sizeof(double));
+                            } else {
+                                if (input[2] <= 0.019153410047692887) {
+                                    memcpy(var9, (double[]){1.0, 0.0}, 2 * sizeof(double));
                                 } else {
-                                    if (input[3] <= 2.4055711030960083) {
+                                    memcpy(var9, (double[]){0.0, 1.0}, 2 * sizeof(double));
+                                }
+                            }
+                        }
+                    }
+                }
+            } else {
+                if (input[2] <= 0.014625782612711191) {
+                    if (input[2] <= 0.000028158555323898327) {
+                        if (input[0] <= -0.06076575443148613) {
+                            memcpy(var9, (double[]){1.0, 0.0}, 2 * sizeof(double));
+                        } else {
+                            if (input[2] <= 0.000023747840714349877) {
+                                if (input[2] <= 0.000012215830338391243) {
+                                    if (input[2] <= 0.000009613389465812361) {
                                         memcpy(var9, (double[]){1.0, 0.0}, 2 * sizeof(double));
                                     } else {
                                         memcpy(var9, (double[]){0.0, 1.0}, 2 * sizeof(double));
                                     }
+                                } else {
+                                    if (input[4] <= -40.654563903808594) {
+                                        memcpy(var9, (double[]){1.0, 0.0}, 2 * sizeof(double));
+                                    } else {
+                                        if (input[4] <= 32136.654854655266) {
+                                            memcpy(var9, (double[]){0.0, 1.0}, 2 * sizeof(double));
+                                        } else {
+                                            memcpy(var9, (double[]){1.0, 0.0}, 2 * sizeof(double));
+                                        }
+                                    }
                                 }
                             } else {
-                                memcpy(var9, (double[]){1.0, 0.0}, 2 * sizeof(double));
+                                memcpy(var9, (double[]){0.0, 1.0}, 2 * sizeof(double));
                             }
                         }
                     } else {
-                        if (input[4] <= 9320013.5) {
-                            if (input[3] <= 2.254565715789795) {
-                                memcpy(var9, (double[]){0.0, 1.0}, 2 * sizeof(double));
+                        if (input[3] <= -0.32308536022901535) {
+                            if (input[2] <= 0.0015653270238544792) {
+                                memcpy(var9, (double[]){1.0, 0.0}, 2 * sizeof(double));
                             } else {
-                                if (input[3] <= 9.76865291595459) {
-                                    if (input[3] <= 7.9198901653289795) {
+                                memcpy(var9, (double[]){0.0, 1.0}, 2 * sizeof(double));
+                            }
+                        } else {
+                            if (input[1] <= 1.2000000476837158) {
+                                if (input[3] <= -0.17426278442144394) {
+                                    if (input[2] <= 0.001036438665323658) {
                                         memcpy(var9, (double[]){1.0, 0.0}, 2 * sizeof(double));
                                     } else {
                                         memcpy(var9, (double[]){0.0, 1.0}, 2 * sizeof(double));
@@ -1371,17 +2779,49 @@ void score(double * input, double * output) {
                                 } else {
                                     memcpy(var9, (double[]){1.0, 0.0}, 2 * sizeof(double));
                                 }
+                            } else {
+                                if (input[3] <= 0.8133795261383057) {
+                                    if (input[0] <= -0.06076575443148613) {
+                                        if (input[2] <= 0.00010824722266988829) {
+                                            if (input[2] <= 0.00010537536218180321) {
+                                                if (input[1] <= 18.875) {
+                                                    if (input[2] <= 0.0000441021220467519) {
+                                                        memcpy(var9, (double[]){0.0, 1.0}, 2 * sizeof(double));
+                                                    } else {
+                                                        memcpy(var9, (double[]){1.0, 0.0}, 2 * sizeof(double));
+                                                    }
+                                                } else {
+                                                    memcpy(var9, (double[]){1.0, 0.0}, 2 * sizeof(double));
+                                                }
+                                            } else {
+                                                memcpy(var9, (double[]){0.0, 1.0}, 2 * sizeof(double));
+                                            }
+                                        } else {
+                                            memcpy(var9, (double[]){1.0, 0.0}, 2 * sizeof(double));
+                                        }
+                                    } else {
+                                        if (input[2] <= 0.0000646903135930188) {
+                                            if (input[4] <= -109347.37548828125) {
+                                                memcpy(var9, (double[]){1.0, 0.0}, 2 * sizeof(double));
+                                            } else {
+                                                memcpy(var9, (double[]){0.0, 1.0}, 2 * sizeof(double));
+                                            }
+                                        } else {
+                                            memcpy(var9, (double[]){1.0, 0.0}, 2 * sizeof(double));
+                                        }
+                                    }
+                                } else {
+                                    if (input[3] <= 0.8197263181209564) {
+                                        memcpy(var9, (double[]){0.0, 1.0}, 2 * sizeof(double));
+                                    } else {
+                                        memcpy(var9, (double[]){1.0, 0.0}, 2 * sizeof(double));
+                                    }
+                                }
                             }
-                        } else {
-                            memcpy(var9, (double[]){0.0, 1.0}, 2 * sizeof(double));
                         }
                     }
                 } else {
-                    if (input[4] <= 406060.640625) {
-                        memcpy(var9, (double[]){0.0, 1.0}, 2 * sizeof(double));
-                    } else {
-                        memcpy(var9, (double[]){1.0, 0.0}, 2 * sizeof(double));
-                    }
+                    memcpy(var9, (double[]){0.0, 1.0}, 2 * sizeof(double));
                 }
             }
         }

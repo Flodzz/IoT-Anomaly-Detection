@@ -2,8 +2,8 @@
 #include "test_data.h"
 
 // Scaling parameters (RobustScaler: (x - median) / IQR)
-double medians[] = {23.0, 40.0, 41427.5, 0.0, 5.0067901611328125e-06};
-double iqrs[] = {8058.0, 20.0, 21923.0, 57.966870001565105, 0.0002338886260986328};
+double medians[] = {8081.0, 40.0, 0.0, 36182, 0.00000596};
+double iqrs[] = {37192.0, 1.0, 13333333.33333333, 28282.0, 0.00024295};
 
 void setup() {
   Serial.begin(115200);
