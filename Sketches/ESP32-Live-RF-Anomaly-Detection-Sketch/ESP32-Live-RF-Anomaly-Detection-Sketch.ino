@@ -63,7 +63,6 @@ void wifi_promiscuous_cb(void* buf, wifi_promiscuous_pkt_type_t type) {
     if (score(scaled) == 1) {
         Serial.printf("[!] ATTACK: Port %d -> %d | IAT: %.6f\n", src_port, dest_port, iat);
         attack_found = true;
-        // Send alert to grafana dashboard
     }
 }
 
