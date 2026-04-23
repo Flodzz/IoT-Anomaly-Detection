@@ -1,3 +1,8 @@
+--- 1000 Size Sample Test ---
+
+Sketch uses 339378 bytes (25%) of program storage space. Maximum is 1310720 bytes.
+Global variables use 59040 bytes (18%) of dynamic memory, leaving 268640 bytes for local variables. Maximum is 327680 bytes.
+
 --- Starting Hardware Evaluation ---
 ---------- CONFUSION MATRIX ----------
 TP: 500 | FN: 0
@@ -10,4 +15,23 @@ Accuracy:  100.00%
 Avg Latency: 29.15 us
 Min Latency: 23 us
 Max Latency: 150 us
+---------------------------------------
+
+--- 5000 Size Sample Test ---
+
+Sketch uses 515380 bytes (39%) of program storage space. Maximum is 1310720 bytes.
+Global variables use 235040 bytes (71%) of dynamic memory, leaving 92640 bytes for local variables. Maximum is 327680 bytes.
+
+--- Starting Hardware Evaluation ---
+---------- CONFUSION MATRIX ----------
+TP: 2497 | FN: 3
+FP: 0 | TN: 2500
+-------------- METRICS ---------------
+Precision: 1.0000
+Recall:    0.9988
+F1-Score:  0.9994
+Accuracy:  99.94%
+Avg Latency: 28.55 us
+Min Latency: 23 us
+Max Latency: 153 us
 ---------------------------------------

@@ -17,7 +17,7 @@ void setup() {
   unsigned long total_latency = 0;
   unsigned long min_latency = 1000000;
   unsigned long max_latency = 0;
-  int num_samples = 1000;
+  int num_samples = 5000;
 
   for (int i = 0; i < num_samples; i++) {
     double scaled_input[5];
