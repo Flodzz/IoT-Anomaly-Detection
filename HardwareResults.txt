@@ -1,0 +1,13 @@
+--- Starting Hardware Evaluation ---
+---------- CONFUSION MATRIX ----------
+TP: 500 | FN: 0
+FP: 0 | TN: 500
+-------------- METRICS ---------------
+Precision: 1.0000
+Recall:    1.0000
+F1-Score:  1.0000
+Accuracy:  100.00%
+Avg Latency: 29.15 us
+Min Latency: 23 us
+Max Latency: 150 us
+---------------------------------------
