@@ -17,10 +17,6 @@ BURST_COUNT = 20
 
 
 def send_profile(ip, port, src_port, dst_port, pkt_size, label, iat_target):
-    """
-    Sends a burst of packets to simulate a steady network flow.
-    The delay between packets (IAT) is controlled to match dataset profiles.
-    """
     print(f"Replaying {'ATTACK' if label == 1 else 'BENIGN'} profile...")
     print(f"Target IAT: {iat_target}s | Total Packets: {BURST_COUNT}")
 
@@ -33,9 +29,8 @@ def send_profile(ip, port, src_port, dst_port, pkt_size, label, iat_target):
                 sock.sendto(packet, (ip, port))
 
             # The sleep timing simulates the Inter-Arrival Time.
-            # We subtract a tiny constant (0.0005) to account for Python's processing time.
             if i < BURST_COUNT - 1:  # Don't sleep after the last packet
-                time.sleep(max(0, iat_target - 0.0005))
+                time.sleep(max(0, iat_target))
 
         except Exception as e:
             print(f"Error during burst at packet {i}: {e}")
@@ -60,12 +55,10 @@ def main():
             choice = input("> ").lower()
             if choice == 'a':
                 # ATTACK PROFILE: High frequency (Small IAT), Small packets
-                # Using IAT = 0.001s (1000 packets per second)
                 send_profile(args.ip, args.port, 56661, 81, 40, 1, iat_target=0.001)
 
             elif choice == 'b':
                 # BENIGN PROFILE: Normal frequency (Larger IAT), Larger packets
-                # Using IAT = 0.5s (2 packets per second)
                 send_profile(args.ip, args.port, 44374, 443, 1000, 0, iat_target=0.2)
 
             elif choice == 'q':
