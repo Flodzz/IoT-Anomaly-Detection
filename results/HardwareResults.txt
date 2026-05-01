@@ -35,3 +35,8 @@ Avg Latency: 28.55 us
 Min Latency: 23 us
 Max Latency: 153 us
 ---------------------------------------
+
+--- Live Inference Model ---
+
+Sketch uses 1001296 bytes (76%) of program storage space. Maximum is 1310720 bytes.
+Global variables use 43712 bytes (13%) of dynamic memory, leaving 283968 bytes for local variables. Maximum is 327680 bytes.
